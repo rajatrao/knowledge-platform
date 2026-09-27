@@ -1,0 +1,31 @@
+technician_id,name,status,current_latitude,current_longitude,current_city,last_location_timestamp,skills,certifications,assigned_van_id,current_job_id,shift_start,shift_end
+T001,Rowan Pell,On Job,30.50980,-97.72460,Round Rock,2026-09-27T15:58:00-05:00,Battery Installation; Battery Repair; Diagnostics,Battery Installation Level 2; Battery Repair Level 2; Diagnostics Level 1,V001,J001,07:00,18:00
+T002,Sable Quill,On Job,30.47840,-97.84890,Cedar Park,2026-09-27T15:58:00-05:00,Battery Repair; Diagnostics; Electrical,Battery Repair Master; Diagnostics Level 2; Electrical Level 1,V002,J002,07:00,18:00
+T003,Idris Fen,En Route,30.62120,-97.63180,Georgetown,2026-09-27T15:58:00-05:00,Inverter Repair; Electrical; Diagnostics,Inverter Repair Level 2; Electrical Level 2,V003,J003,08:00,19:00
+T004,Maren Holt,Available,30.44910,-97.63520,Pflugerville,2026-09-27T15:58:00-05:00,Battery Installation; Electrical; Diagnostics,Battery Installation Master; Electrical Level 2; Diagnostics Level 2,V004,,08:00,18:00
+T005,Cassio Venn,Break,30.29840,-97.77520,Austin,2026-09-27T15:40:00-05:00,Electrical; Diagnostics; Battery Installation,Electrical Level 2; Battery Installation Level 1; Diagnostics Level 1,V005,,07:00,18:00
+T006,Lumen Drake,On Job,30.55870,-97.88140,Leander,2026-09-27T15:58:00-05:00,Diagnostics; Electrical; Inverter Repair,Diagnostics Level 2; Inverter Repair Level 1; Electrical Level 1,V006,J004,07:00,18:00
+T007,Nova Brigg,On Job,30.31280,-97.73950,Austin,2026-09-27T15:58:00-05:00,Electrical; Battery Installation; Battery Repair,Electrical Master; Battery Installation Level 2,V007,J005,07:00,18:00
+T008,Harlow Finch,En Route,30.33390,-97.55140,Manor,2026-09-27T15:58:00-05:00,Inverter Repair; Diagnostics; Electrical,Inverter Repair Level 2; Diagnostics Level 1,V008,J006,07:00,18:00
+T009,Petra Sol,Available,30.51510,-97.69440,Round Rock,2026-09-27T15:58:00-05:00,Battery Repair; Diagnostics,Battery Repair Level 2; Diagnostics Level 2,V009,,08:00,18:00
+T010,Quinn Ashby,On Job,30.50260,-97.80840,Cedar Park,2026-09-27T15:58:00-05:00,Inverter Repair; Electrical; Diagnostics,Inverter Repair Level 2; Electrical Level 1; Diagnostics Level 1,V010,J007,07:00,18:00
+T011,Ellis Marrow,Available,30.65160,-97.66690,Georgetown,2026-09-27T15:58:00-05:00,Battery Installation; Electrical,Battery Installation Level 2; Electrical Level 1,V011,,08:00,18:00
+T012,Wynn Calder,Break,30.29840,-97.76820,Austin,2026-09-27T15:40:00-05:00,Diagnostics; Battery Repair,Diagnostics Level 1; Battery Repair Level 1,V012,,07:00,18:00
+T013,Juniper Vale,On Job,30.38420,-97.96110,Lakeway,2026-09-27T15:58:00-05:00,Inverter Repair; Electrical; Diagnostics,Inverter Repair Master; Electrical Level 2,V013,J008,07:00,18:00
+T014,Theo Bramble,En Route,30.50740,-97.53680,Hutto,2026-09-27T15:58:00-05:00,Electrical; Diagnostics; Battery Installation,Electrical Level 2; Battery Installation Level 1,V014,J009,07:00,18:00
+T015,Nia Plover,Off Duty,30.51160,-97.70840,Round Rock,2026-09-27T14:00:00-05:00,Battery Installation; Diagnostics,Battery Installation Level 1; Diagnostics Level 1,V015,,06:00,14:00
+T016,Remy Oak,Available,30.28790,-97.77170,Austin,2026-09-27T15:58:00-05:00,Battery Installation; Battery Repair; Inverter Repair; Electrical; Diagnostics,Battery Installation Level 2; Inverter Repair Level 2; Electrical Level 2; Diagnostics Level 2,V016,,08:00,18:00
+T017,Soren Pike,Off Duty,30.56940,-97.85980,Leander,2026-09-27T14:00:00-05:00,Electrical; Diagnostics,Electrical Level 1; Diagnostics Level 1,V017,,06:00,14:00
+T018,Ada Moss,Available,30.46940,-97.65180,Pflugerville,2026-09-27T15:58:00-05:00,Diagnostics; Electrical,Diagnostics Level 1; Electrical Level 1,,,08:00,18:00
+T019,Kit Lantern,Off Duty,30.49820,-97.82450,Cedar Park,2026-09-27T14:00:00-05:00,Battery Repair,Battery Repair Level 1,,,06:00,14:00
+T020,Vera Dunn,Off Duty,30.30190,-97.77520,Austin,2026-09-27T14:00:00-05:00,Inverter Repair; Diagnostics,Inverter Repair Level 1,,,06:00,14:00
+T021,Hollis Reed,Break,30.63760,-97.66690,Georgetown,2026-09-27T15:40:00-05:00,Electrical; Battery Installation,Electrical Level 2; Battery Installation Level 1,V019,,08:00,18:00
+T022,Bram Yarrow,Off Duty,30.08980,-97.85120,Buda,2026-09-27T14:00:00-05:00,Diagnostics,Diagnostics Level 1,,,06:00,14:00
+T023,Leif Morrow,Off Duty,30.35290,-97.54470,Manor,2026-09-27T14:00:00-05:00,Battery Installation; Electrical,Battery Installation Level 1,,,06:00,14:00
+T024,Calla Voss,Off Duty,30.37150,-97.97240,Lakeway,2026-09-27T14:00:00-05:00,Inverter Repair,Inverter Repair Level 1,,,06:00,14:00
+T025,Indigo Shaw,Off Duty,30.54070,-97.56560,Hutto,2026-09-27T14:00:00-05:00,Electrical; Diagnostics,Electrical Level 1; Diagnostics Level 2,,,06:00,14:00
+T026,Pax Holm,Available,30.10380,-97.85470,Buda,2026-09-27T15:58:00-05:00,Battery Repair; Diagnostics,Battery Repair Level 2; Diagnostics Level 1,,,08:00,18:00
+T027,Rhett Juno,Available,30.38200,-97.97940,Lakeway,2026-09-27T15:58:00-05:00,Electrical; Inverter Repair,Electrical Level 2; Inverter Repair Level 1,,,08:00,18:00
+T028,Mira Toll,Off Duty,30.50810,-97.69790,Round Rock,2026-09-27T14:00:00-05:00,Battery Installation,Battery Installation Level 1,,,06:00,14:00
+T029,Jules North,Off Duty,30.48420,-97.82450,Cedar Park,2026-09-27T14:00:00-05:00,Diagnostics; Battery Repair,Diagnostics Level 1,,,06:00,14:00
+T030,Eden Crowe,Off Duty,30.64460,-97.67040,Georgetown,2026-09-27T14:00:00-05:00,Electrical,Electrical Level 1,,,06:00,14:00

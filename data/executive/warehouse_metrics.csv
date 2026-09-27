@@ -1,0 +1,79 @@
+week_start,warehouse_id,stockout_events,jobs_waiting_for_parts,fill_rate_percentage,inventory_accuracy_percentage,cycle_counts_completed,lines_below_reorder,wms_core_status,launch_location_configured,notes
+2026-03-30,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-03-30,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-03-30,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-04-06,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-04-06,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-04-06,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-04-13,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-04-13,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-04-13,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-04-20,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-04-20,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-04-20,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-04-27,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-04-27,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-04-27,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-05-04,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-05-04,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-05-04,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-05-11,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-05-11,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-05-11,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-05-18,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-05-18,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-05-18,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-05-25,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-05-25,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-05-25,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-06-01,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-06-01,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-06-01,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-06-08,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-06-08,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-06-08,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-06-15,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-06-15,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-06-15,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-06-22,W001,0,2,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-06-22,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-06-22,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-06-29,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-06-29,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-06-29,W003,0,7,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-07-06,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-07-06,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-07-06,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-07-13,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-07-13,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-07-13,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-07-20,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-07-20,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-07-20,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-07-27,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-07-27,W002,0,2,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-07-27,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-08-03,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-08-03,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-08-03,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-08-10,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-08-10,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-08-10,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-08-17,W001,0,4,97,98,12,1,Operational,yes,No W001 stockout days in this week.
+2026-08-17,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-08-17,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-08-24,W001,5,11,86,98,12,1,Operational,yes,P006 HaloWave quantity_available at W001 is 0 on the 2026-09-27 inventory snapshot.
+2026-08-24,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-08-24,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-08-31,W001,5,13,86,98,12,1,Operational,yes,P006 HaloWave quantity_available at W001 is 0 on the 2026-09-27 inventory snapshot.
+2026-08-31,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-08-31,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-09-07,W001,5,13,86,98,12,1,Operational,yes,P006 HaloWave quantity_available at W001 is 0 on the 2026-09-27 inventory snapshot.
+2026-09-07,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-09-07,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-09-14,W001,10,13,86,98,12,1,Operational,yes,P006 HaloWave quantity_available at W001 is 0 on the 2026-09-27 inventory snapshot.
+2026-09-14,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-09-14,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.
+2026-09-21,W001,5,13,86,98,12,1,Operational,yes,P006 HaloWave quantity_available at W001 is 0 on the 2026-09-27 inventory snapshot.
+2026-09-21,W002,0,1,98,99,12,3,Operational,yes,"W002 continues to fill Cedar Park, Round Rock, and Pflugerville."
+2026-09-21,W003,1,5,93,98,8,2,Operational,no,Georgetown shipping is live. San Marcos launch locations at W003 are not configured in the WMS.

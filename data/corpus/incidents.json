@@ -1,0 +1,642 @@
+[
+  {
+    "id": "INC-421",
+    "created_at": "2026-08-28T00:00:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-421 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_176",
+      "cmp_177",
+      "cmp_178",
+      "cmp_179",
+      "cmp_180",
+      "cmp_181",
+      "cmp_182",
+      "cmp_183",
+      "cmp_184",
+      "cmp_185"
+    ]
+  },
+  {
+    "id": "INC-401",
+    "created_at": "2026-08-28T00:01:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-401 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_186",
+      "cmp_187",
+      "cmp_188",
+      "cmp_189",
+      "cmp_190"
+    ]
+  },
+  {
+    "id": "INC-402",
+    "created_at": "2026-08-28T00:02:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-402 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_191",
+      "cmp_192",
+      "cmp_193",
+      "cmp_194",
+      "cmp_242"
+    ]
+  },
+  {
+    "id": "INC-403",
+    "created_at": "2026-08-28T00:03:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-403 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_243",
+      "cmp_244",
+      "cmp_245",
+      "cmp_246",
+      "cmp_247"
+    ]
+  },
+  {
+    "id": "INC-404",
+    "created_at": "2026-08-28T00:04:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-404 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_248",
+      "cmp_249",
+      "cmp_250",
+      "cmp_251",
+      "cmp_252"
+    ]
+  },
+  {
+    "id": "INC-405",
+    "created_at": "2026-08-28T00:05:00Z",
+    "technical_issue": "battery_telemetry",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-405 is an engineering incident for Battery telemetry and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_253"
+    ]
+  },
+  {
+    "id": "INC-427",
+    "created_at": "2026-08-28T00:06:00Z",
+    "technical_issue": "mobile_app",
+    "theme": "app_problems",
+    "cause": "other",
+    "summary": "INC-427 is an engineering incident for Mobile app and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_376",
+      "cmp_377",
+      "cmp_378",
+      "cmp_379",
+      "cmp_380",
+      "cmp_381",
+      "cmp_382",
+      "cmp_383"
+    ]
+  },
+  {
+    "id": "INC-411",
+    "created_at": "2026-08-28T00:07:00Z",
+    "technical_issue": "mobile_app",
+    "theme": "app_problems",
+    "cause": "other",
+    "summary": "INC-411 is an engineering incident for Mobile app and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_384",
+      "cmp_385",
+      "cmp_386",
+      "cmp_387"
+    ]
+  },
+  {
+    "id": "INC-412",
+    "created_at": "2026-08-28T00:08:00Z",
+    "technical_issue": "mobile_app",
+    "theme": "app_problems",
+    "cause": "other",
+    "summary": "INC-412 is an engineering incident for Mobile app and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_388",
+      "cmp_418",
+      "cmp_419",
+      "cmp_420"
+    ]
+  },
+  {
+    "id": "INC-413",
+    "created_at": "2026-08-28T00:09:00Z",
+    "technical_issue": "mobile_app",
+    "theme": "app_problems",
+    "cause": "other",
+    "summary": "INC-413 is an engineering incident for Mobile app and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_421",
+      "cmp_422",
+      "cmp_423",
+      "cmp_424"
+    ]
+  },
+  {
+    "id": "INC-414",
+    "created_at": "2026-08-28T00:10:00Z",
+    "technical_issue": "mobile_app",
+    "theme": "app_problems",
+    "cause": "other",
+    "summary": "INC-414 is an engineering incident for Mobile app and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_425",
+      "cmp_426"
+    ]
+  },
+  {
+    "id": "INC-433",
+    "created_at": "2026-08-28T00:11:00Z",
+    "technical_issue": "firmware",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-433 is an engineering incident for Firmware and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_195",
+      "cmp_196",
+      "cmp_197",
+      "cmp_198",
+      "cmp_199",
+      "cmp_200"
+    ]
+  },
+  {
+    "id": "INC-416",
+    "created_at": "2026-08-28T00:12:00Z",
+    "technical_issue": "firmware",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-416 is an engineering incident for Firmware and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_201",
+      "cmp_202",
+      "cmp_203",
+      "cmp_204"
+    ]
+  },
+  {
+    "id": "INC-417",
+    "created_at": "2026-08-28T00:13:00Z",
+    "technical_issue": "firmware",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-417 is an engineering incident for Firmware and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_254",
+      "cmp_255",
+      "cmp_256",
+      "cmp_257"
+    ]
+  },
+  {
+    "id": "INC-418",
+    "created_at": "2026-08-28T00:14:00Z",
+    "technical_issue": "firmware",
+    "theme": "battery_performance",
+    "cause": "other",
+    "summary": "INC-418 is an engineering incident for Firmware and it is linked to member complaints about that technical issue.",
+    "complaint_ids": [
+      "cmp_258",
+      "cmp_259",
+      "cmp_260"
+    ]
+  },
+  {
+    "id": "INC-440",
+    "created_at": "2026-08-29T00:00:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-440 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_001",
+      "cmp_002"
+    ]
+  },
+  {
+    "id": "INC-441",
+    "created_at": "2026-08-29T00:01:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-441 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_003",
+      "cmp_004"
+    ]
+  },
+  {
+    "id": "INC-442",
+    "created_at": "2026-08-29T00:02:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-442 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_005",
+      "cmp_006"
+    ]
+  },
+  {
+    "id": "INC-443",
+    "created_at": "2026-08-29T00:03:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-443 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_007",
+      "cmp_008"
+    ]
+  },
+  {
+    "id": "INC-444",
+    "created_at": "2026-08-29T00:04:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-444 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_009",
+      "cmp_010"
+    ]
+  },
+  {
+    "id": "INC-445",
+    "created_at": "2026-08-29T00:05:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-445 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_011",
+      "cmp_012"
+    ]
+  },
+  {
+    "id": "INC-446",
+    "created_at": "2026-08-29T00:06:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-446 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_013",
+      "cmp_014"
+    ]
+  },
+  {
+    "id": "INC-447",
+    "created_at": "2026-08-29T00:07:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-447 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_015",
+      "cmp_016"
+    ]
+  },
+  {
+    "id": "INC-448",
+    "created_at": "2026-08-29T00:08:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-448 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_017",
+      "cmp_018"
+    ]
+  },
+  {
+    "id": "INC-449",
+    "created_at": "2026-08-29T00:09:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-449 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_019",
+      "cmp_020"
+    ]
+  },
+  {
+    "id": "INC-450",
+    "created_at": "2026-08-29T00:10:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-450 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_021",
+      "cmp_022"
+    ]
+  },
+  {
+    "id": "INC-451",
+    "created_at": "2026-08-29T00:11:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-451 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_023",
+      "cmp_024"
+    ]
+  },
+  {
+    "id": "INC-452",
+    "created_at": "2026-08-29T00:12:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-452 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_025",
+      "cmp_026"
+    ]
+  },
+  {
+    "id": "INC-453",
+    "created_at": "2026-08-29T00:13:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-453 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_027",
+      "cmp_028"
+    ]
+  },
+  {
+    "id": "INC-454",
+    "created_at": "2026-08-29T00:14:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-454 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_029",
+      "cmp_030"
+    ]
+  },
+  {
+    "id": "INC-455",
+    "created_at": "2026-08-29T00:15:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-455 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_031",
+      "cmp_032"
+    ]
+  },
+  {
+    "id": "INC-456",
+    "created_at": "2026-08-29T00:16:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-456 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_033",
+      "cmp_034"
+    ]
+  },
+  {
+    "id": "INC-457",
+    "created_at": "2026-08-29T00:17:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-457 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_035",
+      "cmp_036"
+    ]
+  },
+  {
+    "id": "INC-458",
+    "created_at": "2026-08-29T00:18:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-458 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_037",
+      "cmp_038"
+    ]
+  },
+  {
+    "id": "INC-459",
+    "created_at": "2026-08-29T00:19:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-459 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_039",
+      "cmp_040"
+    ]
+  },
+  {
+    "id": "INC-460",
+    "created_at": "2026-08-29T00:20:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-460 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_041",
+      "cmp_042"
+    ]
+  },
+  {
+    "id": "INC-461",
+    "created_at": "2026-08-29T00:21:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-461 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_043",
+      "cmp_044"
+    ]
+  },
+  {
+    "id": "INC-462",
+    "created_at": "2026-08-29T00:22:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-462 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_045",
+      "cmp_046"
+    ]
+  },
+  {
+    "id": "INC-463",
+    "created_at": "2026-08-29T00:23:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-463 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_047",
+      "cmp_048"
+    ]
+  },
+  {
+    "id": "INC-464",
+    "created_at": "2026-08-29T00:24:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-464 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_049",
+      "cmp_050"
+    ]
+  },
+  {
+    "id": "INC-465",
+    "created_at": "2026-08-29T00:25:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-465 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_051",
+      "cmp_052"
+    ]
+  },
+  {
+    "id": "INC-466",
+    "created_at": "2026-08-29T00:26:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-466 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_053",
+      "cmp_054"
+    ]
+  },
+  {
+    "id": "INC-467",
+    "created_at": "2026-08-29T00:27:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-467 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_055",
+      "cmp_056"
+    ]
+  },
+  {
+    "id": "INC-468",
+    "created_at": "2026-08-29T00:28:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-468 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_057",
+      "cmp_058"
+    ]
+  },
+  {
+    "id": "INC-469",
+    "created_at": "2026-08-29T00:29:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-469 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_059",
+      "cmp_060"
+    ]
+  },
+  {
+    "id": "INC-470",
+    "created_at": "2026-08-29T00:30:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-470 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_061",
+      "cmp_062"
+    ]
+  },
+  {
+    "id": "INC-471",
+    "created_at": "2026-08-29T00:31:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-471 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_063",
+      "cmp_064"
+    ]
+  },
+  {
+    "id": "INC-472",
+    "created_at": "2026-08-29T00:32:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-472 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_065",
+      "cmp_066"
+    ]
+  },
+  {
+    "id": "INC-473",
+    "created_at": "2026-08-29T00:33:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-473 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_067",
+      "cmp_068"
+    ]
+  },
+  {
+    "id": "INC-474",
+    "created_at": "2026-08-29T00:34:00Z",
+    "technical_issue": null,
+    "theme": "installation_delays",
+    "cause": "permitting_delays",
+    "summary": "INC-474 is an engineering incident related to installation delays and it is linked to member complaints about that theme.",
+    "complaint_ids": [
+      "cmp_069",
+      "cmp_070"
+    ]
+  }
+]

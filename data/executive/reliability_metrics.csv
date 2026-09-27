@@ -1,0 +1,115 @@
+period,device_type,hardware_revision,installed_base,failure_count,failure_rate,related_incident_id,related_device_ids,notes
+2026-04,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Battery,HW-C,7,2,0.2857,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-04,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-04,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-04,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-04,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-04,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Battery,HW-C,7,2,0.2857,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-05,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-05,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-05,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-05,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-05,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Battery,HW-C,7,2,0.2857,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-06,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-06,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-06,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-06,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-06,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Battery,HW-C,7,2,0.2857,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-07,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-07,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-07,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-07,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-07,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Battery,HW-C,7,2,0.2857,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-08,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-08,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-08,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-08,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-08,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Battery,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Battery,HW-B,30,1,0.0333,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Battery,HW-C,7,3,0.4286,INC-005,DEV-026;DEV-031;DEV-034,INC-005 describes HW-C cell imbalance from a busbar torque issue. Degraded HW-C batteries in devices.csv: DEV-026;DEV-031;DEV-034.
+2026-09,Battery,HW-D,7,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Energy Controller,HW-A,1,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Energy Controller,HW-B,3,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Energy Controller,HW-C,2,1,0.5000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-09,Energy Controller,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Gateway,HW-A,5,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Gateway,HW-B,20,1,0.0500,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Gateway,HW-C,5,1,0.2000,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-09,Gateway,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Inverter,HW-A,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Inverter,HW-B,23,1,0.0435,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Inverter,HW-C,7,2,0.2857,,,HW-C failure_rate is elevated versus other revisions of this device type. INC-005 confirms a battery mechanism; do not treat that root cause as proven for this device type.
+2026-09,Inverter,HW-D,6,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Sensor,HW-A,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Sensor,HW-B,11,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."
+2026-09,Sensor,HW-D,2,0,0.0000,,,"installed_base is the 2026-09-27 device census, repeated across months."

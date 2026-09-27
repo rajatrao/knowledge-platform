@@ -1,0 +1,33 @@
+part_id,part_number,part_name,category,description,unit,unit_cost,criticality,reorder_point,preferred_stock_level
+P001,LF-BATT-135,LumenPack 13.5 Battery Module,Battery,Field-replaceable 13.5 kWh LumenPack battery module.,each,4280.00,Critical,2,12
+P002,LF-BMS-014,LumenPack BMS Control Board,Battery,Battery management board for a LumenPack module.,each,640.00,Critical,3,8
+P003,LF-BUS-220,Battery Interconnect Busbar Kit,Battery,Busbar kit that ties LumenPack modules together.,kit,185.00,High,4,10
+P004,LF-TIP-090,Thermal Interface Pad Set,Battery,Replacement thermal pads for a battery enclosure.,set,42.00,Medium,6,20
+P005,LF-GSK-011,Battery Enclosure Gasket,Battery,Weather gasket for a LumenPack enclosure door.,each,18.00,Low,10,30
+P006,LF-INV-760,HaloWave 7.6 Hybrid Inverter,Inverter,7.6 kW hybrid inverter used on whole-home backups.,each,2150.00,Critical,2,6
+P007,LF-DCS-060,Inverter DC Disconnect Switch,Inverter,DC disconnect mounted beside the hybrid inverter.,each,128.00,High,3,8
+P008,LF-FAN-033,Inverter Cooling Fan Assembly,Inverter,Replacement cooling fan for a HaloWave inverter.,each,76.00,Medium,4,10
+P009,LF-BRK-060,60A AC Breaker,Electrical,60 amp AC breaker for the backup service panel.,each,54.00,High,6,16
+P010,LF-GND-006,Grounding Electrode Conductor Kit,Electrical,Grounding conductor kit for a residential backup.,kit,39.00,Medium,5,12
+P011,LF-LUG-100,Service Entrance Lug Kit,Electrical,Lug kit for the backup service entrance.,kit,27.00,Medium,5,12
+P012,LF-CBL-4AWG,4 AWG Battery Cable 3m,Cable,Three-meter 4 AWG battery cable pair.,each,48.00,High,8,24
+P013,LF-CBL-PV10,PV String Cable 10m,Cable,Ten-meter PV string cable.,each,36.00,Medium,6,18
+P014,LF-CBL-CAT,Communication Cable 15m,Cable,Fifteen-meter communications cable for the gateway.,each,22.00,Low,6,16
+P015,LF-MC4-PAIR,MC4 Connector Pair,Connector,Paired MC4 connectors for PV string terminations.,pair,8.00,Medium,20,40
+P016,LF-AND-175,Anderson SB175 Connector,Connector,High-current connector used on battery leads.,each,34.00,High,6,16
+P017,LF-LUG-BATT,Battery Terminal Lug Set,Connector,Lug set for LumenPack battery terminals.,set,16.00,Medium,8,20
+P018,LF-FUSE-200T,200A Class T Fuse,Fuse,200 amp Class T fuse for the battery DC bus.,each,46.00,Critical,6,18
+P019,LF-FUSE-30PV,30A PV String Fuse,Fuse,30 amp fuse for a PV string combiner.,each,6.00,Medium,15,40
+P020,LF-RSD-001,Rapid Shutdown Device,Circuit Protection,Module-level rapid shutdown device.,each,210.00,Critical,3,8
+P021,LF-SPD-T2,Surge Protection Device Type 2,Circuit Protection,Type 2 surge protector for the backup panel.,each,95.00,High,3,8
+P022,LF-AFD-010,DC Arc-Fault Detector,Circuit Protection,DC arc-fault detector for the PV input.,each,160.00,High,2,6
+P023,LF-RAIL-WM,Wall Mount Rail Kit,Mounting Hardware,Wall rail kit for a LumenPack enclosure.,kit,120.00,Medium,4,10
+P024,LF-ANC-CON,Concrete Anchor Bolt Pack,Mounting Hardware,Anchor bolts for a pad-mounted enclosure.,pack,14.00,Low,8,20
+P025,LF-SEIS-04,Seismic Restraint Bracket,Mounting Hardware,Restraint bracket for a wall-mounted battery.,each,33.00,Medium,4,12
+P026,LF-CT-200,CT Clamp 200A,Sensors,200 amp current transformer clamp.,each,68.00,Medium,4,10
+P027,LF-TEMP-4,Temperature Probe Pack,Sensors,Pack of enclosure temperature probes.,pack,29.00,Low,4,10
+P028,LF-GW-COM,Gateway Communications Module,Sensors,Site gateway module for monitoring and dispatch.,each,240.00,High,2,6
+P029,LF-TOOL-TQ,Insulated Torque Wrench Set,Tools,Insulated torque set kept in depot tool cribs.,set,180.00,Medium,1,3
+P030,LF-TOOL-IR,Insulation Resistance Tester,Tools,Insulation resistance tester shared across crews.,each,420.00,High,1,2
+P031,LF-TOOL-DGL,Commissioning Interface Dongle,Tools,Dongle used to commission a LumenPack site.,each,95.00,Medium,2,4
+P032,LF-PPE-AFS,Arc-Flash Face Shield,Tools,Arc-flash face shield issued from the depot.,each,62.00,Low,2,6

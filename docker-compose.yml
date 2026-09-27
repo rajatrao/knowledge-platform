@@ -1,0 +1,118 @@
+# Postgres and Temporal are the default stack.
+# MinIO is not started unless you pass --profile s3.
+# The agent sandbox is a kind cluster, not a compose service: ./scripts/kind-up.sh
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kp
+      POSTGRES_PASSWORD: kp
+      POSTGRES_DB: knowledge
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kp -d knowledge"]
+      interval: 3s
+      timeout: 5s
+      retries: 30
+
+  temporal:
+    image: temporalio/auto-setup:1.27.2
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DB: postgres12
+      DB_PORT: 5432
+      POSTGRES_USER: kp
+      POSTGRES_PWD: kp
+      POSTGRES_SEEDS: postgres
+    ports:
+      - "7233:7233"
+
+  temporal-ui:
+    image: temporalio/ui:2.31.2
+    depends_on:
+      - temporal
+    environment:
+      TEMPORAL_ADDRESS: temporal:7233
+      TEMPORAL_CORS_ORIGINS: http://localhost:8080
+    ports:
+      - "8080:8080"
+
+  # Local openJev for router=jev. Same stack as ollama: `docker compose up -d`.
+  # Official project: https://github.com/razorback16/openjev (Jev-compatible
+  # POST /v1/systemone). The flagship image razorback16/openjev:0.5.0 needs an
+  # NVIDIA GPU with 24 GB. This service is the same project's CPU server,
+  # razorback16/openjev-laya:0.5.0 (model laya-1.0), which runs without a GPU.
+  # Host uvicorn uses http://127.0.0.1:8081. A composed API uses http://openjev:8080.
+  # First start downloads Laya weights into the openjev volume. ./scripts/openjev-up.sh
+  # waits until /health answers. Host port 8081 leaves Temporal UI on 8080.
+  openjev:
+    image: razorback16/openjev-laya:0.5.0
+    platform: linux/amd64
+    environment:
+      OPENJEV_BACKEND: laya
+      OPENJEV_DEVICE: cpu
+      OPENJEV_HOST: 0.0.0.0
+      OPENJEV_PORT: "8080"
+    ports:
+      - "8081:8080"
+    volumes:
+      - openjev:/root/.cache/huggingface
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://127.0.0.1:8080/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 40
+      start_period: 600s
+    restart: unless-stopped
+
+  # Local LLM. Starts with `docker compose up -d` (not the optional s3 profile).
+  # Weights are pulled by ./scripts/ollama-up.sh into the ollama volume.
+  # Host uvicorn uses http://127.0.0.1:11434/v1. A composed API uses http://ollama:11434/v1.
+  ollama:
+    image: ollama/ollama:latest
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 10s
+      retries: 20
+
+  minio:
+    profiles: ["s3"]
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio:/data
+
+  minio-init:
+    profiles: ["s3"]
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set local http://minio:9000 minioadmin minioadmin; do sleep 1; done;
+      mc mb -p local/knowledge || true
+      "
+
+volumes:
+  pgdata:
+  minio:
+  ollama:
+  openjev:

@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: session-quota
+  namespace: NAMESPACE
+spec:
+  hard:
+    pods: "2"
+    requests.cpu: "1"
+    requests.memory: 1Gi
+    limits.cpu: "2"
+    limits.memory: 2Gi
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny
+  namespace: NAMESPACE
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+---
+apiVersion: extensions.agents.x-k8s.io/v1beta1
+kind: SandboxTemplate
+metadata:
+  name: kp-sandbox
+  namespace: NAMESPACE
+spec:
+  podTemplate:
+    spec:
+      runtimeClassName: gvisor
+      containers:
+        - name: sandbox
+          image: python:3.12-slim
+          command: ["sleep", "infinity"]
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 1Gi
+---
+apiVersion: extensions.agents.x-k8s.io/v1beta1
+kind: SandboxWarmPool
+metadata:
+  name: warm
+  namespace: NAMESPACE
+spec:
+  replicas: 0
+  sandboxTemplateRef:
+    name: kp-sandbox

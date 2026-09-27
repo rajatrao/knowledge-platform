@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+pythonpath = ["services/platform/src", "services/platform", "services/mcp/src"]
+testpaths = ["services/platform/tests"]

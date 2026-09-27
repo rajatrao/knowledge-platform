@@ -1,0 +1,51 @@
+customer_id,site_name,city,latitude,longitude,system_type,battery_capacity_kwh,inverter_capacity_kw,installation_date,site_status
+C001,Copper Lantern Home,Round Rock,30.50980,-97.72460,Commercial Storage,200,100,2022-06-24,Active
+C002,Bluebonnet Storage Yard,Cedar Park,30.47840,-97.84890,Backup Power,40.5,7.6,2022-07-17,Active
+C003,San Gabriel Clinic Backup,Georgetown,30.63620,-97.64180,Solar-Plus-Storage,13.5,11.4,2022-08-09,Active
+C004,Limestone Ridge House,Leander,30.55870,-97.88140,Whole-Home Battery,27,7.6,2022-09-01,Active
+C005,Barton Hollow Residence,Austin,30.31280,-97.73950,Commercial Storage,200,150,2022-09-24,Active
+C006,Pecan Switch Barn,Manor,30.34890,-97.56140,Backup Power,13.5,7.6,2022-10-17,Active
+C007,Cedar Kettle Works,Cedar Park,30.50260,-97.80840,Solar-Plus-Storage,27,11.4,2022-11-09,Active
+C008,Lake Glass Pavilion,Lakeway,30.38420,-97.96110,Whole-Home Battery,40.5,7.6,2022-12-02,Active
+C009,Hutto Grain Office,Hutto,30.52240,-97.54680,Commercial Storage,200,50,2022-12-25,Active
+C010,Prairie Switch Backup,Pflugerville,30.45420,-97.62840,Backup Power,27,7.6,2023-01-17,Active
+C011,Lantern Orchard House,Austin,30.29500,-97.75380,Solar-Plus-Storage,40.5,11.4,2023-02-09,Active
+C012,Cinder Mesa Residence,Round Rock,30.54260,-97.70140,Whole-Home Battery,13.5,7.6,2023-03-04,Active
+C013,Driftwood Pump House,Cedar Park,30.48640,-97.84590,Commercial Storage,200,100,2023-03-27,Active
+C014,Quail Run Backup,Georgetown,30.66370,-97.64300,Backup Power,40.5,7.6,2023-04-19,Active
+C015,Silver Thistle Market,Pflugerville,30.43360,-97.63520,Solar-Plus-Storage,13.5,11.4,2023-05-12,Active
+C016,Redbud Workshop,Leander,30.57660,-97.86820,Whole-Home Battery,27,7.6,2023-06-04,Active
+C017,Cottonwood Depot Office,Hutto,30.51560,-97.58140,Commercial Storage,200,150,2023-06-27,Active
+C018,Firefly Lane Cottage,Manor,30.35520,-97.53620,Backup Power,13.5,7.6,2023-07-20,Active
+C019,Aster Court Storage,Lakeway,30.39070,-97.98180,Solar-Plus-Storage,27,11.4,2023-08-12,Active
+C020,Mesquite Switch House,Austin,30.27460,-97.79280,Whole-Home Battery,40.5,7.6,2023-09-04,Active
+C021,Briar Pump Station,Austin,30.30220,-97.75020,Commercial Storage,200,50,2023-09-27,Active
+C022,Gable Ridge Hall,Round Rock,30.50060,-97.69780,Backup Power,27,7.6,2023-10-20,Active
+C023,Northwind Pavilion,Cedar Park,30.49360,-97.84230,Solar-Plus-Storage,40.5,11.4,2023-11-12,Active
+C024,Lumen Court House,Georgetown,30.67090,-97.63940,Whole-Home Battery,13.5,7.6,2023-12-05,Active
+C025,Hollow Oak Bakery,Austin,30.26740,-97.81220,Commercial Storage,200,100,2023-12-28,Active
+C026,Sage Flat Residence,Leander,30.58380,-97.86460,Backup Power,40.5,7.6,2024-01-20,Active
+C027,Kite String Warehouse,Hutto,30.52280,-97.57780,Solar-Plus-Storage,13.5,11.4,2024-02-12,Active
+C028,Marigold Yard Office,Manor,30.36240,-97.53260,Whole-Home Battery,27,7.6,2024-03-06,Active
+C029,Tin Roof Creamery,Lakeway,30.34870,-97.97820,Commercial Storage,200,150,2024-03-29,Active
+C030,Owl Creek Cabin,Cedar Park,30.48650,-97.81940,Backup Power,13.5,7.6,2024-04-21,Active
+C031,Fern Basin Clinic,Round Rock,30.52640,-97.69210,Solar-Plus-Storage,27,11.4,2024-05-14,Active
+C032,Clover Stack Storage,Georgetown,30.65540,-97.67120,Whole-Home Battery,40.5,7.6,2024-06-06,Active
+C033,High Lamp House,Leander,30.57410,-97.86650,Commercial Storage,200,50,2024-06-29,Active
+C034,Dry Creek Pavilion,Georgetown,30.62890,-97.68500,Backup Power,27,7.6,2024-07-22,Active
+C035,Winter Grass Barn,Pflugerville,30.44800,-97.62800,Solar-Plus-Storage,40.5,11.4,2024-08-14,Active
+C036,Little Anvil Shop,Leander,30.59100,-97.86100,Whole-Home Battery,13.5,7.6,2024-09-06,Active
+C037,Sunken Fence Office,Hutto,30.53000,-97.57420,Commercial Storage,200,100,2024-09-29,Active
+C038,Bright Lot Storage,Manor,30.36960,-97.52900,Backup Power,40.5,7.6,2024-10-22,Active
+C039,Yellow Porch House,Lakeway,30.35590,-97.97460,Solar-Plus-Storage,13.5,11.4,2024-11-14,Active
+C040,Glasshill Backup,Buda,30.10160,-97.86080,Whole-Home Battery,27,7.6,2024-12-07,Active
+C041,Rope Bridge Lodge,Austin,30.26740,-97.79220,Commercial Storage,200,150,2024-12-30,Active
+C042,Kindling Yard,Round Rock,30.51500,-97.69060,Backup Power,13.5,7.6,2025-01-22,Active
+C043,Soft Rain House,Cedar Park,30.50800,-97.83510,Solar-Plus-Storage,27,11.4,2025-02-14,Active
+C044,Cedar Dial Office,Georgetown,30.63610,-97.68140,Whole-Home Battery,40.5,7.6,2025-03-09,Active
+C045,Low Star Barn,Pflugerville,30.45520,-97.62440,Commercial Storage,200,50,2025-04-01,Active
+C046,Paper Kite Residence,Leander,30.54900,-97.85740,Backup Power,27,7.6,2025-04-24,Active
+C047,Vine Switch Storage,Hutto,30.53720,-97.57060,Solar-Plus-Storage,40.5,11.4,2025-05-17,Active
+C048,Quiet Motor Court,Manor,30.37680,-97.52540,Whole-Home Battery,13.5,7.6,2025-06-09,Active
+C049,Dust Lantern Hall,Lakeway,30.36310,-97.97100,Commercial Storage,200,100,2025-07-02,Offline
+C050,Open Gate Pavilion,Buda,30.10880,-97.85720,Backup Power,40.5,7.6,2025-07-25,Commissioning

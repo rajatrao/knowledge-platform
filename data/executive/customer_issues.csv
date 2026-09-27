@@ -1,0 +1,81 @@
+issue_id,opened_date,market_id,customer_id,site_id,related_job_id,related_device_id,category,severity,status,summary
+ISS-001,2026-09-18,MKT-005,C044,SITE-004,,DEV-012,Firmware,High,Open,"Engineering device DEV-012 at SITE-004 is still on firmware 4.3.0 after INC-002. Field customer C044 is a Georgetown customer from customer_sites, which uses a different id list than engineering CUST ids."
+ISS-002,2026-09-18,MKT-007,C045,SITE-025,,DEV-098,Firmware,High,Open,"Engineering device DEV-098 at SITE-025 is still on firmware 4.3.0 after INC-002. Field customer C045 is a Pflugerville customer from customer_sites, which uses a different id list than engineering CUST ids."
+ISS-003,2026-09-18,MKT-003,C022,SITE-008,,DEV-026,Hardware Reliability,High,Open,Degraded HW-C battery DEV-026 at SITE-008 matches the hardware revision in INC-005. Field customer C022 is linked by market geography only.
+ISS-004,2026-09-18,MKT-004,C016,SITE-009,,DEV-031,Hardware Reliability,High,Open,Degraded HW-C battery DEV-031 at SITE-009 matches the hardware revision in INC-005. Field customer C016 is linked by market geography only.
+ISS-005,2026-09-18,MKT-005,C014,SITE-010,,DEV-034,Hardware Reliability,High,Open,Degraded HW-C battery DEV-034 at SITE-010 matches the hardware revision in INC-005. Field customer C014 is linked by market geography only.
+ISS-006,2026-09-18,MKT-001,C008,SITE-001,,DEV-001,Hardware Reliability,High,Open,Device DEV-001 (Battery HW-B) is an engineering id. Field customer C008 is not an engineering CUST id.
+ISS-007,2026-09-18,MKT-001,C008,SITE-001,,DEV-002,Hardware Reliability,High,Open,Device DEV-002 (Inverter HW-B) is an engineering id. Field customer C008 is not an engineering CUST id.
+ISS-008,2026-09-18,MKT-001,C020,SITE-001,,DEV-003,Hardware Reliability,High,Open,Device DEV-003 (Gateway HW-C) is an engineering id. Field customer C020 is not an engineering CUST id.
+ISS-009,2026-09-18,MKT-001,C039,SITE-001,,DEV-004,Hardware Reliability,High,Open,Device DEV-004 (Sensor HW-A) is an engineering id. Field customer C039 is not an engineering CUST id.
+ISS-010,2026-09-18,MKT-001,C021,SITE-001,,DEV-005,Hardware Reliability,High,Open,Device DEV-005 (Sensor HW-B) is an engineering id. Field customer C021 is not an engineering CUST id.
+ISS-011,2026-08-24,MKT-002,C006,,J038,,Installation Delay,High,Open,"Synthetic installation complaint in North Austin for customer C006. Completed installs are down, rework is up, and response time has lengthened."
+ISS-012,2026-08-27,MKT-002,C018,,J018,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C018. Completed installs are down, rework is up, and response time has lengthened."
+ISS-013,2026-08-30,MKT-002,C028,,,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C028. Completed installs are down, rework is up, and response time has lengthened."
+ISS-014,2026-09-02,MKT-002,C038,,J068,,Installation Quality,High,Open,"Synthetic installation complaint in North Austin for customer C038. Completed installs are down, rework is up, and response time has lengthened."
+ISS-015,2026-09-05,MKT-002,C048,,,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C048. Completed installs are down, rework is up, and response time has lengthened."
+ISS-016,2026-09-08,MKT-002,C006,,J038,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C006. Completed installs are down, rework is up, and response time has lengthened."
+ISS-017,2026-09-11,MKT-002,C018,,,,Installation Delay,High,Open,"Synthetic installation complaint in North Austin for customer C018. Completed installs are down, rework is up, and response time has lengthened."
+ISS-018,2026-09-14,MKT-002,C028,,,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C028. Completed installs are down, rework is up, and response time has lengthened."
+ISS-019,2026-09-17,MKT-002,C038,,,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C038. Completed installs are down, rework is up, and response time has lengthened."
+ISS-020,2026-09-20,MKT-002,C048,,J094,,Installation Quality,High,Open,"Synthetic installation complaint in North Austin for customer C048. Completed installs are down, rework is up, and response time has lengthened."
+ISS-021,2026-09-23,MKT-002,C006,,J038,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C006. Completed installs are down, rework is up, and response time has lengthened."
+ISS-022,2026-09-26,MKT-002,C018,,,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C018. Completed installs are down, rework is up, and response time has lengthened."
+ISS-023,2026-08-26,MKT-002,C028,,J034,,Installation Delay,High,Open,"Synthetic installation complaint in North Austin for customer C028. Completed installs are down, rework is up, and response time has lengthened."
+ISS-024,2026-08-29,MKT-002,C038,,J068,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C038. Completed installs are down, rework is up, and response time has lengthened."
+ISS-025,2026-09-01,MKT-002,C048,,,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C048. Completed installs are down, rework is up, and response time has lengthened."
+ISS-026,2026-09-04,MKT-002,C006,,,,Installation Quality,High,Open,"Synthetic installation complaint in North Austin for customer C006. Completed installs are down, rework is up, and response time has lengthened."
+ISS-027,2026-09-07,MKT-002,C018,,,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C018. Completed installs are down, rework is up, and response time has lengthened."
+ISS-028,2026-09-10,MKT-002,C028,,J034,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C028. Completed installs are down, rework is up, and response time has lengthened."
+ISS-029,2026-09-13,MKT-002,C038,,J068,,Installation Delay,High,Open,"Synthetic installation complaint in North Austin for customer C038. Completed installs are down, rework is up, and response time has lengthened."
+ISS-030,2026-09-16,MKT-002,C048,,J048,,Installation Quality,Medium,Open,"Synthetic installation complaint in North Austin for customer C048. Completed installs are down, rework is up, and response time has lengthened."
+ISS-031,2026-09-19,MKT-002,C006,,J006,,Installation Delay,Medium,Open,"Synthetic installation complaint in North Austin for customer C006. Completed installs are down, rework is up, and response time has lengthened."
+ISS-032,2026-09-22,MKT-002,C018,,,,Installation Quality,High,Open,"Synthetic installation complaint in North Austin for customer C018. Completed installs are down, rework is up, and response time has lengthened."
+ISS-033,2026-05-04,MKT-001,C005,,J049,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C005.
+ISS-034,2026-05-09,MKT-001,C008,,J023,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C008.
+ISS-035,2026-05-14,MKT-001,C011,,,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C011.
+ISS-036,2026-05-19,MKT-001,C019,,,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C019.
+ISS-037,2026-05-24,MKT-001,C020,,J021,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C020.
+ISS-038,2026-05-29,MKT-001,C021,,,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C021.
+ISS-039,2026-06-03,MKT-001,C025,,J059,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C025.
+ISS-040,2026-06-08,MKT-001,C029,,,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C029.
+ISS-041,2026-06-13,MKT-001,C039,,J061,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C039.
+ISS-042,2026-06-18,MKT-001,C041,,J087,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C041.
+ISS-043,2026-06-23,MKT-001,C049,,,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C049.
+ISS-044,2026-06-28,MKT-001,C005,,J005,,Communication,Low,Closed,Synthetic service note for Austin Metro customer C005.
+ISS-045,2026-09-20,MKT-003,C001,,J001,,Parts Wait,High,Open,"J001 is Waiting for Parts with an open Class T fuse symptom. The customer is in Round Rock, served by W002, where P018 is below reorder. W001 still has P018 available. Customer C001 is the job's customer in Round Rock."
+ISS-046,2026-05-09,MKT-003,C009,,J009,,Communication,Low,Closed,Synthetic service note for Round Rock customer C009.
+ISS-047,2026-05-14,MKT-003,C012,,J012,,Communication,Low,Closed,Synthetic service note for Round Rock customer C012.
+ISS-048,2026-05-19,MKT-003,C017,,J065,,Communication,Low,Closed,Synthetic service note for Round Rock customer C017.
+ISS-049,2026-05-24,MKT-003,C022,,J025,,Communication,Low,Closed,Synthetic service note for Round Rock customer C022.
+ISS-050,2026-05-29,MKT-003,C027,,,,Communication,Low,Closed,Synthetic service note for Round Rock customer C027.
+ISS-051,2026-06-03,MKT-003,C031,,,,Communication,Low,Closed,Synthetic service note for Round Rock customer C031.
+ISS-052,2026-06-08,MKT-003,C037,,J075,,Communication,Low,Closed,Synthetic service note for Round Rock customer C037.
+ISS-053,2026-09-20,MKT-004,C007,,J007,,Parts Wait,High,Open,"J007 is Waiting for Parts on an inverter repair. The customer is in Cedar Park, served by W002, where P006 still has available quantity. This wait is not the W001 P006 stockout. Customer C007 is the job's customer in Cedar Park."
+ISS-054,2026-08-06,MKT-004,C004,,,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C004. Completion quality on the market remains strong.
+ISS-055,2026-08-08,MKT-004,C007,,,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C007. Completion quality on the market remains strong.
+ISS-056,2026-08-10,MKT-004,C013,,,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C013. Completion quality on the market remains strong.
+ISS-057,2026-08-12,MKT-004,C016,,J016,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C016. Completion quality on the market remains strong.
+ISS-058,2026-08-14,MKT-004,C023,,J073,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C023. Completion quality on the market remains strong.
+ISS-059,2026-08-16,MKT-004,C026,,J052,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C026. Completion quality on the market remains strong.
+ISS-060,2026-08-18,MKT-004,C030,,J074,,Scheduling,Low,Closed,Low-severity scheduling note for Cedar Park customer C030. Completion quality on the market remains strong.
+ISS-061,2026-05-04,MKT-005,C003,,J063,,Communication,Low,Closed,Synthetic service note for Georgetown customer C003.
+ISS-062,2026-05-09,MKT-005,C014,,,,Communication,Low,Closed,Synthetic service note for Georgetown customer C014.
+ISS-063,2026-05-14,MKT-005,C024,,J096,,Communication,Low,Closed,Synthetic service note for Georgetown customer C024.
+ISS-064,2026-05-19,MKT-005,C032,,,,Communication,Low,Closed,Synthetic service note for Georgetown customer C032.
+ISS-065,2026-05-24,MKT-005,C034,,,,Communication,Low,Closed,Synthetic service note for Georgetown customer C034.
+ISS-066,2026-05-29,MKT-005,C044,,J076,,Communication,Low,Closed,Synthetic service note for Georgetown customer C044.
+ISS-067,2026-06-03,MKT-005,C003,,,,Communication,Low,Closed,Synthetic service note for Georgetown customer C003.
+ISS-068,2026-06-08,MKT-005,C014,,,,Communication,Low,Closed,Synthetic service note for Georgetown customer C014.
+ISS-069,2026-07-15,MKT-006,C040,,,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-070,2026-07-16,MKT-006,C050,,,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-071,2026-07-17,MKT-006,C040,,J054,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-072,2026-07-18,MKT-006,C050,,J029,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-073,2026-07-19,MKT-006,C040,,J054,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-074,2026-07-20,MKT-006,C050,,,,Launch,Medium,Closed,San Marcos launch issue: WMS location configuration at W003 is unfinished and install completions are not running.
+ISS-075,2026-05-04,MKT-007,C010,,,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C010.
+ISS-076,2026-05-09,MKT-007,C015,,,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C015.
+ISS-077,2026-05-14,MKT-007,C035,,J035,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C035.
+ISS-078,2026-05-19,MKT-007,C045,,,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C045.
+ISS-079,2026-05-24,MKT-007,C010,,J064,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C010.
+ISS-080,2026-05-29,MKT-007,C015,,J079,,Communication,Low,Closed,Synthetic service note for Pflugerville customer C015.

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.env
+node_modules/
+dist/
+data/workspaces/
+*.pyc
+.DS_Store
+.coverage
+htmlcov/

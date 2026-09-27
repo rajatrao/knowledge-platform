@@ -1,0 +1,753 @@
+event_id,job_id,timestamp,event_type,technician_id,notes
+JE00001,J001,2026-09-26T16:05:00-05:00,Created,,Battery repair opened for an isolation fault at Copper Lantern Home.
+JE00002,J001,2026-09-26T16:40:00-05:00,Assigned,T001,Assigned to T001 Rowan Pell.
+JE00003,J001,2026-09-27T11:20:00-05:00,Technician Dispatched,T001,Dispatched from the Round Rock area.
+JE00004,J001,2026-09-27T11:35:00-05:00,En Route,T001,En route to Copper Lantern Home.
+JE00005,J001,2026-09-27T12:10:00-05:00,Arrived Onsite,T001,Arrived onsite.
+JE00006,J001,2026-09-27T12:40:00-05:00,Diagnosis,T001,Isolation fault confirmed. The Class T fuse is open.
+JE00007,J001,2026-09-27T12:55:00-05:00,Part Required,T001,Need P018 qty 2. Van V001 does not have a Class T fuse.
+JE00008,J001,2026-09-27T13:05:00-05:00,Waiting for Parts,T001,Delayed: P018 200A Class T Fuse qty 2 is not on van V001. Mesa Volt Depot W001 has the fuse in stock and can supply this job.
+JE00009,J002,2026-09-26T14:00:00-05:00,Created,,Battery repair opened for a BMS sensor mismatch.
+JE00010,J002,2026-09-26T15:00:00-05:00,Assigned,T002,Assigned to T002 Sable Quill.
+JE00011,J002,2026-09-27T10:00:00-05:00,Technician Dispatched,T002,Dispatched with the BMS board on the van.
+JE00012,J002,2026-09-27T10:15:00-05:00,En Route,T002,En route to Bluebonnet Storage Yard.
+JE00013,J002,2026-09-27T10:40:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00014,J002,2026-09-27T11:00:00-05:00,Diagnosis,T002,BMS board is the failed component. Thermal pads will be replaced with it.
+JE00015,J002,2026-09-27T11:20:00-05:00,Repair Started,T002,BMS board swap in progress. Required parts were on van V002.
+JE00016,J003,2026-09-27T14:10:00-05:00,Created,,Emergency opened: clinic backup inverter offline.
+JE00017,J003,2026-09-27T14:25:00-05:00,Assigned,T003,Assigned to T003 Idris Fen.
+JE00018,J003,2026-09-27T15:20:00-05:00,Technician Dispatched,T003,Dispatched with a HaloWave inverter on van V003.
+JE00019,J003,2026-09-27T15:40:00-05:00,En Route,T003,En route to San Gabriel Clinic Backup.
+JE00020,J004,2026-09-26T11:00:00-05:00,Created,,Annual inspection scheduled.
+JE00021,J004,2026-09-26T11:30:00-05:00,Assigned,T006,Assigned to T006 Lumen Drake.
+JE00022,J004,2026-09-27T14:40:00-05:00,Technician Dispatched,T006,Dispatched to Limestone Ridge House.
+JE00023,J004,2026-09-27T14:55:00-05:00,En Route,T006,En route.
+JE00024,J004,2026-09-27T15:20:00-05:00,Arrived Onsite,T006,Arrived onsite for the inspection.
+JE00025,J005,2026-09-26T09:00:00-05:00,Created,,Battery replacement opened after a failed capacity test.
+JE00026,J005,2026-09-26T10:00:00-05:00,Assigned,T007,Assigned to T007 Nova Brigg.
+JE00027,J005,2026-09-27T13:40:00-05:00,Technician Dispatched,T007,Dispatched with the replacement kit.
+JE00028,J005,2026-09-27T13:55:00-05:00,En Route,T007,En route to Barton Hollow Residence.
+JE00029,J005,2026-09-27T14:30:00-05:00,Arrived Onsite,T007,Arrived onsite.
+JE00030,J005,2026-09-27T14:50:00-05:00,Diagnosis,T007,Busbar discoloration matches the capacity loss.
+JE00031,J005,2026-09-27T15:10:00-05:00,Repair Started,T007,Busbar kit installed. BMS board swap is next.
+JE00032,J006,2026-09-27T12:00:00-05:00,Created,,Troubleshooting opened for a silent gateway.
+JE00033,J006,2026-09-27T12:20:00-05:00,Assigned,T008,Assigned to T008 Harlow Finch.
+JE00034,J006,2026-09-27T15:00:00-05:00,Technician Dispatched,T008,Dispatched to Pecan Switch Barn.
+JE00035,J006,2026-09-27T15:25:00-05:00,En Route,T008,En route.
+JE00036,J007,2026-09-26T13:00:00-05:00,Created,,Inverter repair opened after a failed reconnect.
+JE00037,J007,2026-09-26T13:40:00-05:00,Assigned,T010,Assigned to T010 Quinn Ashby.
+JE00038,J007,2026-09-27T12:15:00-05:00,Technician Dispatched,T010,Dispatched to Cedar Kettle Works.
+JE00039,J007,2026-09-27T12:30:00-05:00,En Route,T010,En route.
+JE00040,J007,2026-09-27T13:00:00-05:00,Arrived Onsite,T010,Arrived onsite.
+JE00041,J007,2026-09-27T13:30:00-05:00,Diagnosis,T010,"HaloWave unit will not produce. Fan spins, DC bus is dead."
+JE00042,J007,2026-09-27T13:50:00-05:00,Part Required,T010,P006 is required and is not on van V010.
+JE00043,J007,2026-09-27T14:05:00-05:00,Waiting for Parts,T010,Job delayed because P006 HaloWave 7.6 Hybrid Inverter is not on van V010 and Mesa Volt Depot (W001) is out of stock. Brushy Creek Parts Hub (W002) has units available; transfer requested.
+JE00044,J007,2026-09-27T15:10:00-05:00,Escalated,T010,Still waiting on the inverter transfer from W002.
+JE00045,J008,2026-09-25T16:00:00-05:00,Created,,Quarterly preventive maintenance scheduled.
+JE00046,J008,2026-09-26T09:00:00-05:00,Assigned,T013,Assigned to T013 Juniper Vale.
+JE00047,J008,2026-09-27T14:05:00-05:00,Technician Dispatched,T013,Dispatched to Lake Glass Pavilion.
+JE00048,J008,2026-09-27T14:20:00-05:00,En Route,T013,En route.
+JE00049,J008,2026-09-27T14:50:00-05:00,Arrived Onsite,T013,Arrived onsite.
+JE00050,J008,2026-09-27T15:10:00-05:00,Diagnosis,T013,Pads are compressed. String fuses are due.
+JE00051,J008,2026-09-27T15:25:00-05:00,Repair Started,T013,Preventive maintenance underway.
+JE00052,J009,2026-09-26T08:30:00-05:00,Created,,Preventive maintenance scheduled.
+JE00053,J009,2026-09-26T09:00:00-05:00,Assigned,T014,Assigned to T014 Theo Bramble.
+JE00054,J009,2026-09-27T15:05:00-05:00,Technician Dispatched,T014,Dispatched to Hutto Grain Office.
+JE00055,J009,2026-09-27T15:45:00-05:00,En Route,T014,En route.
+JE00056,J010,2026-09-27T08:40:00-05:00,Created,,Emergency: Prairie Switch Backup battery is offline.
+JE00057,J010,2026-09-27T15:10:00-05:00,Escalated,,Critical job still unassigned 80 minutes before the 16:30 start.
+JE00058,J011,2026-09-27T09:30:00-05:00,Created,,Monday installation
+JE00059,J011,2026-09-27T10:10:00-05:00,Assigned,T004,Assigned to T004.
+JE00060,J012,2026-09-27T09:40:00-05:00,Created,,Monday inverter swap
+JE00061,J012,2026-09-27T10:20:00-05:00,Assigned,T008,Assigned to T008.
+JE00062,J013,2026-09-27T11:00:00-05:00,Created,,Monday battery repair planned for Driftwood Pump House
+JE00063,J013,2026-09-27T11:40:00-05:00,Assigned,T001,Assigned to T001.
+JE00064,J014,2026-09-27T11:00:00-05:00,Created,,Monday inspection planned for Quail Run Backup
+JE00065,J014,2026-09-27T11:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00066,J015,2026-09-27T10:15:00-05:00,Created,,Monday staging is short one rapid shutdown device
+JE00067,J015,2026-09-27T10:55:00-05:00,Assigned,T013,Assigned to T013.
+JE00068,J016,2026-09-27T10:20:00-05:00,Created,,"Monday preventive visit, kitted from Brushy Creek"
+JE00069,J016,2026-09-27T11:00:00-05:00,Assigned,T014,Assigned to T014.
+JE00070,J017,2026-09-27T11:00:00-05:00,Created,,Monday preventive maintenance planned for Cottonwood Depot Office
+JE00071,J017,2026-09-27T11:40:00-05:00,Assigned,T003,Assigned to T003.
+JE00072,J018,2026-09-27T11:00:00-05:00,Created,,Monday troubleshooting planned for Firefly Lane Cottage
+JE00073,J018,2026-09-27T11:40:00-05:00,Assigned,T006,Assigned to T006.
+JE00074,J019,2026-09-27T11:00:00-05:00,Created,,Monday installation planned for Aster Court Storage
+JE00075,J019,2026-09-27T11:40:00-05:00,Assigned,T007,Assigned to T007.
+JE00076,J020,2026-09-27T11:00:00-05:00,Created,,Monday emergency service planned for Briar Pump Station
+JE00077,J020,2026-09-27T11:40:00-05:00,Assigned,T010,Assigned to T010.
+JE00078,J021,2026-09-26T15:00:00-05:00,Created,,Troubleshooting opened after a failed backup test.
+JE00079,J021,2026-09-26T15:30:00-05:00,Assigned,T005,Assigned to T005 Cassio Venn.
+JE00080,J021,2026-09-27T07:40:00-05:00,Technician Dispatched,T005,Dispatched to Mesquite Switch House.
+JE00081,J021,2026-09-27T07:55:00-05:00,En Route,T005,En route.
+JE00082,J021,2026-09-27T08:25:00-05:00,Arrived Onsite,T005,Arrived onsite.
+JE00083,J021,2026-09-27T08:45:00-05:00,Diagnosis,T005,60A breaker will not reset. MC4 pair on string 2 is heat-stained.
+JE00084,J021,2026-09-27T09:00:00-05:00,Part Required,T005,P009 and P015 are required. Both are on van V005.
+JE00085,J021,2026-09-27T09:15:00-05:00,Repair Started,T005,Breaker and connector replacement started.
+JE00086,J021,2026-09-27T10:50:00-05:00,Repair Completed,T005,Backup transfer test passed.
+JE00087,J021,2026-09-27T11:05:00-05:00,Customer Signoff,T005,Customer confirmed the backup test passed.
+JE00088,J021,2026-09-27T11:20:00-05:00,Job Completed,T005,Site returned to normal operation.
+JE00089,J022,2026-08-31T16:00:00-05:00,Created,,Installation at Copper Lantern Home
+JE00090,J022,2026-08-31T16:40:00-05:00,Assigned,T001,Assigned to T001.
+JE00091,J022,2026-09-01T07:40:00-05:00,Technician Dispatched,T001,Technician dispatched.
+JE00092,J022,2026-09-01T07:55:00-05:00,En Route,T001,En route to the site.
+JE00093,J022,2026-09-01T08:20:00-05:00,Arrived Onsite,T001,Arrived onsite.
+JE00094,J022,2026-09-01T08:40:00-05:00,Diagnosis,T001,Diagnosis complete.
+JE00095,J022,2026-09-01T08:55:00-05:00,Repair Started,T001,Work started with the parts on the van.
+JE00096,J022,2026-09-01T09:35:00-05:00,Repair Completed,T001,Repair completed.
+JE00097,J022,2026-09-01T09:48:00-05:00,Customer Signoff,T001,Customer signed off.
+JE00098,J022,2026-09-01T09:55:00-05:00,Job Completed,T001,Job completed.
+JE00099,J023,2026-09-03T16:00:00-05:00,Created,,Battery Replacement at Lake Glass Pavilion
+JE00100,J023,2026-09-03T16:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00101,J023,2026-09-04T09:55:00-05:00,Technician Dispatched,T002,Technician dispatched.
+JE00102,J023,2026-09-04T10:10:00-05:00,En Route,T002,En route to the site.
+JE00103,J023,2026-09-04T10:35:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00104,J023,2026-09-04T10:55:00-05:00,Diagnosis,T002,Diagnosis complete.
+JE00105,J023,2026-09-04T11:10:00-05:00,Repair Started,T002,Work started with the parts on the van.
+JE00106,J023,2026-09-04T11:50:00-05:00,Repair Completed,T002,Repair completed.
+JE00107,J023,2026-09-04T12:03:00-05:00,Customer Signoff,T002,Customer signed off.
+JE00108,J023,2026-09-04T12:10:00-05:00,Job Completed,T002,Job completed.
+JE00109,J024,2026-09-06T16:00:00-05:00,Created,,Battery Repair at Silver Thistle Market
+JE00110,J024,2026-09-06T16:40:00-05:00,Assigned,T003,Assigned to T003.
+JE00111,J024,2026-09-07T12:40:00-05:00,Technician Dispatched,T003,Technician dispatched.
+JE00112,J024,2026-09-07T12:55:00-05:00,En Route,T003,En route to the site.
+JE00113,J024,2026-09-07T13:20:00-05:00,Arrived Onsite,T003,Arrived onsite.
+JE00114,J024,2026-09-07T13:40:00-05:00,Diagnosis,T003,Diagnosis complete.
+JE00115,J024,2026-09-07T13:55:00-05:00,Repair Started,T003,Work started with the parts on the van.
+JE00116,J024,2026-09-07T14:35:00-05:00,Repair Completed,T003,Repair completed.
+JE00117,J024,2026-09-07T14:48:00-05:00,Customer Signoff,T003,Customer signed off.
+JE00118,J024,2026-09-07T14:55:00-05:00,Job Completed,T003,Job completed.
+JE00119,J025,2026-09-09T16:00:00-05:00,Created,,Inverter Repair at Gable Ridge Hall
+JE00120,J025,2026-09-09T16:40:00-05:00,Assigned,T004,Assigned to T004.
+JE00121,J025,2026-09-10T07:40:00-05:00,Technician Dispatched,T004,Technician dispatched.
+JE00122,J025,2026-09-10T07:55:00-05:00,En Route,T004,En route to the site.
+JE00123,J025,2026-09-10T08:20:00-05:00,Arrived Onsite,T004,Arrived onsite.
+JE00124,J025,2026-09-10T08:40:00-05:00,Diagnosis,T004,Diagnosis complete.
+JE00125,J025,2026-09-10T08:55:00-05:00,Repair Started,T004,Work started with the parts on the van.
+JE00126,J025,2026-09-10T09:35:00-05:00,Repair Completed,T004,Repair completed.
+JE00127,J025,2026-09-10T09:48:00-05:00,Customer Signoff,T004,Customer signed off.
+JE00128,J025,2026-09-10T09:55:00-05:00,Job Completed,T004,Job completed.
+JE00129,J026,2026-09-12T16:00:00-05:00,Created,,Inspection at Tin Roof Creamery
+JE00130,J026,2026-09-12T16:40:00-05:00,Assigned,T005,Assigned to T005.
+JE00131,J026,2026-09-13T09:55:00-05:00,Technician Dispatched,T005,Technician dispatched.
+JE00132,J026,2026-09-13T10:10:00-05:00,En Route,T005,En route to the site.
+JE00133,J026,2026-09-13T10:35:00-05:00,Arrived Onsite,T005,Arrived onsite.
+JE00134,J026,2026-09-13T10:55:00-05:00,Diagnosis,T005,Diagnosis complete.
+JE00135,J026,2026-09-13T11:10:00-05:00,Repair Started,T005,Work started with the parts on the van.
+JE00136,J026,2026-09-13T11:50:00-05:00,Repair Completed,T005,Repair completed.
+JE00137,J026,2026-09-13T12:03:00-05:00,Customer Signoff,T005,Customer signed off.
+JE00138,J026,2026-09-13T12:10:00-05:00,Job Completed,T005,Job completed.
+JE00139,J027,2026-09-15T16:00:00-05:00,Created,,Preventive Maintenance at Little Anvil Shop
+JE00140,J027,2026-09-15T16:40:00-05:00,Assigned,T006,Assigned to T006.
+JE00141,J027,2026-09-16T12:40:00-05:00,Technician Dispatched,T006,Technician dispatched.
+JE00142,J027,2026-09-16T12:55:00-05:00,En Route,T006,En route to the site.
+JE00143,J027,2026-09-16T13:20:00-05:00,Arrived Onsite,T006,Arrived onsite.
+JE00144,J027,2026-09-16T13:40:00-05:00,Diagnosis,T006,Diagnosis complete.
+JE00145,J027,2026-09-16T13:55:00-05:00,Repair Started,T006,Work started with the parts on the van.
+JE00146,J027,2026-09-16T14:35:00-05:00,Repair Completed,T006,Repair completed.
+JE00147,J027,2026-09-16T14:48:00-05:00,Customer Signoff,T006,Customer signed off.
+JE00148,J027,2026-09-16T14:55:00-05:00,Job Completed,T006,Job completed.
+JE00149,J028,2026-09-18T16:00:00-05:00,Created,,Emergency Service at Soft Rain House
+JE00150,J028,2026-09-18T16:40:00-05:00,Assigned,T007,Assigned to T007.
+JE00151,J028,2026-09-19T07:40:00-05:00,Technician Dispatched,T007,Technician dispatched.
+JE00152,J028,2026-09-19T07:55:00-05:00,En Route,T007,En route to the site.
+JE00153,J028,2026-09-19T08:20:00-05:00,Arrived Onsite,T007,Arrived onsite.
+JE00154,J028,2026-09-19T08:40:00-05:00,Diagnosis,T007,Diagnosis complete.
+JE00155,J028,2026-09-19T08:55:00-05:00,Repair Started,T007,Work started with the parts on the van.
+JE00156,J028,2026-09-19T09:35:00-05:00,Repair Completed,T007,Repair completed.
+JE00157,J028,2026-09-19T09:48:00-05:00,Customer Signoff,T007,Customer signed off.
+JE00158,J028,2026-09-19T09:55:00-05:00,Job Completed,T007,Job completed.
+JE00159,J029,2026-09-21T16:00:00-05:00,Created,,Troubleshooting at Open Gate Pavilion
+JE00160,J029,2026-09-21T16:40:00-05:00,Assigned,T008,Assigned to T008.
+JE00161,J029,2026-09-22T09:55:00-05:00,Technician Dispatched,T008,Technician dispatched.
+JE00162,J029,2026-09-22T10:10:00-05:00,En Route,T008,En route to the site.
+JE00163,J029,2026-09-22T10:35:00-05:00,Arrived Onsite,T008,Arrived onsite.
+JE00164,J029,2026-09-22T10:55:00-05:00,Diagnosis,T008,Diagnosis complete.
+JE00165,J029,2026-09-22T11:10:00-05:00,Repair Started,T008,Work started with the parts on the van.
+JE00166,J029,2026-09-22T11:50:00-05:00,Repair Completed,T008,Repair completed.
+JE00167,J029,2026-09-22T12:03:00-05:00,Customer Signoff,T008,Customer signed off.
+JE00168,J029,2026-09-22T12:10:00-05:00,Job Completed,T008,Job completed.
+JE00169,J030,2026-09-26T11:00:00-05:00,Created,,Inspection window was 13:00-15:00
+JE00170,J030,2026-09-26T11:40:00-05:00,Assigned,T009,Assigned to T009.
+JE00171,J031,2026-09-24T16:00:00-05:00,Created,,Installation at Cedar Kettle Works
+JE00172,J031,2026-09-24T16:40:00-05:00,Assigned,T009,Assigned to T009.
+JE00173,J031,2026-09-25T12:40:00-05:00,Technician Dispatched,T009,Technician dispatched.
+JE00174,J031,2026-09-25T12:55:00-05:00,En Route,T009,En route to the site.
+JE00175,J031,2026-09-25T13:20:00-05:00,Arrived Onsite,T009,Arrived onsite.
+JE00176,J031,2026-09-25T13:40:00-05:00,Diagnosis,T009,Diagnosis complete.
+JE00177,J031,2026-09-25T13:55:00-05:00,Repair Started,T009,Work started with the parts on the van.
+JE00178,J031,2026-09-25T14:35:00-05:00,Repair Completed,T009,Repair completed.
+JE00179,J031,2026-09-25T14:48:00-05:00,Customer Signoff,T009,Customer signed off.
+JE00180,J031,2026-09-25T14:55:00-05:00,Job Completed,T009,Job completed.
+JE00181,J032,2026-09-01T16:00:00-05:00,Created,,Battery Replacement at Quail Run Backup
+JE00182,J032,2026-09-01T16:40:00-05:00,Assigned,T010,Assigned to T010.
+JE00183,J032,2026-09-02T07:40:00-05:00,Technician Dispatched,T010,Technician dispatched.
+JE00184,J032,2026-09-02T07:55:00-05:00,En Route,T010,En route to the site.
+JE00185,J032,2026-09-02T08:20:00-05:00,Arrived Onsite,T010,Arrived onsite.
+JE00186,J032,2026-09-02T08:40:00-05:00,Diagnosis,T010,Diagnosis complete.
+JE00187,J032,2026-09-02T08:55:00-05:00,Repair Started,T010,Work started with the parts on the van.
+JE00188,J032,2026-09-02T09:35:00-05:00,Repair Completed,T010,Repair completed.
+JE00189,J032,2026-09-02T09:48:00-05:00,Customer Signoff,T010,Customer signed off.
+JE00190,J032,2026-09-02T09:55:00-05:00,Job Completed,T010,Job completed.
+JE00191,J033,2026-09-04T16:00:00-05:00,Created,,Battery Repair at Briar Pump Station
+JE00192,J033,2026-09-04T16:40:00-05:00,Assigned,T011,Assigned to T011.
+JE00193,J033,2026-09-05T09:55:00-05:00,Technician Dispatched,T011,Technician dispatched.
+JE00194,J033,2026-09-05T10:10:00-05:00,En Route,T011,En route to the site.
+JE00195,J033,2026-09-05T10:35:00-05:00,Arrived Onsite,T011,Arrived onsite.
+JE00196,J033,2026-09-05T10:55:00-05:00,Diagnosis,T011,Diagnosis complete.
+JE00197,J033,2026-09-05T11:10:00-05:00,Repair Started,T011,Work started with the parts on the van.
+JE00198,J033,2026-09-05T11:50:00-05:00,Repair Completed,T011,Repair completed.
+JE00199,J033,2026-09-05T12:03:00-05:00,Customer Signoff,T011,Customer signed off.
+JE00200,J033,2026-09-05T12:10:00-05:00,Job Completed,T011,Job completed.
+JE00201,J034,2026-09-07T16:00:00-05:00,Created,,Inverter Repair at Marigold Yard Office
+JE00202,J034,2026-09-07T16:40:00-05:00,Assigned,T012,Assigned to T012.
+JE00203,J034,2026-09-08T12:40:00-05:00,Technician Dispatched,T012,Technician dispatched.
+JE00204,J034,2026-09-08T12:55:00-05:00,En Route,T012,En route to the site.
+JE00205,J034,2026-09-08T13:20:00-05:00,Arrived Onsite,T012,Arrived onsite.
+JE00206,J034,2026-09-08T13:40:00-05:00,Diagnosis,T012,Diagnosis complete.
+JE00207,J034,2026-09-08T13:55:00-05:00,Repair Started,T012,Work started with the parts on the van.
+JE00208,J034,2026-09-08T14:35:00-05:00,Repair Completed,T012,Repair completed.
+JE00209,J034,2026-09-08T14:48:00-05:00,Customer Signoff,T012,Customer signed off.
+JE00210,J034,2026-09-08T14:55:00-05:00,Job Completed,T012,Job completed.
+JE00211,J035,2026-09-10T16:00:00-05:00,Created,,Inspection at Winter Grass Barn
+JE00212,J035,2026-09-10T16:40:00-05:00,Assigned,T013,Assigned to T013.
+JE00213,J035,2026-09-11T07:40:00-05:00,Technician Dispatched,T013,Technician dispatched.
+JE00214,J035,2026-09-11T07:55:00-05:00,En Route,T013,En route to the site.
+JE00215,J035,2026-09-11T08:20:00-05:00,Arrived Onsite,T013,Arrived onsite.
+JE00216,J035,2026-09-11T08:40:00-05:00,Diagnosis,T013,Diagnosis complete.
+JE00217,J035,2026-09-11T08:55:00-05:00,Repair Started,T013,Work started with the parts on the van.
+JE00218,J035,2026-09-11T09:35:00-05:00,Repair Completed,T013,Repair completed.
+JE00219,J035,2026-09-11T09:48:00-05:00,Customer Signoff,T013,Customer signed off.
+JE00220,J035,2026-09-11T09:55:00-05:00,Job Completed,T013,Job completed.
+JE00221,J036,2026-09-13T16:00:00-05:00,Created,,Preventive Maintenance at Kindling Yard
+JE00222,J036,2026-09-13T16:40:00-05:00,Assigned,T014,Assigned to T014.
+JE00223,J036,2026-09-14T09:55:00-05:00,Technician Dispatched,T014,Technician dispatched.
+JE00224,J036,2026-09-14T10:10:00-05:00,En Route,T014,En route to the site.
+JE00225,J036,2026-09-14T10:35:00-05:00,Arrived Onsite,T014,Arrived onsite.
+JE00226,J036,2026-09-14T10:55:00-05:00,Diagnosis,T014,Diagnosis complete.
+JE00227,J036,2026-09-14T11:10:00-05:00,Repair Started,T014,Work started with the parts on the van.
+JE00228,J036,2026-09-14T11:50:00-05:00,Repair Completed,T014,Repair completed.
+JE00229,J036,2026-09-14T12:03:00-05:00,Customer Signoff,T014,Customer signed off.
+JE00230,J036,2026-09-14T12:10:00-05:00,Job Completed,T014,Job completed.
+JE00231,J037,2026-09-16T16:00:00-05:00,Created,,Emergency Service at Dust Lantern Hall
+JE00232,J037,2026-09-16T16:40:00-05:00,Assigned,T015,Assigned to T015.
+JE00233,J037,2026-09-17T12:40:00-05:00,Technician Dispatched,T015,Technician dispatched.
+JE00234,J037,2026-09-17T12:55:00-05:00,En Route,T015,En route to the site.
+JE00235,J037,2026-09-17T13:20:00-05:00,Arrived Onsite,T015,Arrived onsite.
+JE00236,J037,2026-09-17T13:40:00-05:00,Diagnosis,T015,Diagnosis complete.
+JE00237,J037,2026-09-17T13:55:00-05:00,Repair Started,T015,Work started with the parts on the van.
+JE00238,J037,2026-09-17T14:35:00-05:00,Repair Completed,T015,Repair completed.
+JE00239,J037,2026-09-17T14:48:00-05:00,Customer Signoff,T015,Customer signed off.
+JE00240,J037,2026-09-17T14:55:00-05:00,Job Completed,T015,Job completed.
+JE00241,J038,2026-09-19T16:00:00-05:00,Created,,Troubleshooting at Pecan Switch Barn
+JE00242,J038,2026-09-19T16:40:00-05:00,Assigned,T016,Assigned to T016.
+JE00243,J038,2026-09-20T07:40:00-05:00,Technician Dispatched,T016,Technician dispatched.
+JE00244,J038,2026-09-20T07:55:00-05:00,En Route,T016,En route to the site.
+JE00245,J038,2026-09-20T08:20:00-05:00,Arrived Onsite,T016,Arrived onsite.
+JE00246,J038,2026-09-20T08:40:00-05:00,Diagnosis,T016,Diagnosis complete.
+JE00247,J038,2026-09-20T08:55:00-05:00,Repair Started,T016,Work started with the parts on the van.
+JE00248,J038,2026-09-20T09:35:00-05:00,Repair Completed,T016,Repair completed.
+JE00249,J038,2026-09-20T09:48:00-05:00,Customer Signoff,T016,Customer signed off.
+JE00250,J038,2026-09-20T09:55:00-05:00,Job Completed,T016,Job completed.
+JE00251,J039,2026-09-22T16:00:00-05:00,Created,,Installation at Driftwood Pump House
+JE00252,J039,2026-09-22T16:40:00-05:00,Assigned,T017,Assigned to T017.
+JE00253,J039,2026-09-23T09:55:00-05:00,Technician Dispatched,T017,Technician dispatched.
+JE00254,J039,2026-09-23T10:10:00-05:00,En Route,T017,En route to the site.
+JE00255,J039,2026-09-23T10:35:00-05:00,Arrived Onsite,T017,Arrived onsite.
+JE00256,J039,2026-09-23T10:55:00-05:00,Diagnosis,T017,Diagnosis complete.
+JE00257,J039,2026-09-23T11:10:00-05:00,Repair Started,T017,Work started with the parts on the van.
+JE00258,J039,2026-09-23T11:50:00-05:00,Repair Completed,T017,Repair completed.
+JE00259,J039,2026-09-23T12:03:00-05:00,Customer Signoff,T017,Customer signed off.
+JE00260,J039,2026-09-23T12:10:00-05:00,Job Completed,T017,Job completed.
+JE00261,J040,2026-09-25T16:00:00-05:00,Created,,Battery Replacement at Mesquite Switch House
+JE00262,J040,2026-09-25T16:40:00-05:00,Assigned,T021,Assigned to T021.
+JE00263,J040,2026-09-26T12:40:00-05:00,Technician Dispatched,T021,Technician dispatched.
+JE00264,J040,2026-09-26T12:55:00-05:00,En Route,T021,En route to the site.
+JE00265,J040,2026-09-26T13:20:00-05:00,Arrived Onsite,T021,Arrived onsite.
+JE00266,J040,2026-09-26T13:40:00-05:00,Diagnosis,T021,Diagnosis complete.
+JE00267,J040,2026-09-26T13:55:00-05:00,Repair Started,T021,Work started with the parts on the van.
+JE00268,J040,2026-09-26T14:35:00-05:00,Repair Completed,T021,Repair completed.
+JE00269,J040,2026-09-26T14:48:00-05:00,Customer Signoff,T021,Customer signed off.
+JE00270,J040,2026-09-26T14:55:00-05:00,Job Completed,T021,Job completed.
+JE00271,J041,2026-09-17T15:00:00-05:00,Created,,Completed battery replacement recorded so the part custody chain has an install
+JE00272,J041,2026-09-17T15:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00273,J041,2026-09-18T08:40:00-05:00,Technician Dispatched,T002,Technician dispatched.
+JE00274,J041,2026-09-18T08:55:00-05:00,En Route,T002,En route to the site.
+JE00275,J041,2026-09-18T09:20:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00276,J041,2026-09-18T09:40:00-05:00,Diagnosis,T002,Diagnosis complete.
+JE00277,J041,2026-09-18T09:55:00-05:00,Repair Started,T002,Work started with the parts on the van.
+JE00278,J041,2026-09-18T11:35:00-05:00,Repair Completed,T002,Repair completed.
+JE00279,J041,2026-09-18T11:48:00-05:00,Customer Signoff,T002,Customer signed off.
+JE00280,J041,2026-09-18T11:55:00-05:00,Job Completed,T002,Job completed.
+JE00281,J042,2026-09-15T15:00:00-05:00,Created,,Completed inverter repair recorded so the part custody chain has an install
+JE00282,J042,2026-09-15T15:40:00-05:00,Assigned,T008,Assigned to T008.
+JE00283,J042,2026-09-16T08:40:00-05:00,Technician Dispatched,T008,Technician dispatched.
+JE00284,J042,2026-09-16T08:55:00-05:00,En Route,T008,En route to the site.
+JE00285,J042,2026-09-16T09:20:00-05:00,Arrived Onsite,T008,Arrived onsite.
+JE00286,J042,2026-09-16T09:40:00-05:00,Diagnosis,T008,Diagnosis complete.
+JE00287,J042,2026-09-16T09:55:00-05:00,Repair Started,T008,Work started with the parts on the van.
+JE00288,J042,2026-09-16T11:35:00-05:00,Repair Completed,T008,Repair completed.
+JE00289,J042,2026-09-16T11:48:00-05:00,Customer Signoff,T008,Customer signed off.
+JE00290,J042,2026-09-16T11:55:00-05:00,Job Completed,T008,Job completed.
+JE00291,J043,2026-09-16T15:00:00-05:00,Created,,Completed inverter repair recorded so the part custody chain has an install
+JE00292,J043,2026-09-16T15:40:00-05:00,Assigned,T009,Assigned to T009.
+JE00293,J043,2026-09-17T08:40:00-05:00,Technician Dispatched,T009,Technician dispatched.
+JE00294,J043,2026-09-17T08:55:00-05:00,En Route,T009,En route to the site.
+JE00295,J043,2026-09-17T09:20:00-05:00,Arrived Onsite,T009,Arrived onsite.
+JE00296,J043,2026-09-17T09:40:00-05:00,Diagnosis,T009,Diagnosis complete.
+JE00297,J043,2026-09-17T09:55:00-05:00,Repair Started,T009,Work started with the parts on the van.
+JE00298,J043,2026-09-17T11:35:00-05:00,Repair Completed,T009,Repair completed.
+JE00299,J043,2026-09-17T11:48:00-05:00,Customer Signoff,T009,Customer signed off.
+JE00300,J043,2026-09-17T11:55:00-05:00,Job Completed,T009,Job completed.
+JE00301,J044,2026-09-12T15:00:00-05:00,Created,,Completed inverter repair recorded so the part custody chain has an install
+JE00302,J044,2026-09-12T15:40:00-05:00,Assigned,T011,Assigned to T011.
+JE00303,J044,2026-09-13T08:40:00-05:00,Technician Dispatched,T011,Technician dispatched.
+JE00304,J044,2026-09-13T08:55:00-05:00,En Route,T011,En route to the site.
+JE00305,J044,2026-09-13T09:20:00-05:00,Arrived Onsite,T011,Arrived onsite.
+JE00306,J044,2026-09-13T09:40:00-05:00,Diagnosis,T011,Diagnosis complete.
+JE00307,J044,2026-09-13T09:55:00-05:00,Repair Started,T011,Work started with the parts on the van.
+JE00308,J044,2026-09-13T11:35:00-05:00,Repair Completed,T011,Repair completed.
+JE00309,J044,2026-09-13T11:48:00-05:00,Customer Signoff,T011,Customer signed off.
+JE00310,J044,2026-09-13T11:55:00-05:00,Job Completed,T011,Job completed.
+JE00311,J045,2026-09-02T16:00:00-05:00,Created,,Battery Repair at Kite String Warehouse
+JE00312,J045,2026-09-02T16:40:00-05:00,Assigned,T001,Assigned to T001.
+JE00313,J045,2026-09-03T07:40:00-05:00,Technician Dispatched,T001,Technician dispatched.
+JE00314,J045,2026-09-03T07:55:00-05:00,En Route,T001,En route to the site.
+JE00315,J045,2026-09-03T08:20:00-05:00,Arrived Onsite,T001,Arrived onsite.
+JE00316,J045,2026-09-03T08:40:00-05:00,Diagnosis,T001,Diagnosis complete.
+JE00317,J045,2026-09-03T08:55:00-05:00,Repair Started,T001,Work started with the parts on the van.
+JE00318,J045,2026-09-03T09:35:00-05:00,Repair Completed,T001,Repair completed.
+JE00319,J045,2026-09-03T09:48:00-05:00,Customer Signoff,T001,Customer signed off.
+JE00320,J045,2026-09-03T09:55:00-05:00,Job Completed,T001,Job completed.
+JE00321,J046,2026-09-05T16:00:00-05:00,Created,,Inverter Repair at Dry Creek Pavilion
+JE00322,J046,2026-09-05T16:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00323,J046,2026-09-06T09:55:00-05:00,Technician Dispatched,T002,Technician dispatched.
+JE00324,J046,2026-09-06T10:10:00-05:00,En Route,T002,En route to the site.
+JE00325,J046,2026-09-06T10:35:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00326,J046,2026-09-06T10:55:00-05:00,Diagnosis,T002,Diagnosis complete.
+JE00327,J046,2026-09-06T11:10:00-05:00,Repair Started,T002,Work started with the parts on the van.
+JE00328,J046,2026-09-06T11:50:00-05:00,Repair Completed,T002,Repair completed.
+JE00329,J046,2026-09-06T12:03:00-05:00,Customer Signoff,T002,Customer signed off.
+JE00330,J046,2026-09-06T12:10:00-05:00,Job Completed,T002,Job completed.
+JE00331,J047,2026-09-08T16:00:00-05:00,Created,,Inspection at Rope Bridge Lodge
+JE00332,J047,2026-09-08T16:40:00-05:00,Assigned,T003,Assigned to T003.
+JE00333,J047,2026-09-09T12:40:00-05:00,Technician Dispatched,T003,Technician dispatched.
+JE00334,J047,2026-09-09T12:55:00-05:00,En Route,T003,En route to the site.
+JE00335,J047,2026-09-09T13:20:00-05:00,Arrived Onsite,T003,Arrived onsite.
+JE00336,J047,2026-09-09T13:40:00-05:00,Diagnosis,T003,Diagnosis complete.
+JE00337,J047,2026-09-09T13:55:00-05:00,Repair Started,T003,Work started with the parts on the van.
+JE00338,J047,2026-09-09T14:35:00-05:00,Repair Completed,T003,Repair completed.
+JE00339,J047,2026-09-09T14:48:00-05:00,Customer Signoff,T003,Customer signed off.
+JE00340,J047,2026-09-09T14:55:00-05:00,Job Completed,T003,Job completed.
+JE00341,J048,2026-09-11T16:00:00-05:00,Created,,Preventive Maintenance at Quiet Motor Court
+JE00342,J048,2026-09-11T16:40:00-05:00,Assigned,T004,Assigned to T004.
+JE00343,J048,2026-09-12T07:40:00-05:00,Technician Dispatched,T004,Technician dispatched.
+JE00344,J048,2026-09-12T07:55:00-05:00,En Route,T004,En route to the site.
+JE00345,J048,2026-09-12T08:20:00-05:00,Arrived Onsite,T004,Arrived onsite.
+JE00346,J048,2026-09-12T08:40:00-05:00,Diagnosis,T004,Diagnosis complete.
+JE00347,J048,2026-09-12T08:55:00-05:00,Repair Started,T004,Work started with the parts on the van.
+JE00348,J048,2026-09-12T09:35:00-05:00,Repair Completed,T004,Repair completed.
+JE00349,J048,2026-09-12T09:48:00-05:00,Customer Signoff,T004,Customer signed off.
+JE00350,J048,2026-09-12T09:55:00-05:00,Job Completed,T004,Job completed.
+JE00351,J049,2026-09-14T16:00:00-05:00,Created,,Emergency Service at Barton Hollow Residence
+JE00352,J049,2026-09-14T16:40:00-05:00,Assigned,T005,Assigned to T005.
+JE00353,J049,2026-09-15T09:55:00-05:00,Technician Dispatched,T005,Technician dispatched.
+JE00354,J049,2026-09-15T10:10:00-05:00,En Route,T005,En route to the site.
+JE00355,J049,2026-09-15T10:35:00-05:00,Arrived Onsite,T005,Arrived onsite.
+JE00356,J049,2026-09-15T10:55:00-05:00,Diagnosis,T005,Diagnosis complete.
+JE00357,J049,2026-09-15T11:10:00-05:00,Repair Started,T005,Work started with the parts on the van.
+JE00358,J049,2026-09-15T11:50:00-05:00,Repair Completed,T005,Repair completed.
+JE00359,J049,2026-09-15T12:03:00-05:00,Customer Signoff,T005,Customer signed off.
+JE00360,J049,2026-09-15T12:10:00-05:00,Job Completed,T005,Job completed.
+JE00361,J050,2026-09-17T16:00:00-05:00,Created,,Troubleshooting at Cinder Mesa Residence
+JE00362,J050,2026-09-17T16:40:00-05:00,Assigned,T006,Assigned to T006.
+JE00363,J050,2026-09-18T12:40:00-05:00,Technician Dispatched,T006,Technician dispatched.
+JE00364,J050,2026-09-18T12:55:00-05:00,En Route,T006,En route to the site.
+JE00365,J050,2026-09-18T13:20:00-05:00,Arrived Onsite,T006,Arrived onsite.
+JE00366,J050,2026-09-18T13:40:00-05:00,Diagnosis,T006,Diagnosis complete.
+JE00367,J050,2026-09-18T13:55:00-05:00,Repair Started,T006,Work started with the parts on the van.
+JE00368,J050,2026-09-18T14:35:00-05:00,Repair Completed,T006,Repair completed.
+JE00369,J050,2026-09-18T14:48:00-05:00,Customer Signoff,T006,Customer signed off.
+JE00370,J050,2026-09-18T14:55:00-05:00,Job Completed,T006,Job completed.
+JE00371,J051,2026-09-20T16:00:00-05:00,Created,,Installation at Aster Court Storage
+JE00372,J051,2026-09-20T16:40:00-05:00,Assigned,T007,Assigned to T007.
+JE00373,J051,2026-09-21T07:40:00-05:00,Technician Dispatched,T007,Technician dispatched.
+JE00374,J051,2026-09-21T07:55:00-05:00,En Route,T007,En route to the site.
+JE00375,J051,2026-09-21T08:20:00-05:00,Arrived Onsite,T007,Arrived onsite.
+JE00376,J051,2026-09-21T08:40:00-05:00,Diagnosis,T007,Diagnosis complete.
+JE00377,J051,2026-09-21T08:55:00-05:00,Repair Started,T007,Work started with the parts on the van.
+JE00378,J051,2026-09-21T09:35:00-05:00,Repair Completed,T007,Repair completed.
+JE00379,J051,2026-09-21T09:48:00-05:00,Customer Signoff,T007,Customer signed off.
+JE00380,J051,2026-09-21T09:55:00-05:00,Job Completed,T007,Job completed.
+JE00381,J052,2026-09-23T16:00:00-05:00,Created,,Battery Replacement at Sage Flat Residence
+JE00382,J052,2026-09-23T16:40:00-05:00,Assigned,T008,Assigned to T008.
+JE00383,J052,2026-09-24T09:55:00-05:00,Technician Dispatched,T008,Technician dispatched.
+JE00384,J052,2026-09-24T10:10:00-05:00,En Route,T008,En route to the site.
+JE00385,J052,2026-09-24T10:35:00-05:00,Arrived Onsite,T008,Arrived onsite.
+JE00386,J052,2026-09-24T10:55:00-05:00,Diagnosis,T008,Diagnosis complete.
+JE00387,J052,2026-09-24T11:10:00-05:00,Repair Started,T008,Work started with the parts on the van.
+JE00388,J052,2026-09-24T11:50:00-05:00,Repair Completed,T008,Repair completed.
+JE00389,J052,2026-09-24T12:03:00-05:00,Customer Signoff,T008,Customer signed off.
+JE00390,J052,2026-09-24T12:10:00-05:00,Job Completed,T008,Job completed.
+JE00391,J053,2026-08-31T16:00:00-05:00,Created,,Battery Repair at High Lamp House
+JE00392,J053,2026-08-31T16:40:00-05:00,Assigned,T009,Assigned to T009.
+JE00393,J053,2026-09-01T12:40:00-05:00,Technician Dispatched,T009,Technician dispatched.
+JE00394,J053,2026-09-01T12:55:00-05:00,En Route,T009,En route to the site.
+JE00395,J053,2026-09-01T13:20:00-05:00,Arrived Onsite,T009,Arrived onsite.
+JE00396,J053,2026-09-01T13:40:00-05:00,Diagnosis,T009,Diagnosis complete.
+JE00397,J053,2026-09-01T13:55:00-05:00,Repair Started,T009,Work started with the parts on the van.
+JE00398,J053,2026-09-01T14:35:00-05:00,Repair Completed,T009,Repair completed.
+JE00399,J053,2026-09-01T14:48:00-05:00,Customer Signoff,T009,Customer signed off.
+JE00400,J053,2026-09-01T14:55:00-05:00,Job Completed,T009,Job completed.
+JE00401,J054,2026-09-03T16:00:00-05:00,Created,,Inverter Repair at Glasshill Backup
+JE00402,J054,2026-09-03T16:40:00-05:00,Assigned,T010,Assigned to T010.
+JE00403,J054,2026-09-04T07:40:00-05:00,Technician Dispatched,T010,Technician dispatched.
+JE00404,J054,2026-09-04T07:55:00-05:00,En Route,T010,En route to the site.
+JE00405,J054,2026-09-04T08:20:00-05:00,Arrived Onsite,T010,Arrived onsite.
+JE00406,J054,2026-09-04T08:40:00-05:00,Diagnosis,T010,Diagnosis complete.
+JE00407,J054,2026-09-04T08:55:00-05:00,Repair Started,T010,Work started with the parts on the van.
+JE00408,J054,2026-09-04T09:35:00-05:00,Repair Completed,T010,Repair completed.
+JE00409,J054,2026-09-04T09:48:00-05:00,Customer Signoff,T010,Customer signed off.
+JE00410,J054,2026-09-04T09:55:00-05:00,Job Completed,T010,Job completed.
+JE00411,J055,2026-09-06T16:00:00-05:00,Created,,Inspection at Vine Switch Storage
+JE00412,J055,2026-09-06T16:40:00-05:00,Assigned,T011,Assigned to T011.
+JE00413,J055,2026-09-07T09:55:00-05:00,Technician Dispatched,T011,Technician dispatched.
+JE00414,J055,2026-09-07T10:10:00-05:00,En Route,T011,En route to the site.
+JE00415,J055,2026-09-07T10:35:00-05:00,Arrived Onsite,T011,Arrived onsite.
+JE00416,J055,2026-09-07T10:55:00-05:00,Diagnosis,T011,Diagnosis complete.
+JE00417,J055,2026-09-07T11:10:00-05:00,Repair Started,T011,Work started with the parts on the van.
+JE00418,J055,2026-09-07T11:50:00-05:00,Repair Completed,T011,Repair completed.
+JE00419,J055,2026-09-07T12:03:00-05:00,Customer Signoff,T011,Customer signed off.
+JE00420,J055,2026-09-07T12:10:00-05:00,Job Completed,T011,Job completed.
+JE00421,J056,2026-09-09T16:00:00-05:00,Created,,Preventive Maintenance at Limestone Ridge House
+JE00422,J056,2026-09-09T16:40:00-05:00,Assigned,T012,Assigned to T012.
+JE00423,J056,2026-09-10T12:40:00-05:00,Technician Dispatched,T012,Technician dispatched.
+JE00424,J056,2026-09-10T12:55:00-05:00,En Route,T012,En route to the site.
+JE00425,J056,2026-09-10T13:20:00-05:00,Arrived Onsite,T012,Arrived onsite.
+JE00426,J056,2026-09-10T13:40:00-05:00,Diagnosis,T012,Diagnosis complete.
+JE00427,J056,2026-09-10T13:55:00-05:00,Repair Started,T012,Work started with the parts on the van.
+JE00428,J056,2026-09-10T14:35:00-05:00,Repair Completed,T012,Repair completed.
+JE00429,J056,2026-09-10T14:48:00-05:00,Customer Signoff,T012,Customer signed off.
+JE00430,J056,2026-09-10T14:55:00-05:00,Job Completed,T012,Job completed.
+JE00431,J057,2026-09-12T16:00:00-05:00,Created,,Emergency Service at Lantern Orchard House
+JE00432,J057,2026-09-12T16:40:00-05:00,Assigned,T013,Assigned to T013.
+JE00433,J057,2026-09-13T07:40:00-05:00,Technician Dispatched,T013,Technician dispatched.
+JE00434,J057,2026-09-13T07:55:00-05:00,En Route,T013,En route to the site.
+JE00435,J057,2026-09-13T08:20:00-05:00,Arrived Onsite,T013,Arrived onsite.
+JE00436,J057,2026-09-13T08:40:00-05:00,Diagnosis,T013,Diagnosis complete.
+JE00437,J057,2026-09-13T08:55:00-05:00,Repair Started,T013,Work started with the parts on the van.
+JE00438,J057,2026-09-13T09:35:00-05:00,Repair Completed,T013,Repair completed.
+JE00439,J057,2026-09-13T09:48:00-05:00,Customer Signoff,T013,Customer signed off.
+JE00440,J057,2026-09-13T09:55:00-05:00,Job Completed,T013,Job completed.
+JE00441,J058,2026-09-15T16:00:00-05:00,Created,,Troubleshooting at Firefly Lane Cottage
+JE00442,J058,2026-09-15T16:40:00-05:00,Assigned,T014,Assigned to T014.
+JE00443,J058,2026-09-16T09:55:00-05:00,Technician Dispatched,T014,Technician dispatched.
+JE00444,J058,2026-09-16T10:10:00-05:00,En Route,T014,En route to the site.
+JE00445,J058,2026-09-16T10:35:00-05:00,Arrived Onsite,T014,Arrived onsite.
+JE00446,J058,2026-09-16T10:55:00-05:00,Diagnosis,T014,Diagnosis complete.
+JE00447,J058,2026-09-16T11:10:00-05:00,Repair Started,T014,Work started with the parts on the van.
+JE00448,J058,2026-09-16T11:50:00-05:00,Repair Completed,T014,Repair completed.
+JE00449,J058,2026-09-16T12:03:00-05:00,Customer Signoff,T014,Customer signed off.
+JE00450,J058,2026-09-16T12:10:00-05:00,Job Completed,T014,Job completed.
+JE00451,J059,2026-09-18T16:00:00-05:00,Created,,Installation at Hollow Oak Bakery
+JE00452,J059,2026-09-18T16:40:00-05:00,Assigned,T015,Assigned to T015.
+JE00453,J059,2026-09-19T12:40:00-05:00,Technician Dispatched,T015,Technician dispatched.
+JE00454,J059,2026-09-19T12:55:00-05:00,En Route,T015,En route to the site.
+JE00455,J059,2026-09-19T13:20:00-05:00,Arrived Onsite,T015,Arrived onsite.
+JE00456,J059,2026-09-19T13:40:00-05:00,Diagnosis,T015,Diagnosis complete.
+JE00457,J059,2026-09-19T13:55:00-05:00,Repair Started,T015,Work started with the parts on the van.
+JE00458,J059,2026-09-19T14:35:00-05:00,Repair Completed,T015,Repair completed.
+JE00459,J059,2026-09-19T14:48:00-05:00,Customer Signoff,T015,Customer signed off.
+JE00460,J059,2026-09-19T14:55:00-05:00,Job Completed,T015,Job completed.
+JE00461,J060,2026-09-21T16:00:00-05:00,Created,,Battery Replacement at Clover Stack Storage
+JE00462,J060,2026-09-21T16:40:00-05:00,Assigned,T016,Assigned to T016.
+JE00463,J060,2026-09-22T07:40:00-05:00,Technician Dispatched,T016,Technician dispatched.
+JE00464,J060,2026-09-22T07:55:00-05:00,En Route,T016,En route to the site.
+JE00465,J060,2026-09-22T08:20:00-05:00,Arrived Onsite,T016,Arrived onsite.
+JE00466,J060,2026-09-22T08:40:00-05:00,Diagnosis,T016,Diagnosis complete.
+JE00467,J060,2026-09-22T08:55:00-05:00,Repair Started,T016,Work started with the parts on the van.
+JE00468,J060,2026-09-22T09:35:00-05:00,Repair Completed,T016,Repair completed.
+JE00469,J060,2026-09-22T09:48:00-05:00,Customer Signoff,T016,Customer signed off.
+JE00470,J060,2026-09-22T09:55:00-05:00,Job Completed,T016,Job completed.
+JE00471,J061,2026-09-24T16:00:00-05:00,Created,,Battery Repair at Yellow Porch House
+JE00472,J061,2026-09-24T16:40:00-05:00,Assigned,T017,Assigned to T017.
+JE00473,J061,2026-09-25T09:55:00-05:00,Technician Dispatched,T017,Technician dispatched.
+JE00474,J061,2026-09-25T10:10:00-05:00,En Route,T017,En route to the site.
+JE00475,J061,2026-09-25T10:35:00-05:00,Arrived Onsite,T017,Arrived onsite.
+JE00476,J061,2026-09-25T10:55:00-05:00,Diagnosis,T017,Diagnosis complete.
+JE00477,J061,2026-09-25T11:10:00-05:00,Repair Started,T017,Work started with the parts on the van.
+JE00478,J061,2026-09-25T11:50:00-05:00,Repair Completed,T017,Repair completed.
+JE00479,J061,2026-09-25T12:03:00-05:00,Customer Signoff,T017,Customer signed off.
+JE00480,J061,2026-09-25T12:10:00-05:00,Job Completed,T017,Job completed.
+JE00481,J062,2026-09-01T16:00:00-05:00,Created,,Inverter Repair at Paper Kite Residence
+JE00482,J062,2026-09-01T16:40:00-05:00,Assigned,T021,Assigned to T021.
+JE00483,J062,2026-09-02T12:40:00-05:00,Technician Dispatched,T021,Technician dispatched.
+JE00484,J062,2026-09-02T12:55:00-05:00,En Route,T021,En route to the site.
+JE00485,J062,2026-09-02T13:20:00-05:00,Arrived Onsite,T021,Arrived onsite.
+JE00486,J062,2026-09-02T13:40:00-05:00,Diagnosis,T021,Diagnosis complete.
+JE00487,J062,2026-09-02T13:55:00-05:00,Repair Started,T021,Work started with the parts on the van.
+JE00488,J062,2026-09-02T14:35:00-05:00,Repair Completed,T021,Repair completed.
+JE00489,J062,2026-09-02T14:48:00-05:00,Customer Signoff,T021,Customer signed off.
+JE00490,J062,2026-09-02T14:55:00-05:00,Job Completed,T021,Job completed.
+JE00491,J063,2026-09-04T16:00:00-05:00,Created,,Inspection at San Gabriel Clinic Backup
+JE00492,J063,2026-09-04T16:40:00-05:00,Assigned,T001,Assigned to T001.
+JE00493,J063,2026-09-05T07:40:00-05:00,Technician Dispatched,T001,Technician dispatched.
+JE00494,J063,2026-09-05T07:55:00-05:00,En Route,T001,En route to the site.
+JE00495,J063,2026-09-05T08:20:00-05:00,Arrived Onsite,T001,Arrived onsite.
+JE00496,J063,2026-09-05T08:40:00-05:00,Diagnosis,T001,Diagnosis complete.
+JE00497,J063,2026-09-05T08:55:00-05:00,Repair Started,T001,Work started with the parts on the van.
+JE00498,J063,2026-09-05T09:35:00-05:00,Repair Completed,T001,Repair completed.
+JE00499,J063,2026-09-05T09:48:00-05:00,Customer Signoff,T001,Customer signed off.
+JE00500,J063,2026-09-05T09:55:00-05:00,Job Completed,T001,Job completed.
+JE00501,J064,2026-09-07T16:00:00-05:00,Created,,Preventive Maintenance at Prairie Switch Backup
+JE00502,J064,2026-09-07T16:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00503,J064,2026-09-08T09:55:00-05:00,Technician Dispatched,T002,Technician dispatched.
+JE00504,J064,2026-09-08T10:10:00-05:00,En Route,T002,En route to the site.
+JE00505,J064,2026-09-08T10:35:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00506,J064,2026-09-08T10:55:00-05:00,Diagnosis,T002,Diagnosis complete.
+JE00507,J064,2026-09-08T11:10:00-05:00,Repair Started,T002,Work started with the parts on the van.
+JE00508,J064,2026-09-08T11:50:00-05:00,Repair Completed,T002,Repair completed.
+JE00509,J064,2026-09-08T12:03:00-05:00,Customer Signoff,T002,Customer signed off.
+JE00510,J064,2026-09-08T12:10:00-05:00,Job Completed,T002,Job completed.
+JE00511,J065,2026-09-10T16:00:00-05:00,Created,,Emergency Service at Cottonwood Depot Office
+JE00512,J065,2026-09-10T16:40:00-05:00,Assigned,T003,Assigned to T003.
+JE00513,J065,2026-09-11T12:40:00-05:00,Technician Dispatched,T003,Technician dispatched.
+JE00514,J065,2026-09-11T12:55:00-05:00,En Route,T003,En route to the site.
+JE00515,J065,2026-09-11T13:20:00-05:00,Arrived Onsite,T003,Arrived onsite.
+JE00516,J065,2026-09-11T13:40:00-05:00,Diagnosis,T003,Diagnosis complete.
+JE00517,J065,2026-09-11T13:55:00-05:00,Repair Started,T003,Work started with the parts on the van.
+JE00518,J065,2026-09-11T14:35:00-05:00,Repair Completed,T003,Repair completed.
+JE00519,J065,2026-09-11T14:48:00-05:00,Customer Signoff,T003,Customer signed off.
+JE00520,J065,2026-09-11T14:55:00-05:00,Job Completed,T003,Job completed.
+JE00521,J066,2026-09-13T16:00:00-05:00,Created,,Troubleshooting at Lumen Court House
+JE00522,J066,2026-09-13T16:40:00-05:00,Assigned,T004,Assigned to T004.
+JE00523,J066,2026-09-14T07:40:00-05:00,Technician Dispatched,T004,Technician dispatched.
+JE00524,J066,2026-09-14T07:55:00-05:00,En Route,T004,En route to the site.
+JE00525,J066,2026-09-14T08:20:00-05:00,Arrived Onsite,T004,Arrived onsite.
+JE00526,J066,2026-09-14T08:40:00-05:00,Diagnosis,T004,Diagnosis complete.
+JE00527,J066,2026-09-14T08:55:00-05:00,Repair Started,T004,Work started with the parts on the van.
+JE00528,J066,2026-09-14T09:35:00-05:00,Repair Completed,T004,Repair completed.
+JE00529,J066,2026-09-14T09:48:00-05:00,Customer Signoff,T004,Customer signed off.
+JE00530,J066,2026-09-14T09:55:00-05:00,Job Completed,T004,Job completed.
+JE00531,J067,2026-09-16T16:00:00-05:00,Created,,Installation at Fern Basin Clinic
+JE00532,J067,2026-09-16T16:40:00-05:00,Assigned,T005,Assigned to T005.
+JE00533,J067,2026-09-17T09:55:00-05:00,Technician Dispatched,T005,Technician dispatched.
+JE00534,J067,2026-09-17T10:10:00-05:00,En Route,T005,En route to the site.
+JE00535,J067,2026-09-17T10:35:00-05:00,Arrived Onsite,T005,Arrived onsite.
+JE00536,J067,2026-09-17T10:55:00-05:00,Diagnosis,T005,Diagnosis complete.
+JE00537,J067,2026-09-17T11:10:00-05:00,Repair Started,T005,Work started with the parts on the van.
+JE00538,J067,2026-09-17T11:50:00-05:00,Repair Completed,T005,Repair completed.
+JE00539,J067,2026-09-17T12:03:00-05:00,Customer Signoff,T005,Customer signed off.
+JE00540,J067,2026-09-17T12:10:00-05:00,Job Completed,T005,Job completed.
+JE00541,J068,2026-09-19T16:00:00-05:00,Created,,Battery Replacement at Bright Lot Storage
+JE00542,J068,2026-09-19T16:40:00-05:00,Assigned,T006,Assigned to T006.
+JE00543,J068,2026-09-20T12:40:00-05:00,Technician Dispatched,T006,Technician dispatched.
+JE00544,J068,2026-09-20T12:55:00-05:00,En Route,T006,En route to the site.
+JE00545,J068,2026-09-20T13:20:00-05:00,Arrived Onsite,T006,Arrived onsite.
+JE00546,J068,2026-09-20T13:40:00-05:00,Diagnosis,T006,Diagnosis complete.
+JE00547,J068,2026-09-20T13:55:00-05:00,Repair Started,T006,Work started with the parts on the van.
+JE00548,J068,2026-09-20T14:35:00-05:00,Repair Completed,T006,Repair completed.
+JE00549,J068,2026-09-20T14:48:00-05:00,Customer Signoff,T006,Customer signed off.
+JE00550,J068,2026-09-20T14:55:00-05:00,Job Completed,T006,Job completed.
+JE00551,J069,2026-09-22T16:00:00-05:00,Created,,Battery Repair at Low Star Barn
+JE00552,J069,2026-09-22T16:40:00-05:00,Assigned,T007,Assigned to T007.
+JE00553,J069,2026-09-23T07:40:00-05:00,Technician Dispatched,T007,Technician dispatched.
+JE00554,J069,2026-09-23T07:55:00-05:00,En Route,T007,En route to the site.
+JE00555,J069,2026-09-23T08:20:00-05:00,Arrived Onsite,T007,Arrived onsite.
+JE00556,J069,2026-09-23T08:40:00-05:00,Diagnosis,T007,Diagnosis complete.
+JE00557,J069,2026-09-23T08:55:00-05:00,Repair Started,T007,Work started with the parts on the van.
+JE00558,J069,2026-09-23T09:35:00-05:00,Repair Completed,T007,Repair completed.
+JE00559,J069,2026-09-23T09:48:00-05:00,Customer Signoff,T007,Customer signed off.
+JE00560,J069,2026-09-23T09:55:00-05:00,Job Completed,T007,Job completed.
+JE00561,J070,2026-09-25T16:00:00-05:00,Created,,Inverter Repair at Bluebonnet Storage Yard
+JE00562,J070,2026-09-25T16:40:00-05:00,Assigned,T008,Assigned to T008.
+JE00563,J070,2026-09-26T09:55:00-05:00,Technician Dispatched,T008,Technician dispatched.
+JE00564,J070,2026-09-26T10:10:00-05:00,En Route,T008,En route to the site.
+JE00565,J070,2026-09-26T10:35:00-05:00,Arrived Onsite,T008,Arrived onsite.
+JE00566,J070,2026-09-26T10:55:00-05:00,Diagnosis,T008,Diagnosis complete.
+JE00567,J070,2026-09-26T11:10:00-05:00,Repair Started,T008,Work started with the parts on the van.
+JE00568,J070,2026-09-26T11:50:00-05:00,Repair Completed,T008,Repair completed.
+JE00569,J070,2026-09-26T12:03:00-05:00,Customer Signoff,T008,Customer signed off.
+JE00570,J070,2026-09-26T12:10:00-05:00,Job Completed,T008,Job completed.
+JE00571,J071,2026-09-02T16:00:00-05:00,Created,,Inspection at Hutto Grain Office
+JE00572,J071,2026-09-02T16:40:00-05:00,Assigned,T009,Assigned to T009.
+JE00573,J071,2026-09-03T12:40:00-05:00,Technician Dispatched,T009,Technician dispatched.
+JE00574,J071,2026-09-03T12:55:00-05:00,En Route,T009,En route to the site.
+JE00575,J071,2026-09-03T13:20:00-05:00,Arrived Onsite,T009,Arrived onsite.
+JE00576,J071,2026-09-03T13:40:00-05:00,Diagnosis,T009,Diagnosis complete.
+JE00577,J071,2026-09-03T13:55:00-05:00,Repair Started,T009,Work started with the parts on the van.
+JE00578,J071,2026-09-03T14:35:00-05:00,Repair Completed,T009,Repair completed.
+JE00579,J071,2026-09-03T14:48:00-05:00,Customer Signoff,T009,Customer signed off.
+JE00580,J071,2026-09-03T14:55:00-05:00,Job Completed,T009,Job completed.
+JE00581,J072,2026-09-05T16:00:00-05:00,Created,,Preventive Maintenance at Redbud Workshop
+JE00582,J072,2026-09-05T16:40:00-05:00,Assigned,T010,Assigned to T010.
+JE00583,J072,2026-09-06T07:40:00-05:00,Technician Dispatched,T010,Technician dispatched.
+JE00584,J072,2026-09-06T07:55:00-05:00,En Route,T010,En route to the site.
+JE00585,J072,2026-09-06T08:20:00-05:00,Arrived Onsite,T010,Arrived onsite.
+JE00586,J072,2026-09-06T08:40:00-05:00,Diagnosis,T010,Diagnosis complete.
+JE00587,J072,2026-09-06T08:55:00-05:00,Repair Started,T010,Work started with the parts on the van.
+JE00588,J072,2026-09-06T09:35:00-05:00,Repair Completed,T010,Repair completed.
+JE00589,J072,2026-09-06T09:48:00-05:00,Customer Signoff,T010,Customer signed off.
+JE00590,J072,2026-09-06T09:55:00-05:00,Job Completed,T010,Job completed.
+JE00591,J073,2026-09-08T16:00:00-05:00,Created,,Emergency Service at Northwind Pavilion
+JE00592,J073,2026-09-08T16:40:00-05:00,Assigned,T011,Assigned to T011.
+JE00593,J073,2026-09-09T09:55:00-05:00,Technician Dispatched,T011,Technician dispatched.
+JE00594,J073,2026-09-09T10:10:00-05:00,En Route,T011,En route to the site.
+JE00595,J073,2026-09-09T10:35:00-05:00,Arrived Onsite,T011,Arrived onsite.
+JE00596,J073,2026-09-09T10:55:00-05:00,Diagnosis,T011,Diagnosis complete.
+JE00597,J073,2026-09-09T11:10:00-05:00,Repair Started,T011,Work started with the parts on the van.
+JE00598,J073,2026-09-09T11:50:00-05:00,Repair Completed,T011,Repair completed.
+JE00599,J073,2026-09-09T12:03:00-05:00,Customer Signoff,T011,Customer signed off.
+JE00600,J073,2026-09-09T12:10:00-05:00,Job Completed,T011,Job completed.
+JE00601,J074,2026-09-11T16:00:00-05:00,Created,,Troubleshooting at Owl Creek Cabin
+JE00602,J074,2026-09-11T16:40:00-05:00,Assigned,T012,Assigned to T012.
+JE00603,J074,2026-09-12T12:40:00-05:00,Technician Dispatched,T012,Technician dispatched.
+JE00604,J074,2026-09-12T12:55:00-05:00,En Route,T012,En route to the site.
+JE00605,J074,2026-09-12T13:20:00-05:00,Arrived Onsite,T012,Arrived onsite.
+JE00606,J074,2026-09-12T13:40:00-05:00,Diagnosis,T012,Diagnosis complete.
+JE00607,J074,2026-09-12T13:55:00-05:00,Repair Started,T012,Work started with the parts on the van.
+JE00608,J074,2026-09-12T14:35:00-05:00,Repair Completed,T012,Repair completed.
+JE00609,J074,2026-09-12T14:48:00-05:00,Customer Signoff,T012,Customer signed off.
+JE00610,J074,2026-09-12T14:55:00-05:00,Job Completed,T012,Job completed.
+JE00611,J075,2026-09-14T16:00:00-05:00,Created,,Installation at Sunken Fence Office
+JE00612,J075,2026-09-14T16:40:00-05:00,Assigned,T013,Assigned to T013.
+JE00613,J075,2026-09-15T07:40:00-05:00,Technician Dispatched,T013,Technician dispatched.
+JE00614,J075,2026-09-15T07:55:00-05:00,En Route,T013,En route to the site.
+JE00615,J075,2026-09-15T08:20:00-05:00,Arrived Onsite,T013,Arrived onsite.
+JE00616,J075,2026-09-15T08:40:00-05:00,Diagnosis,T013,Diagnosis complete.
+JE00617,J075,2026-09-15T08:55:00-05:00,Repair Started,T013,Work started with the parts on the van.
+JE00618,J075,2026-09-15T09:35:00-05:00,Repair Completed,T013,Repair completed.
+JE00619,J075,2026-09-15T09:48:00-05:00,Customer Signoff,T013,Customer signed off.
+JE00620,J075,2026-09-15T09:55:00-05:00,Job Completed,T013,Job completed.
+JE00621,J076,2026-09-17T16:00:00-05:00,Created,,Battery Replacement at Cedar Dial Office
+JE00622,J076,2026-09-17T16:40:00-05:00,Assigned,T014,Assigned to T014.
+JE00623,J076,2026-09-18T09:55:00-05:00,Technician Dispatched,T014,Technician dispatched.
+JE00624,J076,2026-09-18T10:10:00-05:00,En Route,T014,En route to the site.
+JE00625,J076,2026-09-18T10:35:00-05:00,Arrived Onsite,T014,Arrived onsite.
+JE00626,J076,2026-09-18T10:55:00-05:00,Diagnosis,T014,Diagnosis complete.
+JE00627,J076,2026-09-18T11:10:00-05:00,Repair Started,T014,Work started with the parts on the van.
+JE00628,J076,2026-09-18T11:50:00-05:00,Repair Completed,T014,Repair completed.
+JE00629,J076,2026-09-18T12:03:00-05:00,Customer Signoff,T014,Customer signed off.
+JE00630,J076,2026-09-18T12:10:00-05:00,Job Completed,T014,Job completed.
+JE00631,J077,2026-09-20T16:00:00-05:00,Created,,Battery Repair at Copper Lantern Home
+JE00632,J077,2026-09-20T16:40:00-05:00,Assigned,T015,Assigned to T015.
+JE00633,J077,2026-09-21T12:40:00-05:00,Technician Dispatched,T015,Technician dispatched.
+JE00634,J077,2026-09-21T12:55:00-05:00,En Route,T015,En route to the site.
+JE00635,J077,2026-09-21T13:20:00-05:00,Arrived Onsite,T015,Arrived onsite.
+JE00636,J077,2026-09-21T13:40:00-05:00,Diagnosis,T015,Diagnosis complete.
+JE00637,J077,2026-09-21T13:55:00-05:00,Repair Started,T015,Work started with the parts on the van.
+JE00638,J077,2026-09-21T14:35:00-05:00,Repair Completed,T015,Repair completed.
+JE00639,J077,2026-09-21T14:48:00-05:00,Customer Signoff,T015,Customer signed off.
+JE00640,J077,2026-09-21T14:55:00-05:00,Job Completed,T015,Job completed.
+JE00641,J078,2026-09-23T16:00:00-05:00,Created,,Inverter Repair at Lake Glass Pavilion
+JE00642,J078,2026-09-23T16:40:00-05:00,Assigned,T016,Assigned to T016.
+JE00643,J078,2026-09-24T07:40:00-05:00,Technician Dispatched,T016,Technician dispatched.
+JE00644,J078,2026-09-24T07:55:00-05:00,En Route,T016,En route to the site.
+JE00645,J078,2026-09-24T08:20:00-05:00,Arrived Onsite,T016,Arrived onsite.
+JE00646,J078,2026-09-24T08:40:00-05:00,Diagnosis,T016,Diagnosis complete.
+JE00647,J078,2026-09-24T08:55:00-05:00,Repair Started,T016,Work started with the parts on the van.
+JE00648,J078,2026-09-24T09:35:00-05:00,Repair Completed,T016,Repair completed.
+JE00649,J078,2026-09-24T09:48:00-05:00,Customer Signoff,T016,Customer signed off.
+JE00650,J078,2026-09-24T09:55:00-05:00,Job Completed,T016,Job completed.
+JE00651,J079,2026-08-31T16:00:00-05:00,Created,,Inspection at Silver Thistle Market
+JE00652,J079,2026-08-31T16:40:00-05:00,Assigned,T017,Assigned to T017.
+JE00653,J079,2026-09-01T09:55:00-05:00,Technician Dispatched,T017,Technician dispatched.
+JE00654,J079,2026-09-01T10:10:00-05:00,En Route,T017,En route to the site.
+JE00655,J079,2026-09-01T10:35:00-05:00,Arrived Onsite,T017,Arrived onsite.
+JE00656,J079,2026-09-01T10:55:00-05:00,Diagnosis,T017,Diagnosis complete.
+JE00657,J079,2026-09-01T11:10:00-05:00,Repair Started,T017,Work started with the parts on the van.
+JE00658,J079,2026-09-01T11:50:00-05:00,Repair Completed,T017,Repair completed.
+JE00659,J079,2026-09-01T12:03:00-05:00,Customer Signoff,T017,Customer signed off.
+JE00660,J079,2026-09-01T12:10:00-05:00,Job Completed,T017,Job completed.
+JE00661,J080,2026-09-03T16:00:00-05:00,Created,,Preventive Maintenance at Gable Ridge Hall
+JE00662,J080,2026-09-03T16:40:00-05:00,Assigned,T021,Assigned to T021.
+JE00663,J080,2026-09-04T12:40:00-05:00,Technician Dispatched,T021,Technician dispatched.
+JE00664,J080,2026-09-04T12:55:00-05:00,En Route,T021,En route to the site.
+JE00665,J080,2026-09-04T13:20:00-05:00,Arrived Onsite,T021,Arrived onsite.
+JE00666,J080,2026-09-04T13:40:00-05:00,Diagnosis,T021,Diagnosis complete.
+JE00667,J080,2026-09-04T13:55:00-05:00,Repair Started,T021,Work started with the parts on the van.
+JE00668,J080,2026-09-04T14:35:00-05:00,Repair Completed,T021,Repair completed.
+JE00669,J080,2026-09-04T14:48:00-05:00,Customer Signoff,T021,Customer signed off.
+JE00670,J080,2026-09-04T14:55:00-05:00,Job Completed,T021,Job completed.
+JE00671,J081,2026-09-06T16:00:00-05:00,Created,,Emergency Service at Tin Roof Creamery
+JE00672,J081,2026-09-06T16:40:00-05:00,Assigned,T001,Assigned to T001.
+JE00673,J081,2026-09-07T07:40:00-05:00,Technician Dispatched,T001,Technician dispatched.
+JE00674,J081,2026-09-07T07:55:00-05:00,En Route,T001,En route to the site.
+JE00675,J081,2026-09-07T08:20:00-05:00,Arrived Onsite,T001,Arrived onsite.
+JE00676,J081,2026-09-07T08:40:00-05:00,Diagnosis,T001,Diagnosis complete.
+JE00677,J081,2026-09-07T08:55:00-05:00,Repair Started,T001,Work started with the parts on the van.
+JE00678,J081,2026-09-07T09:35:00-05:00,Repair Completed,T001,Repair completed.
+JE00679,J081,2026-09-07T09:48:00-05:00,Customer Signoff,T001,Customer signed off.
+JE00680,J081,2026-09-07T09:55:00-05:00,Job Completed,T001,Job completed.
+JE00681,J082,2026-09-09T16:00:00-05:00,Created,,Troubleshooting at Little Anvil Shop
+JE00682,J082,2026-09-09T16:40:00-05:00,Assigned,T002,Assigned to T002.
+JE00683,J082,2026-09-10T09:55:00-05:00,Technician Dispatched,T002,Technician dispatched.
+JE00684,J082,2026-09-10T10:10:00-05:00,En Route,T002,En route to the site.
+JE00685,J082,2026-09-10T10:35:00-05:00,Arrived Onsite,T002,Arrived onsite.
+JE00686,J082,2026-09-10T10:55:00-05:00,Diagnosis,T002,Diagnosis complete.
+JE00687,J082,2026-09-10T11:10:00-05:00,Repair Started,T002,Work started with the parts on the van.
+JE00688,J082,2026-09-10T11:50:00-05:00,Repair Completed,T002,Repair completed.
+JE00689,J082,2026-09-10T12:03:00-05:00,Customer Signoff,T002,Customer signed off.
+JE00690,J082,2026-09-10T12:10:00-05:00,Job Completed,T002,Job completed.
+JE00691,J083,2026-09-12T16:00:00-05:00,Created,,Installation at Soft Rain House
+JE00692,J083,2026-09-12T16:40:00-05:00,Assigned,T003,Assigned to T003.
+JE00693,J083,2026-09-13T12:40:00-05:00,Technician Dispatched,T003,Technician dispatched.
+JE00694,J083,2026-09-13T12:55:00-05:00,En Route,T003,En route to the site.
+JE00695,J083,2026-09-13T13:20:00-05:00,Arrived Onsite,T003,Arrived onsite.
+JE00696,J083,2026-09-13T13:40:00-05:00,Diagnosis,T003,Diagnosis complete.
+JE00697,J083,2026-09-13T13:55:00-05:00,Repair Started,T003,Work started with the parts on the van.
+JE00698,J083,2026-09-13T14:35:00-05:00,Repair Completed,T003,Repair completed.
+JE00699,J083,2026-09-13T14:48:00-05:00,Customer Signoff,T003,Customer signed off.
+JE00700,J083,2026-09-13T14:55:00-05:00,Job Completed,T003,Job completed.
+JE00701,J084,2026-09-15T16:00:00-05:00,Created,,Battery Replacement at Open Gate Pavilion
+JE00702,J084,2026-09-15T16:40:00-05:00,Assigned,T004,Assigned to T004.
+JE00703,J084,2026-09-16T07:40:00-05:00,Technician Dispatched,T004,Technician dispatched.
+JE00704,J084,2026-09-16T07:55:00-05:00,En Route,T004,En route to the site.
+JE00705,J084,2026-09-16T08:20:00-05:00,Arrived Onsite,T004,Arrived onsite.
+JE00706,J084,2026-09-16T08:40:00-05:00,Diagnosis,T004,Diagnosis complete.
+JE00707,J084,2026-09-16T08:55:00-05:00,Repair Started,T004,Work started with the parts on the van.
+JE00708,J084,2026-09-16T09:35:00-05:00,Repair Completed,T004,Repair completed.
+JE00709,J084,2026-09-16T09:48:00-05:00,Customer Signoff,T004,Customer signed off.
+JE00710,J084,2026-09-16T09:55:00-05:00,Job Completed,T004,Job completed.
+JE00711,J085,2026-09-18T16:00:00-05:00,Created,,Battery Repair at Cedar Kettle Works
+JE00712,J085,2026-09-18T16:40:00-05:00,Assigned,T005,Assigned to T005.
+JE00713,J085,2026-09-19T09:55:00-05:00,Technician Dispatched,T005,Technician dispatched.
+JE00714,J085,2026-09-19T10:10:00-05:00,En Route,T005,En route to the site.
+JE00715,J085,2026-09-19T10:35:00-05:00,Arrived Onsite,T005,Arrived onsite.
+JE00716,J085,2026-09-19T10:55:00-05:00,Diagnosis,T005,Diagnosis complete.
+JE00717,J085,2026-09-19T11:10:00-05:00,Repair Started,T005,Work started with the parts on the van.
+JE00718,J085,2026-09-19T11:50:00-05:00,Repair Completed,T005,Repair completed.
+JE00719,J085,2026-09-19T12:03:00-05:00,Customer Signoff,T005,Customer signed off.
+JE00720,J085,2026-09-19T12:10:00-05:00,Job Completed,T005,Job completed.
+JE00721,J086,2026-09-21T16:00:00-05:00,Created,,Inverter Repair at Quail Run Backup
+JE00722,J086,2026-09-21T16:40:00-05:00,Assigned,T006,Assigned to T006.
+JE00723,J086,2026-09-22T12:40:00-05:00,Technician Dispatched,T006,Technician dispatched.
+JE00724,J086,2026-09-22T12:55:00-05:00,En Route,T006,En route to the site.
+JE00725,J086,2026-09-22T13:20:00-05:00,Arrived Onsite,T006,Arrived onsite.
+JE00726,J086,2026-09-22T13:40:00-05:00,Diagnosis,T006,Diagnosis complete.
+JE00727,J086,2026-09-22T13:55:00-05:00,Repair Started,T006,Work started with the parts on the van.
+JE00728,J086,2026-09-22T14:35:00-05:00,Repair Completed,T006,Repair completed.
+JE00729,J086,2026-09-22T14:48:00-05:00,Customer Signoff,T006,Customer signed off.
+JE00730,J086,2026-09-22T14:55:00-05:00,Job Completed,T006,Job completed.
+JE00731,J087,2026-09-09T11:00:00-05:00,Created,,Installation cancelled before dispatch at Rope Bridge Lodge
+JE00732,J087,2026-09-09T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00733,J088,2026-09-10T11:00:00-05:00,Created,,Battery Replacement cancelled before dispatch at Kindling Yard
+JE00734,J088,2026-09-10T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00735,J089,2026-09-11T11:00:00-05:00,Created,,Battery Repair cancelled before dispatch at Soft Rain House
+JE00736,J089,2026-09-11T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00737,J090,2026-09-12T11:00:00-05:00,Created,,Inverter Repair cancelled before dispatch at Cedar Dial Office
+JE00738,J090,2026-09-12T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00739,J091,2026-09-13T11:00:00-05:00,Created,,Inspection cancelled before dispatch at Low Star Barn
+JE00740,J091,2026-09-13T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00741,J092,2026-09-14T11:00:00-05:00,Created,,Preventive Maintenance cancelled before dispatch at Paper Kite Residence
+JE00742,J092,2026-09-14T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00743,J093,2026-09-15T11:00:00-05:00,Created,,Emergency Service cancelled before dispatch at Vine Switch Storage
+JE00744,J093,2026-09-15T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00745,J094,2026-09-16T11:00:00-05:00,Created,,Troubleshooting cancelled before dispatch at Quiet Motor Court
+JE00746,J094,2026-09-16T12:30:00-05:00,Escalated,,Cancelled before dispatch: customer postponed the visit.
+JE00747,J095,2026-09-27T12:00:00-05:00,Created,,Unassigned inverter repair later in the week at Briar Pump Station
+JE00748,J096,2026-09-27T12:00:00-05:00,Created,,Unassigned inspection later in the week at Lumen Court House
+JE00749,J097,2026-09-27T12:00:00-05:00,Created,,Unassigned preventive maintenance later in the week at Kite String Warehouse
+JE00750,J098,2026-09-27T12:00:00-05:00,Created,,Unassigned emergency service later in the week at Owl Creek Cabin
+JE00751,J099,2026-09-27T12:00:00-05:00,Created,,Unassigned troubleshooting later in the week at High Lamp House
+JE00752,J100,2026-09-27T12:00:00-05:00,Created,,Unassigned installation later in the week at Little Anvil Shop

@@ -1,0 +1,21 @@
+risk_id,opened_date,severity,status,market_id,warehouse_id,part_id,related_incident_id,related_initiative_id,scenario_id,affected_metric,observed_value,title,summary
+RSK-01,2026-08-26,Critical,open,MKT-002,W001,,,INIT-02,SCN-01,installations_completed,11,North Austin installations down,Completed installations in MKT-002 fell after 2026-08-24 while the monthly target did not.
+RSK-02,2026-08-26,Critical,open,MKT-002,W001,P006,,INIT-03,SCN-04,weeks_of_supply,0.0,P006 stockout at W001,HaloWave 7.6 Hybrid Inverter weeks_of_supply at W001 is 0.0 on the inventory snapshot.
+RSK-03,2026-09-15,High,open,,,,INC-002,INIT-05,SCN-05,firmware_related_incidents,7,Firmware 4.3.0 regression,"INC-002 is the heartbeat regression. The week of 2026-09-15 spiked, then the next week declined only part way."
+RSK-04,2026-07-08,High,open,MKT-006,W003,,,INIT-04,SCN-03,certified_technician_count,3,San Marcos launch blocked,Launch roster certification is 3 of 5. WMS locations for San Marcos at W003 are unfinished.
+RSK-05,2026-09-16,High,open,,,,INC-005,INIT-06,SCN-08,failure_rate,0.4286,HW-C battery failure rate,Battery HW-C failure_rate is above Battery HW-B. INC-005 is the investigated mechanism.
+RSK-06,2026-06-15,High,open,MKT-001,,,,INIT-08,SCN-07,utilization_percentage,131,Austin Metro crew over book,Scheduled installs in MKT-001 rose faster than certified headcount. Utilization is above 100 and open_positions is 3.
+RSK-07,2026-09-02,High,open,MKT-002,,,,,SCN-06,csat_score,56,North Austin CSAT decline,"CSAT, response time, repeat contacts, and installation complaints moved together in MKT-002."
+RSK-08,2026-08-26,Medium,open,MKT-002,W001,P006,,INIT-03,SCN-04,jobs_waiting_for_parts,8,Jobs waiting for parts,MKT-002 month-end jobs_waiting_for_parts is elevated versus June.
+RSK-09,2026-08-26,Medium,mitigating,,W001,P006,,INIT-03,SCN-04,stockout_events,19,W001 stockout days,Market-days with a stockout flag rose for the W001 markets after 2026-08-24.
+RSK-10,2026-08-26,Medium,open,MKT-002,,,,INIT-02,SCN-01,average_cycle_time_days,18.0,North Austin cycle time,September cycle time in MKT-002 is longer than July.
+RSK-11,2026-07-06,Medium,monitoring,MKT-005,,,,INIT-01,SCN-09,average_cycle_time_days,8.0,Georgetown cycle time watch,Cycle time fell after INIT-01. Keep watching so the gain holds.
+RSK-12,2026-05-04,Low,monitoring,MKT-003,W002,,,,SCN-10,overtime_hours,0,Round Rock overtime watch,"Round Rock overtime is not the current constraint. Status is monitoring, severity Low."
+RSK-13,2026-04-09,Low,closed,MKT-003,,,,,,installation_complaint_count,1,Closed spring complaint cluster,An April complaint cluster in Round Rock was closed. It is not an open executive issue.
+RSK-14,2026-09-10,Critical,mitigating,MKT-003,W002,P018,,INIT-03,SCN-04,weeks_of_supply,1.0,P018 low at W002,Class T fuse weeks of supply at W002 are low. This is a different part and warehouse from the P006 stockout.
+RSK-15,2026-01-12,Critical,closed,,W002,,,,,stockout_events,0,Closed winter stockout,A January W002 stockout was closed. September company history is a different event.
+RSK-16,2026-08-03,High,mitigating,MKT-002,,,,INIT-02,SCN-07,open_positions,4,North Austin open positions,MKT-002 open_positions is 4 against a two-person field extract.
+RSK-17,2026-08-26,High,monitoring,MKT-002,,,,INIT-02,SCN-01,rework_rate,0.636,North Austin rework,Rework rate in MKT-002 rose after 2026-08-24.
+RSK-18,2026-06-01,Medium,closed,MKT-005,,,,INIT-01,SCN-09,first_time_completion_rate,0.947,Georgetown quality gap closed,The pre-July quality gap in Georgetown is closed. INIT-01 stays on the books as completed work.
+RSK-19,2026-09-01,Low,open,,W002,,,,SCN-10,inventory_accuracy_percentage,99,W002 accuracy watch,W002 inventory accuracy is healthy. Severity is Low and status is open as a watch item.
+RSK-20,2026-07-20,Medium,open,MKT-006,W003,P003,,INIT-04,SCN-03,launch_location_configured,no,San Marcos inventory and WMS,"W003 launch_location_configured is no. P003 quantity_available at W003 is 0, and P006 is not a stocked launch position there."

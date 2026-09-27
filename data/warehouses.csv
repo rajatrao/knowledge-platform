@@ -1,0 +1,4 @@
+warehouse_id,warehouse_name,city,latitude,longitude,operating_hours,manager_name,status
+W001,Mesa Volt Depot,Austin,30.30480,-97.72160,Daily 06:00-18:00,Orla Mint,Open
+W002,Brushy Creek Parts Hub,Round Rock,30.53440,-97.68920,Daily 06:00-18:00,Galen Moss,Open
+W003,Bluebonnet Service Warehouse,Georgetown,30.64150,-97.67040,Daily 06:00-18:00,Ida Barrow,Open

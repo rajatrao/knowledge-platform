@@ -1,0 +1,27 @@
+week_start,firmware_related_incidents,active_incidents,new_incidents,resolved_incidents,devices_on_firmware_430,rollout_affected_device_count,primary_incident_id,notes
+2026-03-30,0,4,2,2,0,0,,
+2026-04-06,0,4,2,2,0,0,,
+2026-04-13,0,4,2,2,0,0,,
+2026-04-20,0,4,2,2,0,0,,
+2026-04-27,0,4,2,2,0,0,,
+2026-05-04,0,4,2,2,0,0,,
+2026-05-11,0,4,2,2,0,0,,
+2026-05-18,0,4,2,2,0,0,,
+2026-05-25,0,4,2,2,0,0,,
+2026-06-01,0,4,2,2,0,0,,
+2026-06-08,0,4,2,2,0,0,,
+2026-06-15,0,4,2,2,0,0,,
+2026-06-22,0,4,2,2,0,0,,
+2026-06-29,0,4,2,2,0,0,,
+2026-07-06,0,4,2,2,0,0,,
+2026-07-13,0,4,2,2,0,0,,
+2026-07-20,0,4,2,2,0,0,,
+2026-07-27,0,4,2,2,0,0,,
+2026-08-03,0,4,2,2,0,0,,
+2026-08-10,0,4,2,2,0,0,,
+2026-08-17,0,4,2,2,0,0,,
+2026-08-24,0,4,2,2,0,0,,
+2026-08-31,1,4,3,3,0,0,INC-022,INC-022 is firmware_related on 4.3.1. It is not the 4.3.0 regression.
+2026-09-07,0,4,2,2,0,0,,
+2026-09-14,7,12,9,1,5,5,INC-002,Week of 2026-09-15 (week starting 2026-09-14). INC-002 affected_device_count is 5. Firmware 4.3.0 rollout spike.
+2026-09-21,3,8,3,7,2,2,INC-002,"Partial decline after the 4.3.0 halt and rollback. INC-002 is still the primary incident. devices.csv currently shows 2 devices on 4.3.0 (DEV-012, DEV-098)."

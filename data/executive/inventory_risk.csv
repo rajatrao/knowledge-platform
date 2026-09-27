@@ -1,0 +1,21 @@
+risk_id,as_of_date,part_id,warehouse_id,part_name,part_criticality,current_available_quantity,weekly_consumption,weeks_of_supply,stockout_risk,jobs_blocked,affected_market_ids,note
+IR-001,2026-09-27,P006,W001,HaloWave 7.6 Hybrid Inverter,Critical,0,4,0.0,Critical,0,MKT-001;MKT-002,"W001 quantity_available for P006 HaloWave 7.6 Hybrid Inverter is 0. No Waiting for Parts job in jobs.csv has a customer in a W001 market. J007 is an inverter repair waiting on parts for a Cedar Park customer served by W002, where P006 is still available. Weekly consumption is a planning rate, not a purchase order."
+IR-002,2026-09-27,P003,W003,Battery Interconnect Busbar Kit,High,0,1,0.0,High,0,MKT-005;MKT-006,Battery Interconnect Busbar Kit quantity_available is 0 at W003.
+IR-003,2026-09-27,P018,W002,200A Class T Fuse,Critical,2,2,1.0,High,1,MKT-003;MKT-004;MKT-007,"P018 200A Class T Fuse is below reorder at W002 (quantity_available 2). J001 is Waiting for Parts with an open Class T fuse symptom. W001 still shows a higher P018 balance, so this is not the same position as the W001 P006 stockout."
+IR-004,2026-09-27,P018,W003,200A Class T Fuse,Critical,2,2,1.0,High,0,MKT-005;MKT-006,"P018 200A Class T Fuse is below reorder at W003 (quantity_available 2). J001 is Waiting for Parts with an open Class T fuse symptom. W001 still shows a higher P018 balance, so this is not the same position as the W001 P006 stockout."
+IR-005,2026-09-27,P021,W002,Surge Protection Device Type 2,High,2,1,2.0,Medium,0,MKT-003;MKT-004;MKT-007,Surge Protection Device Type 2 is below its warehouse reorder point at W002.
+IR-006,2026-09-27,P030,W002,Insulation Resistance Tester,High,0,1,0.0,High,0,MKT-003;MKT-004;MKT-007,Insulation Resistance Tester quantity_available is 0 at W002.
+IR-007,2026-09-27,P015,W001,MC4 Connector Pair,Medium,176,1,176.0,Low,0,MKT-001;MKT-002,MC4 Connector Pair quantity_available at W001 covers multiple weeks at the planning rate.
+IR-008,2026-09-27,P005,W001,Battery Enclosure Gasket,Low,90,1,90.0,Low,0,MKT-001;MKT-002,Battery Enclosure Gasket quantity_available at W001 covers multiple weeks at the planning rate.
+IR-009,2026-09-27,P015,W003,MC4 Connector Pair,Medium,30,1,30.0,Low,0,MKT-005;MKT-006,MC4 Connector Pair quantity_available at W003 covers multiple weeks at the planning rate.
+IR-010,2026-09-27,P015,W002,MC4 Connector Pair,Medium,28,1,28.0,Low,0,MKT-003;MKT-004;MKT-007,MC4 Connector Pair quantity_available at W002 covers multiple weeks at the planning rate.
+IR-011,2026-09-27,P019,W003,30A PV String Fuse,Medium,26,1,26.0,Low,0,MKT-005;MKT-006,30A PV String Fuse quantity_available at W003 covers multiple weeks at the planning rate.
+IR-012,2026-09-27,P019,W002,30A PV String Fuse,Medium,24,1,24.0,Low,0,MKT-003;MKT-004;MKT-007,30A PV String Fuse quantity_available at W002 covers multiple weeks at the planning rate.
+IR-013,2026-09-27,P005,W003,Battery Enclosure Gasket,Low,22,1,22.0,Low,0,MKT-005;MKT-006,Battery Enclosure Gasket quantity_available at W003 covers multiple weeks at the planning rate.
+IR-014,2026-09-27,P019,W001,30A PV String Fuse,Medium,22,1,22.0,Low,0,MKT-001;MKT-002,30A PV String Fuse quantity_available at W001 covers multiple weeks at the planning rate.
+IR-015,2026-09-27,P005,W002,Battery Enclosure Gasket,Low,20,1,20.0,Low,0,MKT-003;MKT-004;MKT-007,Battery Enclosure Gasket quantity_available at W002 covers multiple weeks at the planning rate.
+IR-016,2026-09-27,P017,W003,Battery Terminal Lug Set,Medium,20,1,20.0,Low,0,MKT-005;MKT-006,Battery Terminal Lug Set quantity_available at W003 covers multiple weeks at the planning rate.
+IR-017,2026-09-27,P012,W003,4 AWG Battery Cable 3m,High,18,1,18.0,Low,0,MKT-005;MKT-006,4 AWG Battery Cable 3m quantity_available at W003 covers multiple weeks at the planning rate.
+IR-018,2026-09-27,P014,W003,Communication Cable 15m,Low,18,1,18.0,Low,0,MKT-005;MKT-006,Communication Cable 15m quantity_available at W003 covers multiple weeks at the planning rate.
+IR-019,2026-09-27,P017,W002,Battery Terminal Lug Set,Medium,18,1,18.0,Low,0,MKT-003;MKT-004;MKT-007,Battery Terminal Lug Set quantity_available at W002 covers multiple weeks at the planning rate.
+IR-020,2026-09-27,P024,W003,Concrete Anchor Bolt Pack,Low,18,1,18.0,Low,0,MKT-005;MKT-006,Concrete Anchor Bolt Pack quantity_available at W003 covers multiple weeks at the planning rate.

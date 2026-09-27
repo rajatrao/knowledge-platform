@@ -1,0 +1,45 @@
+site_id,customer_id,site_name,city,latitude,longitude,system_configuration,battery_capacity_kwh,inverter_capacity_kw,number_of_batteries,number_of_inverters,installation_date,commissioning_date,site_status
+SITE-001,CUST-001,Copper Elm Node,Austin,30.213200,-97.785100,Single Battery + Single Inverter,200,90,1,1,2025-06-02,2025-06-14,Active
+SITE-002,CUST-002,Glass Creek Yard,Round Rock,30.472300,-97.699900,Single Battery + Single Inverter,200,90,1,1,2025-06-13,2025-06-25,Active
+SITE-003,CUST-003,Redbud Range Pad,Cedar Park,30.487200,-97.820300,Single Battery + Single Inverter,200,90,1,1,2025-06-24,2025-07-06,Active
+SITE-004,CUST-004,Switchgrass Hold,Georgetown,30.633300,-97.656000,Single Battery + Single Inverter,200,90,1,1,2025-07-05,2025-07-17,Active
+SITE-005,CUST-005,Cotton Flat Node,Pflugerville,30.457400,-97.578000,Single Battery + Single Inverter,200,90,1,1,2025-07-16,2025-07-28,Active
+SITE-006,CUST-006,Limestone Yard,Leander,30.614800,-97.895100,Single Battery + Single Inverter,200,90,1,1,2025-07-27,2025-08-08,Active
+SITE-007,CUST-007,Owl Hollow Pad,Austin,30.321200,-97.764100,Single Battery + Single Inverter,200,90,1,1,2025-08-07,2025-08-19,Active
+SITE-008,CUST-008,Briar DC Node,Round Rock,30.454300,-97.678900,Single Battery + Single Inverter,200,90,1,1,2025-08-18,2025-08-30,Active
+SITE-009,CUST-009,Pebble Ford Yard,Cedar Park,30.469200,-97.799300,Single Battery + Single Inverter,200,90,1,1,2025-08-29,2025-09-10,Active
+SITE-010,CUST-010,Yellow Dock Hold,Georgetown,30.615300,-97.635000,Single Battery + Single Inverter,200,90,1,1,2025-09-09,2025-09-21,Active
+SITE-011,CUST-001,Blue Sage Node,Pflugerville,30.439400,-97.662000,Single Battery + Single Inverter,200,90,1,1,2025-09-20,2025-10-02,Active
+SITE-012,CUST-002,Warm Spring Yard,Leander,30.596800,-97.874100,Single Battery + Single Inverter,200,90,1,1,2025-10-01,2025-10-13,Active
+SITE-013,CUST-003,High Lamp Pad,Austin,30.303200,-97.743100,Single Battery + Single Inverter,200,90,1,1,2025-10-12,2025-10-24,Active
+SITE-014,CUST-004,Little Brake Node,Round Rock,30.562300,-97.657900,Single Battery + Single Inverter,200,90,1,1,2025-10-23,2025-11-04,Active
+SITE-015,CUST-005,Open Cinder Yard,Cedar Park,30.451200,-97.778300,Single Battery + Single Inverter,200,90,1,1,2025-11-03,2025-11-15,Active
+SITE-016,CUST-006,Stonewater Hold,Georgetown,30.597300,-97.719000,Single Battery + Single Inverter,200,90,1,1,2025-11-14,2025-11-26,Active
+SITE-017,CUST-007,Clear Fork Node,Pflugerville,30.421400,-97.641000,Single Battery + Single Inverter,200,90,1,1,2025-11-25,2025-12-07,Active
+SITE-018,CUST-008,North Mesa Yard,Leander,30.578800,-97.853100,Single Battery + Single Inverter,200,90,1,1,2025-12-06,2025-12-18,Active
+SITE-019,CUST-009,Lantern Field Pad,Austin,30.285200,-97.722100,Single Battery + Single Inverter,200,90,1,1,2025-12-17,2025-12-29,Active
+SITE-020,CUST-010,Cinder Flat Node,Round Rock,30.544300,-97.636900,Dual Battery + Single Inverter,400,90,2,1,2025-06-11,2025-06-23,Active
+SITE-021,CUST-001,Dry Sage Yard,Cedar Park,30.559200,-97.862300,Dual Battery + Single Inverter,400,90,2,1,2025-06-22,2025-07-04,Active
+SITE-022,CUST-002,Bright Lug Hold,Georgetown,30.579300,-97.698000,Dual Battery + Single Inverter,400,90,2,1,2025-07-03,2025-07-15,Active
+SITE-023,CUST-003,West Arroyo Node,Austin,30.231200,-97.743100,Dual Battery + Dual Inverter,400,180,2,2,2025-07-14,2025-07-26,Active
+SITE-024,CUST-004,East Arroyo Yard,Leander,30.560800,-97.832100,Dual Battery + Dual Inverter,400,180,2,2,2025-07-25,2025-08-06,Active
+SITE-025,CUST-005,Helio Bench Pad,Pflugerville,30.439400,-97.578000,Battery + Solar + Inverter,200,90,1,1,2025-08-05,2025-08-17,Active
+SITE-026,CUST-006,South Helio Node,Austin,30.285200,-97.785100,Battery + Solar + Inverter,200,90,1,1,2025-08-16,2025-08-28,Active
+SITE-027,CUST-007,North Helio Yard,Round Rock,30.544300,-97.699900,Battery + Solar + Inverter,200,90,1,1,2025-08-27,2025-09-08,Active
+SITE-028,CUST-008,Helio Spur Hold,Cedar Park,30.559200,-97.820300,Battery + Solar + Inverter,200,90,1,1,2025-09-07,2025-09-19,Active
+SITE-029,CUST-009,BusTie North Node,Georgetown,30.579300,-97.656000,Battery + Grid Controller,200,0,1,0,2025-09-18,2025-09-30,Active
+SITE-030,CUST-010,BusTie South Yard,Leander,30.542800,-97.811100,Battery + Grid Controller,200,0,1,0,2025-09-29,2025-10-11,Active
+SITE-031,CUST-001,BusTie East Pad,Austin,30.249200,-97.785100,Battery + Grid Controller,200,0,1,0,2025-10-10,2025-10-22,Active
+SITE-032,CUST-002,BusTie West Hold,Pflugerville,30.439400,-97.641000,Battery + Grid Controller,200,0,1,0,2025-10-21,2025-11-02,Active
+SITE-033,CUST-003,Compact Elm One,Austin,30.285200,-97.743100,Single Battery + Single Inverter,200,90,1,1,2025-11-01,2025-11-13,Maintenance
+SITE-034,CUST-004,Compact Elm Two,Round Rock,30.544300,-97.657900,Single Battery + Single Inverter,200,90,1,1,2025-11-12,2025-11-24,Active
+SITE-035,CUST-005,Compact Creek Three,Cedar Park,30.559200,-97.778300,Single Battery + Single Inverter,200,90,1,1,2025-11-23,2025-12-05,Active
+SITE-036,CUST-006,Compact Creek Four,Georgetown,30.579300,-97.719000,Single Battery + Single Inverter,200,90,1,1,2025-12-04,2025-12-16,Active
+SITE-037,CUST-007,Compact Range Five,Pflugerville,30.403400,-97.641000,Single Battery + Single Inverter,200,90,1,1,2025-12-15,2025-12-27,Active
+SITE-038,CUST-008,Compact Range Six,Leander,30.560800,-97.853100,Single Battery + Single Inverter,200,90,1,1,2025-06-09,2025-06-21,Active
+SITE-039,CUST-009,Compact Hold Seven,Austin,30.267200,-97.722100,Single Battery + Single Inverter,200,90,1,1,2025-06-20,2025-07-02,Active
+SITE-040,CUST-010,Compact Hold Eight,Round Rock,30.526300,-97.636900,Single Battery + Single Inverter,200,90,1,1,2025-07-01,2025-07-13,Active
+SITE-041,CUST-001,Compact Flat Nine,Cedar Park,30.541200,-97.862300,Single Battery + Single Inverter,200,90,1,1,2025-07-12,2025-07-24,Active
+SITE-042,CUST-002,Compact Flat Ten,Georgetown,30.687300,-97.698000,Single Battery + Single Inverter,200,90,1,1,2025-07-23,2025-08-04,Active
+SITE-043,CUST-003,Compact Sage Eleven,Pflugerville,30.385400,-97.620000,Single Battery + Single Inverter,200,90,1,1,2025-08-03,2025-08-15,Active
+SITE-044,CUST-004,Compact Sage Twelve,Leander,30.542800,-97.832100,Single Battery + Single Inverter,200,90,1,1,2025-08-14,2025-08-26,Active

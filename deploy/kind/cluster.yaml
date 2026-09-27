@@ -1,0 +1,13 @@
+# kind cluster for the knowledge agent sandbox.
+# gVisor is the RuntimeClass named in deploy/sandbox/sandbox-template.yaml.
+# scripts/kind-up.sh installs runsc inside the node; this patch registers it
+# with containerd. The script also writes /etc/containerd/runsc.toml (systrap)
+# so the runtime works when the node has no /dev/kvm, including Docker Desktop.
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+containerdConfigPatches:
+  - |-
+    [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runsc]
+      runtime_type = "io.containerd.runsc.v1"
+nodes:
+  - role: control-plane

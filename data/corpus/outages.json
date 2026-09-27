@@ -1,0 +1,36 @@
+[
+  {
+    "id": "doc_outage_months",
+    "source_type": "customer_outage",
+    "title": "Customer outages, April-September 2026",
+    "body": "From April 2026 through September 2026, fake sample data records 696 customer outages. Batteries covered 592. 104 customers lost power. This is fake sample data, not a live outage feed.\nApril 2026 customer outages: 80 customers, battery covered 72, 8 lost power, median duration 41 minutes. Leading cause was a utility grid outage.\nMay 2026 customer outages: 146 customers, battery covered 121, 25 lost power, median duration 78 minutes. Leading cause was a utility feeder outage during a thunderstorm.\nJune 2026 customer outages: 94 customers, battery covered 86, 8 lost power, median duration 36 minutes. Leading cause was planned utility maintenance.\nJuly 2026 customer outages: 121 customers, battery covered 103, 18 lost power, median duration 54 minutes. Leading cause was a utility grid outage.\nAugust 2026 customer outages: 188 customers, battery covered 149, 39 lost power, median duration 96 minutes. Leading cause was grid load shed during a heat wave.\nSeptember 2026 customer outages: 67 customers, battery covered 61, 6 lost power, median duration 29 minutes. Leading cause was a utility grid outage.",
+    "region": null,
+    "channel": "internal",
+    "theme": null,
+    "cause": null,
+    "recommended_action": null,
+    "installation_state": null,
+    "blocker": null,
+    "sentiment": null,
+    "value_theme": null,
+    "technical_issue": null,
+    "created_at": "2026-09-26T12:00:00Z"
+  },
+  {
+    "id": "doc_outage_events",
+    "source_type": "customer_outage",
+    "title": "Customer outage events, April-September 2026",
+    "body": "On 2026-05-12 in Houston, 61 of May 2026's 146 customer outages occurred. Batteries covered 48. 13 customers lost power for a median 110 minutes. Cause: a thunderstorm opened a utility feeder.\nOn 2026-06-03 in Austin, 14 of June 2026's 94 customer outages occurred. Batteries covered 14. 0 customers lost power for a median 22 minutes. Cause: planned utility maintenance.\nOn 2026-08-14 in Houston and Dallas, 97 of August 2026's 188 customer outages occurred. Batteries covered 71. 26 customers lost power for a median 140 minutes. Cause: grid load shed during a heat wave, and 9 batteries did not start.",
+    "region": null,
+    "channel": "internal",
+    "theme": null,
+    "cause": null,
+    "recommended_action": null,
+    "installation_state": null,
+    "blocker": null,
+    "sentiment": null,
+    "value_theme": null,
+    "technical_issue": null,
+    "created_at": "2026-09-26T12:00:00Z"
+  }
+]

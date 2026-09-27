@@ -1,0 +1,470 @@
+transaction_id,timestamp,part_id,quantity,transaction_type,from_location_type,from_location_id,to_location_type,to_location_id,technician_id,van_id,job_id,notes
+TX00001,2026-09-01T06:07:00-05:00,P002,20,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P002 into W001 for September field stock.
+TX00002,2026-09-01T06:08:00-05:00,P003,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P003 into W001 for September field stock.
+TX00003,2026-09-01T06:09:00-05:00,P004,35,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P004 into W001 for September field stock.
+TX00004,2026-09-01T06:10:00-05:00,P005,90,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P005 into W001 for September field stock.
+TX00005,2026-09-01T06:12:00-05:00,P007,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P007 into W001 for September field stock.
+TX00006,2026-09-01T06:12:00-05:00,P002,19,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P002 into W002 for September field stock.
+TX00007,2026-09-01T06:13:00-05:00,P008,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P008 into W001 for September field stock.
+TX00008,2026-09-01T06:13:00-05:00,P003,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P003 into W002 for September field stock.
+TX00009,2026-09-01T06:14:00-05:00,P009,31,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P009 into W001 for September field stock.
+TX00010,2026-09-01T06:14:00-05:00,P004,34,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P004 into W002 for September field stock.
+TX00011,2026-09-01T06:15:00-05:00,P010,12,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P010 into W001 for September field stock.
+TX00012,2026-09-01T06:15:00-05:00,P005,20,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P005 into W002 for September field stock.
+TX00013,2026-09-01T06:16:00-05:00,P011,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P011 into W001 for September field stock.
+TX00014,2026-09-01T06:17:00-05:00,P012,58,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P012 into W001 for September field stock.
+TX00015,2026-09-01T06:17:00-05:00,P007,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P007 into W002 for September field stock.
+TX00016,2026-09-01T06:17:00-05:00,P002,20,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P002 into W003 for September field stock.
+TX00017,2026-09-01T06:18:00-05:00,P013,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P013 into W001 for September field stock.
+TX00018,2026-09-01T06:18:00-05:00,P008,19,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P008 into W002 for September field stock.
+TX00019,2026-09-01T06:18:00-05:00,P003,2,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P003 into W003 for September field stock.
+TX00020,2026-09-01T06:19:00-05:00,P014,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P014 into W001 for September field stock.
+TX00021,2026-09-01T06:19:00-05:00,P009,30,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P009 into W002 for September field stock.
+TX00022,2026-09-01T06:19:00-05:00,P004,30,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P004 into W003 for September field stock.
+TX00023,2026-09-01T06:20:00-05:00,P015,240,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P015 into W001 for September field stock.
+TX00024,2026-09-01T06:20:00-05:00,P010,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P010 into W002 for September field stock.
+TX00025,2026-09-01T06:20:00-05:00,P005,22,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P005 into W003 for September field stock.
+TX00026,2026-09-01T06:21:00-05:00,P016,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P016 into W001 for September field stock.
+TX00027,2026-09-01T06:21:00-05:00,P011,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P011 into W002 for September field stock.
+TX00028,2026-09-01T06:22:00-05:00,P017,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P017 into W001 for September field stock.
+TX00029,2026-09-01T06:22:00-05:00,P012,52,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P012 into W002 for September field stock.
+TX00030,2026-09-01T06:22:00-05:00,P007,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P007 into W003 for September field stock.
+TX00031,2026-09-01T06:23:00-05:00,P018,22,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P018 into W001 for September field stock.
+TX00032,2026-09-01T06:23:00-05:00,P013,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P013 into W002 for September field stock.
+TX00033,2026-09-01T06:23:00-05:00,P008,18,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P008 into W003 for September field stock.
+TX00034,2026-09-01T06:24:00-05:00,P019,58,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P019 into W001 for September field stock.
+TX00035,2026-09-01T06:24:00-05:00,P014,21,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P014 into W002 for September field stock.
+TX00036,2026-09-01T06:24:00-05:00,P009,28,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P009 into W003 for September field stock.
+TX00037,2026-09-01T06:25:00-05:00,P020,18,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P020 into W001 for September field stock.
+TX00038,2026-09-01T06:25:00-05:00,P015,78,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P015 into W002 for September field stock.
+TX00039,2026-09-01T06:25:00-05:00,P010,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P010 into W003 for September field stock.
+TX00040,2026-09-01T06:26:00-05:00,P021,9,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P021 into W001 for September field stock.
+TX00041,2026-09-01T06:26:00-05:00,P016,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P016 into W002 for September field stock.
+TX00042,2026-09-01T06:26:00-05:00,P011,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P011 into W003 for September field stock.
+TX00043,2026-09-01T06:27:00-05:00,P022,9,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P022 into W001 for September field stock.
+TX00044,2026-09-01T06:27:00-05:00,P017,18,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P017 into W002 for September field stock.
+TX00045,2026-09-01T06:27:00-05:00,P012,44,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P012 into W003 for September field stock.
+TX00046,2026-09-01T06:28:00-05:00,P023,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P023 into W001 for September field stock.
+TX00047,2026-09-01T06:28:00-05:00,P018,10,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P018 into W002 for September field stock.
+TX00048,2026-09-01T06:29:00-05:00,P024,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P024 into W001 for September field stock.
+TX00049,2026-09-01T06:29:00-05:00,P019,58,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P019 into W002 for September field stock.
+TX00050,2026-09-01T06:29:00-05:00,P014,19,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P014 into W003 for September field stock.
+TX00051,2026-09-01T06:30:00-05:00,P025,11,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P025 into W001 for September field stock.
+TX00052,2026-09-01T06:30:00-05:00,P020,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P020 into W002 for September field stock.
+TX00053,2026-09-01T06:30:00-05:00,P015,68,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P015 into W003 for September field stock.
+TX00054,2026-09-01T06:31:00-05:00,P026,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P026 into W001 for September field stock.
+TX00055,2026-09-01T06:31:00-05:00,P021,2,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P021 into W002 for September field stock.
+TX00056,2026-09-01T06:31:00-05:00,P016,19,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P016 into W003 for September field stock.
+TX00057,2026-09-01T06:32:00-05:00,P027,10,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P027 into W001 for September field stock.
+TX00058,2026-09-01T06:32:00-05:00,P022,11,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P022 into W002 for September field stock.
+TX00059,2026-09-01T06:32:00-05:00,P017,20,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P017 into W003 for September field stock.
+TX00060,2026-09-01T06:33:00-05:00,P028,12,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P028 into W001 for September field stock.
+TX00061,2026-09-01T06:33:00-05:00,P023,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P023 into W002 for September field stock.
+TX00062,2026-09-01T06:33:00-05:00,P018,7,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P018 into W003 for September field stock.
+TX00063,2026-09-01T06:34:00-05:00,P029,9,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P029 into W001 for September field stock.
+TX00064,2026-09-01T06:34:00-05:00,P024,16,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P024 into W002 for September field stock.
+TX00065,2026-09-01T06:34:00-05:00,P019,48,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P019 into W003 for September field stock.
+TX00066,2026-09-01T06:35:00-05:00,P030,7,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P030 into W001 for September field stock.
+TX00067,2026-09-01T06:35:00-05:00,P025,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P025 into W002 for September field stock.
+TX00068,2026-09-01T06:35:00-05:00,P020,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P020 into W003 for September field stock.
+TX00069,2026-09-01T06:36:00-05:00,P031,9,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P031 into W001 for September field stock.
+TX00070,2026-09-01T06:36:00-05:00,P026,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P026 into W002 for September field stock.
+TX00071,2026-09-01T06:36:00-05:00,P021,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P021 into W003 for September field stock.
+TX00072,2026-09-01T06:37:00-05:00,P032,10,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Opening receipt of P032 into W001 for September field stock.
+TX00073,2026-09-01T06:37:00-05:00,P027,12,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P027 into W002 for September field stock.
+TX00074,2026-09-01T06:37:00-05:00,P022,13,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P022 into W003 for September field stock.
+TX00075,2026-09-01T06:38:00-05:00,P028,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P028 into W002 for September field stock.
+TX00076,2026-09-01T06:38:00-05:00,P023,18,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P023 into W003 for September field stock.
+TX00077,2026-09-01T06:39:00-05:00,P029,11,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P029 into W002 for September field stock.
+TX00078,2026-09-01T06:39:00-05:00,P024,18,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P024 into W003 for September field stock.
+TX00079,2026-09-01T06:40:00-05:00,P030,2,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P030 into W002 for September field stock.
+TX00080,2026-09-01T06:40:00-05:00,P025,15,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P025 into W003 for September field stock.
+TX00081,2026-09-01T06:41:00-05:00,P031,11,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P031 into W002 for September field stock.
+TX00082,2026-09-01T06:41:00-05:00,P026,17,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P026 into W003 for September field stock.
+TX00083,2026-09-01T06:42:00-05:00,P032,12,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Opening receipt of P032 into W002 for September field stock.
+TX00084,2026-09-01T06:42:00-05:00,P027,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P027 into W003 for September field stock.
+TX00085,2026-09-01T06:43:00-05:00,P028,14,Received,Supplier,SUP-NORTHWIND,Warehouse,W003,,,,Opening receipt of P028 into W003 for September field stock.
+TX00086,2026-09-01T06:54:00-05:00,P019,2,Scrapped,Warehouse,W001,Supplier,SCRAP,,,,Scrapped units that failed incoming inspection.
+TX00087,2026-09-01T07:01:00-05:00,P002,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 1 P002 to van V001. Checked out by T001.
+TX00088,2026-09-01T07:01:00-05:00,P004,3,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 3 P004 to van V001. Checked out by T001.
+TX00089,2026-09-01T07:01:00-05:00,P009,3,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 3 P009 to van V001. Checked out by T001.
+TX00090,2026-09-01T07:01:00-05:00,P012,8,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 8 P012 to van V001. Checked out by T001.
+TX00091,2026-09-01T07:01:00-05:00,P015,10,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 10 P015 to van V001. Checked out by T001.
+TX00092,2026-09-01T07:01:00-05:00,P016,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 1 P016 to van V001. Checked out by T001.
+TX00093,2026-09-01T07:01:00-05:00,P018,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 1 P018 to van V001. Checked out by T001.
+TX00094,2026-09-01T07:01:00-05:00,P019,4,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 4 P019 to van V001. Checked out by T001.
+TX00095,2026-09-01T07:01:00-05:00,P020,2,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 2 P020 to van V001. Checked out by T001.
+TX00096,2026-09-01T07:01:00-05:00,P023,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 1 P023 to van V001. Checked out by T001.
+TX00097,2026-09-01T07:01:00-05:00,P026,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Issued 1 P026 to van V001. Checked out by T001.
+TX00098,2026-09-01T07:02:00-05:00,P002,2,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 2 P002 to van V002. Checked out by T002.
+TX00099,2026-09-01T07:02:00-05:00,P003,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P003 to van V002. Checked out by T002.
+TX00100,2026-09-01T07:02:00-05:00,P004,4,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 4 P004 to van V002. Checked out by T002.
+TX00101,2026-09-01T07:02:00-05:00,P007,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P007 to van V002. Checked out by T002.
+TX00102,2026-09-01T07:02:00-05:00,P008,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P008 to van V002. Checked out by T002.
+TX00103,2026-09-01T07:02:00-05:00,P009,2,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 2 P009 to van V002. Checked out by T002.
+TX00104,2026-09-01T07:02:00-05:00,P012,4,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 4 P012 to van V002. Checked out by T002.
+TX00105,2026-09-01T07:02:00-05:00,P014,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P014 to van V002. Checked out by T002.
+TX00106,2026-09-01T07:02:00-05:00,P015,6,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 6 P015 to van V002. Checked out by T002.
+TX00107,2026-09-01T07:02:00-05:00,P018,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P018 to van V002. Checked out by T002.
+TX00108,2026-09-01T07:02:00-05:00,P019,6,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 6 P019 to van V002. Checked out by T002.
+TX00109,2026-09-01T07:02:00-05:00,P028,1,Issued,Warehouse,W001,Van,V002,T002,V002,,Issued 1 P028 to van V002. Checked out by T002.
+TX00110,2026-09-01T07:03:00-05:00,P002,1,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 1 P002 to van V003. Checked out by T003.
+TX00111,2026-09-01T07:03:00-05:00,P004,3,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 3 P004 to van V003. Checked out by T003.
+TX00112,2026-09-01T07:03:00-05:00,P009,3,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 3 P009 to van V003. Checked out by T003.
+TX00113,2026-09-01T07:03:00-05:00,P012,8,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 8 P012 to van V003. Checked out by T003.
+TX00114,2026-09-01T07:03:00-05:00,P015,10,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 10 P015 to van V003. Checked out by T003.
+TX00115,2026-09-01T07:03:00-05:00,P018,1,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 1 P018 to van V003. Checked out by T003.
+TX00116,2026-09-01T07:03:00-05:00,P019,4,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 4 P019 to van V003. Checked out by T003.
+TX00117,2026-09-01T07:03:00-05:00,P020,2,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 2 P020 to van V003. Checked out by T003.
+TX00118,2026-09-01T07:03:00-05:00,P023,1,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 1 P023 to van V003. Checked out by T003.
+TX00119,2026-09-01T07:03:00-05:00,P026,1,Issued,Warehouse,W001,Van,V003,T003,V003,,Issued 1 P026 to van V003. Checked out by T003.
+TX00120,2026-09-01T07:04:00-05:00,P002,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P002 to van V004. Checked out by T004.
+TX00121,2026-09-01T07:04:00-05:00,P003,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P003 to van V004. Checked out by T004.
+TX00122,2026-09-01T07:04:00-05:00,P004,3,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 3 P004 to van V004. Checked out by T004.
+TX00123,2026-09-01T07:04:00-05:00,P007,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P007 to van V004. Checked out by T004.
+TX00124,2026-09-01T07:04:00-05:00,P008,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P008 to van V004. Checked out by T004.
+TX00125,2026-09-01T07:04:00-05:00,P009,2,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 2 P009 to van V004. Checked out by T004.
+TX00126,2026-09-01T07:04:00-05:00,P012,4,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 4 P012 to van V004. Checked out by T004.
+TX00127,2026-09-01T07:04:00-05:00,P014,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P014 to van V004. Checked out by T004.
+TX00128,2026-09-01T07:04:00-05:00,P015,6,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 6 P015 to van V004. Checked out by T004.
+TX00129,2026-09-01T07:04:00-05:00,P018,3,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 3 P018 to van V004. Checked out by T004.
+TX00130,2026-09-01T07:04:00-05:00,P019,6,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 6 P019 to van V004. Checked out by T004.
+TX00131,2026-09-01T07:04:00-05:00,P020,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P020 to van V004. Checked out by T004.
+TX00132,2026-09-01T07:04:00-05:00,P028,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Issued 1 P028 to van V004. Checked out by T004.
+TX00133,2026-09-01T07:05:00-05:00,P002,1,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 1 P002 to van V005. Checked out by T005.
+TX00134,2026-09-01T07:05:00-05:00,P004,3,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 3 P004 to van V005. Checked out by T005.
+TX00135,2026-09-01T07:05:00-05:00,P009,4,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 4 P009 to van V005. Checked out by T005.
+TX00136,2026-09-01T07:05:00-05:00,P012,8,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 8 P012 to van V005. Checked out by T005.
+TX00137,2026-09-01T07:05:00-05:00,P015,12,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 12 P015 to van V005. Checked out by T005.
+TX00138,2026-09-01T07:05:00-05:00,P018,1,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 1 P018 to van V005. Checked out by T005.
+TX00139,2026-09-01T07:05:00-05:00,P019,4,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 4 P019 to van V005. Checked out by T005.
+TX00140,2026-09-01T07:05:00-05:00,P020,1,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 1 P020 to van V005. Checked out by T005.
+TX00141,2026-09-01T07:05:00-05:00,P023,1,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 1 P023 to van V005. Checked out by T005.
+TX00142,2026-09-01T07:05:00-05:00,P026,1,Issued,Warehouse,W001,Van,V005,T005,V005,,Issued 1 P026 to van V005. Checked out by T005.
+TX00143,2026-09-01T07:06:00-05:00,P002,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P002 to van V006. Checked out by T006.
+TX00144,2026-09-01T07:06:00-05:00,P003,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P003 to van V006. Checked out by T006.
+TX00145,2026-09-01T07:06:00-05:00,P004,3,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 3 P004 to van V006. Checked out by T006.
+TX00146,2026-09-01T07:06:00-05:00,P007,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P007 to van V006. Checked out by T006.
+TX00147,2026-09-01T07:06:00-05:00,P008,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P008 to van V006. Checked out by T006.
+TX00148,2026-09-01T07:06:00-05:00,P009,2,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 2 P009 to van V006. Checked out by T006.
+TX00149,2026-09-01T07:06:00-05:00,P012,4,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 4 P012 to van V006. Checked out by T006.
+TX00150,2026-09-01T07:06:00-05:00,P014,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P014 to van V006. Checked out by T006.
+TX00151,2026-09-01T07:06:00-05:00,P015,6,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 6 P015 to van V006. Checked out by T006.
+TX00152,2026-09-01T07:06:00-05:00,P018,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P018 to van V006. Checked out by T006.
+TX00153,2026-09-01T07:06:00-05:00,P019,6,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 6 P019 to van V006. Checked out by T006.
+TX00154,2026-09-01T07:06:00-05:00,P026,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P026 to van V006. Checked out by T006.
+TX00155,2026-09-01T07:06:00-05:00,P028,1,Issued,Warehouse,W001,Van,V006,T006,V006,,Issued 1 P028 to van V006. Checked out by T006.
+TX00156,2026-09-01T07:07:00-05:00,P002,2,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 2 P002 to van V007. Checked out by T007.
+TX00157,2026-09-01T07:07:00-05:00,P003,1,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 1 P003 to van V007. Checked out by T007.
+TX00158,2026-09-01T07:07:00-05:00,P004,3,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 3 P004 to van V007. Checked out by T007.
+TX00159,2026-09-01T07:07:00-05:00,P009,3,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 3 P009 to van V007. Checked out by T007.
+TX00160,2026-09-01T07:07:00-05:00,P012,8,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 8 P012 to van V007. Checked out by T007.
+TX00161,2026-09-01T07:07:00-05:00,P015,10,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 10 P015 to van V007. Checked out by T007.
+TX00162,2026-09-01T07:07:00-05:00,P018,2,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 2 P018 to van V007. Checked out by T007.
+TX00163,2026-09-01T07:07:00-05:00,P019,4,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 4 P019 to van V007. Checked out by T007.
+TX00164,2026-09-01T07:07:00-05:00,P020,1,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 1 P020 to van V007. Checked out by T007.
+TX00165,2026-09-01T07:07:00-05:00,P023,1,Issued,Warehouse,W001,Van,V007,T007,V007,,Issued 1 P023 to van V007. Checked out by T007.
+TX00166,2026-09-01T07:08:00-05:00,P002,1,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 1 P002 to van V008. Checked out by T008.
+TX00167,2026-09-01T07:08:00-05:00,P003,1,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 1 P003 to van V008. Checked out by T008.
+TX00168,2026-09-01T07:08:00-05:00,P004,2,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 2 P004 to van V008. Checked out by T008.
+TX00169,2026-09-01T07:08:00-05:00,P007,1,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 1 P007 to van V008. Checked out by T008.
+TX00170,2026-09-01T07:08:00-05:00,P008,2,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 2 P008 to van V008. Checked out by T008.
+TX00171,2026-09-01T07:08:00-05:00,P009,2,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 2 P009 to van V008. Checked out by T008.
+TX00172,2026-09-01T07:08:00-05:00,P012,4,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 4 P012 to van V008. Checked out by T008.
+TX00173,2026-09-01T07:08:00-05:00,P014,2,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 2 P014 to van V008. Checked out by T008.
+TX00174,2026-09-01T07:08:00-05:00,P015,6,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 6 P015 to van V008. Checked out by T008.
+TX00175,2026-09-01T07:08:00-05:00,P018,1,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 1 P018 to van V008. Checked out by T008.
+TX00176,2026-09-01T07:08:00-05:00,P019,4,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 4 P019 to van V008. Checked out by T008.
+TX00177,2026-09-01T07:08:00-05:00,P028,2,Issued,Warehouse,W002,Van,V008,T008,V008,,Issued 2 P028 to van V008. Checked out by T008.
+TX00178,2026-09-01T07:09:00-05:00,P002,2,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 2 P002 to van V009. Checked out by T009.
+TX00179,2026-09-01T07:09:00-05:00,P004,3,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 3 P004 to van V009. Checked out by T009.
+TX00180,2026-09-01T07:09:00-05:00,P007,1,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 1 P007 to van V009. Checked out by T009.
+TX00181,2026-09-01T07:09:00-05:00,P009,3,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 3 P009 to van V009. Checked out by T009.
+TX00182,2026-09-01T07:09:00-05:00,P012,6,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 6 P012 to van V009. Checked out by T009.
+TX00183,2026-09-01T07:09:00-05:00,P015,10,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 10 P015 to van V009. Checked out by T009.
+TX00184,2026-09-01T07:09:00-05:00,P016,2,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 2 P016 to van V009. Checked out by T009.
+TX00185,2026-09-01T07:09:00-05:00,P018,2,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 2 P018 to van V009. Checked out by T009.
+TX00186,2026-09-01T07:09:00-05:00,P019,4,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 4 P019 to van V009. Checked out by T009.
+TX00187,2026-09-01T07:09:00-05:00,P020,1,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 1 P020 to van V009. Checked out by T009.
+TX00188,2026-09-01T07:09:00-05:00,P023,1,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 1 P023 to van V009. Checked out by T009.
+TX00189,2026-09-01T07:09:00-05:00,P026,1,Issued,Warehouse,W002,Van,V009,T009,V009,,Issued 1 P026 to van V009. Checked out by T009.
+TX00190,2026-09-01T07:10:00-05:00,P030,2,Scrapped,Warehouse,W002,Supplier,SCRAP,,,,Scrapped the only units received; the bin was counted empty afterward.
+TX00191,2026-09-01T07:10:00-05:00,P002,1,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 1 P002 to van V010. Checked out by T010.
+TX00192,2026-09-01T07:10:00-05:00,P003,1,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 1 P003 to van V010. Checked out by T010.
+TX00193,2026-09-01T07:10:00-05:00,P004,3,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 3 P004 to van V010. Checked out by T010.
+TX00194,2026-09-01T07:10:00-05:00,P007,1,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 1 P007 to van V010. Checked out by T010.
+TX00195,2026-09-01T07:10:00-05:00,P008,2,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 2 P008 to van V010. Checked out by T010.
+TX00196,2026-09-01T07:10:00-05:00,P009,2,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 2 P009 to van V010. Checked out by T010.
+TX00197,2026-09-01T07:10:00-05:00,P012,4,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 4 P012 to van V010. Checked out by T010.
+TX00198,2026-09-01T07:10:00-05:00,P014,1,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 1 P014 to van V010. Checked out by T010.
+TX00199,2026-09-01T07:10:00-05:00,P015,6,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 6 P015 to van V010. Checked out by T010.
+TX00200,2026-09-01T07:10:00-05:00,P018,1,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 1 P018 to van V010. Checked out by T010.
+TX00201,2026-09-01T07:10:00-05:00,P019,6,Issued,Warehouse,W002,Van,V010,T010,V010,,Issued 6 P019 to van V010. Checked out by T010.
+TX00202,2026-09-01T07:11:00-05:00,P002,1,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 1 P002 to van V011. Checked out by T011.
+TX00203,2026-09-01T07:11:00-05:00,P004,3,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 3 P004 to van V011. Checked out by T011.
+TX00204,2026-09-01T07:11:00-05:00,P007,1,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 1 P007 to van V011. Checked out by T011.
+TX00205,2026-09-01T07:11:00-05:00,P009,2,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 2 P009 to van V011. Checked out by T011.
+TX00206,2026-09-01T07:11:00-05:00,P012,6,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 6 P012 to van V011. Checked out by T011.
+TX00207,2026-09-01T07:11:00-05:00,P015,6,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 6 P015 to van V011. Checked out by T011.
+TX00208,2026-09-01T07:11:00-05:00,P018,1,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 1 P018 to van V011. Checked out by T011.
+TX00209,2026-09-01T07:11:00-05:00,P019,4,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 4 P019 to van V011. Checked out by T011.
+TX00210,2026-09-01T07:11:00-05:00,P020,1,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 1 P020 to van V011. Checked out by T011.
+TX00211,2026-09-01T07:11:00-05:00,P026,1,Issued,Warehouse,W002,Van,V011,T011,V011,,Issued 1 P026 to van V011. Checked out by T011.
+TX00212,2026-09-01T07:12:00-05:00,P004,3,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 3 P004 to van V012. Checked out by T012.
+TX00213,2026-09-01T07:12:00-05:00,P007,1,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 1 P007 to van V012. Checked out by T012.
+TX00214,2026-09-01T07:12:00-05:00,P008,1,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 1 P008 to van V012. Checked out by T012.
+TX00215,2026-09-01T07:12:00-05:00,P009,2,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 2 P009 to van V012. Checked out by T012.
+TX00216,2026-09-01T07:12:00-05:00,P012,4,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 4 P012 to van V012. Checked out by T012.
+TX00217,2026-09-01T07:12:00-05:00,P014,1,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 1 P014 to van V012. Checked out by T012.
+TX00218,2026-09-01T07:12:00-05:00,P015,6,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 6 P015 to van V012. Checked out by T012.
+TX00219,2026-09-01T07:12:00-05:00,P019,6,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 6 P019 to van V012. Checked out by T012.
+TX00220,2026-09-01T07:12:00-05:00,P028,1,Issued,Warehouse,W002,Van,V012,T012,V012,,Issued 1 P028 to van V012. Checked out by T012.
+TX00221,2026-09-01T07:13:00-05:00,P004,2,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 2 P004 to van V013. Checked out by T013.
+TX00222,2026-09-01T07:13:00-05:00,P009,3,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 3 P009 to van V013. Checked out by T013.
+TX00223,2026-09-01T07:13:00-05:00,P012,8,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 8 P012 to van V013. Checked out by T013.
+TX00224,2026-09-01T07:13:00-05:00,P015,10,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 10 P015 to van V013. Checked out by T013.
+TX00225,2026-09-01T07:13:00-05:00,P018,1,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 1 P018 to van V013. Checked out by T013.
+TX00226,2026-09-01T07:13:00-05:00,P019,4,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 4 P019 to van V013. Checked out by T013.
+TX00227,2026-09-01T07:13:00-05:00,P020,1,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 1 P020 to van V013. Checked out by T013.
+TX00228,2026-09-01T07:13:00-05:00,P023,1,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 1 P023 to van V013. Checked out by T013.
+TX00229,2026-09-01T07:13:00-05:00,P026,1,Issued,Warehouse,W002,Van,V013,T013,V013,,Issued 1 P026 to van V013. Checked out by T013.
+TX00230,2026-09-01T07:14:00-05:00,P002,1,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 1 P002 to van V014. Checked out by T014.
+TX00231,2026-09-01T07:14:00-05:00,P003,1,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 1 P003 to van V014. Checked out by T014.
+TX00232,2026-09-01T07:14:00-05:00,P004,3,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 3 P004 to van V014. Checked out by T014.
+TX00233,2026-09-01T07:14:00-05:00,P009,2,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 2 P009 to van V014. Checked out by T014.
+TX00234,2026-09-01T07:14:00-05:00,P012,4,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 4 P012 to van V014. Checked out by T014.
+TX00235,2026-09-01T07:14:00-05:00,P014,1,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 1 P014 to van V014. Checked out by T014.
+TX00236,2026-09-01T07:14:00-05:00,P015,6,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 6 P015 to van V014. Checked out by T014.
+TX00237,2026-09-01T07:14:00-05:00,P018,1,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 1 P018 to van V014. Checked out by T014.
+TX00238,2026-09-01T07:14:00-05:00,P019,6,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 6 P019 to van V014. Checked out by T014.
+TX00239,2026-09-01T07:14:00-05:00,P028,1,Issued,Warehouse,W002,Van,V014,T014,V014,,Issued 1 P028 to van V014. Checked out by T014.
+TX00240,2026-09-01T07:15:00-05:00,P002,1,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 1 P002 to van V015. Checked out by T015.
+TX00241,2026-09-01T07:15:00-05:00,P004,3,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 3 P004 to van V015. Checked out by T015.
+TX00242,2026-09-01T07:15:00-05:00,P009,3,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 3 P009 to van V015. Checked out by T015.
+TX00243,2026-09-01T07:15:00-05:00,P012,8,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 8 P012 to van V015. Checked out by T015.
+TX00244,2026-09-01T07:15:00-05:00,P015,10,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 10 P015 to van V015. Checked out by T015.
+TX00245,2026-09-01T07:15:00-05:00,P018,1,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 1 P018 to van V015. Checked out by T015.
+TX00246,2026-09-01T07:15:00-05:00,P019,4,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 4 P019 to van V015. Checked out by T015.
+TX00247,2026-09-01T07:15:00-05:00,P020,1,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 1 P020 to van V015. Checked out by T015.
+TX00248,2026-09-01T07:15:00-05:00,P023,1,Issued,Warehouse,W003,Van,V015,T015,V015,,Issued 1 P023 to van V015. Checked out by T015.
+TX00249,2026-09-01T07:16:00-05:00,P002,2,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 2 P002 to van V016. Checked out by T016.
+TX00250,2026-09-01T07:16:00-05:00,P003,1,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 1 P003 to van V016. Checked out by T016.
+TX00251,2026-09-01T07:16:00-05:00,P004,2,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 2 P004 to van V016. Checked out by T016.
+TX00252,2026-09-01T07:16:00-05:00,P007,2,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 2 P007 to van V016. Checked out by T016.
+TX00253,2026-09-01T07:16:00-05:00,P008,1,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 1 P008 to van V016. Checked out by T016.
+TX00254,2026-09-01T07:16:00-05:00,P009,2,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 2 P009 to van V016. Checked out by T016.
+TX00255,2026-09-01T07:16:00-05:00,P012,4,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 4 P012 to van V016. Checked out by T016.
+TX00256,2026-09-01T07:16:00-05:00,P014,1,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 1 P014 to van V016. Checked out by T016.
+TX00257,2026-09-01T07:16:00-05:00,P015,6,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 6 P015 to van V016. Checked out by T016.
+TX00258,2026-09-01T07:16:00-05:00,P016,2,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 2 P016 to van V016. Checked out by T016.
+TX00259,2026-09-01T07:16:00-05:00,P018,3,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 3 P018 to van V016. Checked out by T016.
+TX00260,2026-09-01T07:16:00-05:00,P019,4,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 4 P019 to van V016. Checked out by T016.
+TX00261,2026-09-01T07:16:00-05:00,P020,1,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 1 P020 to van V016. Checked out by T016.
+TX00262,2026-09-01T07:16:00-05:00,P028,1,Issued,Warehouse,W003,Van,V016,T016,V016,,Issued 1 P028 to van V016. Checked out by T016.
+TX00263,2026-09-01T07:17:00-05:00,P002,1,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 1 P002 to van V017. Checked out by T017.
+TX00264,2026-09-01T07:17:00-05:00,P004,3,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 3 P004 to van V017. Checked out by T017.
+TX00265,2026-09-01T07:17:00-05:00,P009,3,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 3 P009 to van V017. Checked out by T017.
+TX00266,2026-09-01T07:17:00-05:00,P012,6,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 6 P012 to van V017. Checked out by T017.
+TX00267,2026-09-01T07:17:00-05:00,P015,10,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 10 P015 to van V017. Checked out by T017.
+TX00268,2026-09-01T07:17:00-05:00,P019,4,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 4 P019 to van V017. Checked out by T017.
+TX00269,2026-09-01T07:17:00-05:00,P023,1,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 1 P023 to van V017. Checked out by T017.
+TX00270,2026-09-01T07:17:00-05:00,P026,1,Issued,Warehouse,W003,Van,V017,T017,V017,,Issued 1 P026 to van V017. Checked out by T017.
+TX00271,2026-09-01T07:19:00-05:00,P002,1,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 1 P002 to van V019. Checked out by T021.
+TX00272,2026-09-01T07:19:00-05:00,P003,1,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 1 P003 to van V019. Checked out by T021.
+TX00273,2026-09-01T07:19:00-05:00,P004,3,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 3 P004 to van V019. Checked out by T021.
+TX00274,2026-09-01T07:19:00-05:00,P007,1,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 1 P007 to van V019. Checked out by T021.
+TX00275,2026-09-01T07:19:00-05:00,P008,1,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 1 P008 to van V019. Checked out by T021.
+TX00276,2026-09-01T07:19:00-05:00,P009,2,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 2 P009 to van V019. Checked out by T021.
+TX00277,2026-09-01T07:19:00-05:00,P012,4,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 4 P012 to van V019. Checked out by T021.
+TX00278,2026-09-01T07:19:00-05:00,P015,6,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 6 P015 to van V019. Checked out by T021.
+TX00279,2026-09-01T07:19:00-05:00,P018,1,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 1 P018 to van V019. Checked out by T021.
+TX00280,2026-09-01T07:19:00-05:00,P019,6,Issued,Warehouse,W003,Van,V019,T021,V019,,Issued 6 P019 to van V019. Checked out by T021.
+TX00281,2026-09-01T07:20:00-05:00,P004,2,Issued,Warehouse,W003,Van,V020,T030,V020,,Issued 2 P004 to van V020. Checked out by T030.
+TX00282,2026-09-01T07:20:00-05:00,P009,2,Issued,Warehouse,W003,Van,V020,T030,V020,,Issued 2 P009 to van V020. Checked out by T030.
+TX00283,2026-09-01T07:20:00-05:00,P012,4,Issued,Warehouse,W003,Van,V020,T030,V020,,Issued 4 P012 to van V020. Checked out by T030.
+TX00284,2026-09-01T07:20:00-05:00,P015,6,Issued,Warehouse,W003,Van,V020,T030,V020,,Issued 6 P015 to van V020. Checked out by T030.
+TX00285,2026-09-01T07:20:00-05:00,P019,4,Issued,Warehouse,W003,Van,V020,T030,V020,,Issued 4 P019 to van V020. Checked out by T030.
+TX00286,2026-09-01T09:10:00-05:00,P012,2,Installed,Van,V001,Job,J022,T001,V001,J022,Installed on job J022 at Copper Lantern Home.
+TX00287,2026-09-01T09:10:00-05:00,P023,1,Installed,Van,V001,Job,J022,T001,V001,J022,Installed on job J022 at Copper Lantern Home.
+TX00288,2026-09-01T09:10:00-05:00,P015,4,Installed,Van,V001,Job,J022,T001,V001,J022,Installed on job J022 at Copper Lantern Home.
+TX00289,2026-09-01T09:10:00-05:00,P009,1,Installed,Van,V001,Job,J022,T001,V001,J022,Installed on job J022 at Copper Lantern Home.
+TX00290,2026-09-01T11:25:00-05:00,P026,1,Installed,Van,V017,Job,J079,T017,V017,J079,Installed on job J079 at Silver Thistle Market.
+TX00291,2026-09-01T14:10:00-05:00,P002,1,Installed,Van,V009,Job,J053,T009,V009,J053,Installed on job J053 at High Lamp House.
+TX00292,2026-09-01T14:10:00-05:00,P004,1,Installed,Van,V009,Job,J053,T009,V009,J053,Installed on job J053 at High Lamp House.
+TX00293,2026-09-02T09:00:00-05:00,P001,24,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,PO-4401 receipt of LumenPack 13.5 modules from supplier SUP-NORTHWIND.
+TX00294,2026-09-02T09:10:00-05:00,P002,1,Installed,Van,V010,Job,J032,T010,V010,J032,Installed on job J032 at Quail Run Backup.
+TX00295,2026-09-02T09:10:00-05:00,P003,1,Installed,Van,V010,Job,J032,T010,V010,J032,Installed on job J032 at Quail Run Backup.
+TX00296,2026-09-02T09:10:00-05:00,P018,1,Installed,Van,V010,Job,J032,T010,V010,J032,Installed on job J032 at Quail Run Backup.
+TX00297,2026-09-02T14:10:00-05:00,P008,1,Installed,Van,V019,Job,J062,T021,V019,J062,Installed on job J062 at Paper Kite Residence.
+TX00298,2026-09-02T14:10:00-05:00,P007,1,Installed,Van,V019,Job,J062,T021,V019,J062,Installed on job J062 at Paper Kite Residence.
+TX00299,2026-09-03T09:10:00-05:00,P006,3,Received,Supplier,SUP-NORTHWIND,Warehouse,W001,,,,Receipt of HaloWave inverters into Mesa Volt Depot.
+TX00300,2026-09-03T09:10:00-05:00,P002,1,Installed,Van,V001,Job,J045,T001,V001,J045,Installed on job J045 at Kite String Warehouse.
+TX00301,2026-09-03T09:10:00-05:00,P004,1,Installed,Van,V001,Job,J045,T001,V001,J045,Installed on job J045 at Kite String Warehouse.
+TX00302,2026-09-03T14:10:00-05:00,P026,1,Installed,Van,V009,Job,J071,T009,V009,J071,Installed on job J071 at Hutto Grain Office.
+TX00303,2026-09-04T09:10:00-05:00,P006,8,Received,Supplier,SUP-NORTHWIND,Warehouse,W002,,,,Receipt of HaloWave inverters into Brushy Creek Parts Hub.
+TX00304,2026-09-04T09:10:00-05:00,P008,1,Installed,Van,V010,Job,J054,T010,V010,J054,Installed on job J054 at Glasshill Backup.
+TX00305,2026-09-04T09:10:00-05:00,P007,1,Installed,Van,V010,Job,J054,T010,V010,J054,Installed on job J054 at Glasshill Backup.
+TX00306,2026-09-04T11:25:00-05:00,P002,1,Installed,Van,V002,Job,J023,T002,V002,J023,Installed on job J023 at Lake Glass Pavilion.
+TX00307,2026-09-04T11:25:00-05:00,P003,1,Installed,Van,V002,Job,J023,T002,V002,J023,Installed on job J023 at Lake Glass Pavilion.
+TX00308,2026-09-04T11:25:00-05:00,P018,1,Installed,Van,V002,Job,J023,T002,V002,J023,Installed on job J023 at Lake Glass Pavilion.
+TX00309,2026-09-04T14:10:00-05:00,P004,1,Installed,Van,V019,Job,J080,T021,V019,J080,Installed on job J080 at Gable Ridge Hall.
+TX00310,2026-09-04T14:10:00-05:00,P019,2,Installed,Van,V019,Job,J080,T021,V019,J080,Installed on job J080 at Gable Ridge Hall.
+TX00311,2026-09-05T09:10:00-05:00,P026,1,Installed,Van,V001,Job,J063,T001,V001,J063,Installed on job J063 at San Gabriel Clinic Backup.
+TX00312,2026-09-05T11:25:00-05:00,P002,1,Installed,Van,V011,Job,J033,T011,V011,J033,Installed on job J033 at Briar Pump Station.
+TX00313,2026-09-05T11:25:00-05:00,P004,1,Installed,Van,V011,Job,J033,T011,V011,J033,Installed on job J033 at Briar Pump Station.
+TX00314,2026-09-06T09:10:00-05:00,P004,1,Installed,Van,V010,Job,J072,T010,V010,J072,Installed on job J072 at Redbud Workshop.
+TX00315,2026-09-06T09:10:00-05:00,P019,2,Installed,Van,V010,Job,J072,T010,V010,J072,Installed on job J072 at Redbud Workshop.
+TX00316,2026-09-06T11:25:00-05:00,P008,1,Installed,Van,V002,Job,J046,T002,V002,J046,Installed on job J046 at Dry Creek Pavilion.
+TX00317,2026-09-06T11:25:00-05:00,P007,1,Installed,Van,V002,Job,J046,T002,V002,J046,Installed on job J046 at Dry Creek Pavilion.
+TX00318,2026-09-07T09:10:00-05:00,P018,1,Installed,Van,V001,Job,J081,T001,V001,J081,Installed on job J081 at Tin Roof Creamery.
+TX00319,2026-09-07T09:10:00-05:00,P012,2,Installed,Van,V001,Job,J081,T001,V001,J081,Installed on job J081 at Tin Roof Creamery.
+TX00320,2026-09-07T09:10:00-05:00,P020,1,Installed,Van,V001,Job,J081,T001,V001,J081,Installed on job J081 at Tin Roof Creamery.
+TX00321,2026-09-07T11:25:00-05:00,P026,1,Installed,Van,V011,Job,J055,T011,V011,J055,Installed on job J055 at Vine Switch Storage.
+TX00322,2026-09-07T14:10:00-05:00,P002,1,Installed,Van,V003,Job,J024,T003,V003,J024,Installed on job J024 at Silver Thistle Market.
+TX00323,2026-09-07T14:10:00-05:00,P004,1,Installed,Van,V003,Job,J024,T003,V003,J024,Installed on job J024 at Silver Thistle Market.
+TX00324,2026-09-08T10:15:00-05:00,P001,8,Transfer,Warehouse,W001,Warehouse,W002,,,,Rebalance stock to Brushy Creek Parts Hub.
+TX00325,2026-09-08T11:25:00-05:00,P004,1,Installed,Van,V002,Job,J064,T002,V002,J064,Installed on job J064 at Prairie Switch Backup.
+TX00326,2026-09-08T11:25:00-05:00,P019,2,Installed,Van,V002,Job,J064,T002,V002,J064,Installed on job J064 at Prairie Switch Backup.
+TX00327,2026-09-08T14:10:00-05:00,P008,1,Installed,Van,V012,Job,J034,T012,V012,J034,Installed on job J034 at Marigold Yard Office.
+TX00328,2026-09-08T14:10:00-05:00,P007,1,Installed,Van,V012,Job,J034,T012,V012,J034,Installed on job J034 at Marigold Yard Office.
+TX00329,2026-09-09T11:25:00-05:00,P018,1,Installed,Van,V011,Job,J073,T011,V011,J073,Installed on job J073 at Northwind Pavilion.
+TX00330,2026-09-09T11:25:00-05:00,P012,2,Installed,Van,V011,Job,J073,T011,V011,J073,Installed on job J073 at Northwind Pavilion.
+TX00331,2026-09-09T11:25:00-05:00,P020,1,Installed,Van,V011,Job,J073,T011,V011,J073,Installed on job J073 at Northwind Pavilion.
+TX00332,2026-09-09T14:10:00-05:00,P026,1,Installed,Van,V003,Job,J047,T003,V003,J047,Installed on job J047 at Rope Bridge Lodge.
+TX00333,2026-09-10T09:10:00-05:00,P008,1,Installed,Van,V004,Job,J025,T004,V004,J025,Installed on job J025 at Gable Ridge Hall.
+TX00334,2026-09-10T09:10:00-05:00,P007,1,Installed,Van,V004,Job,J025,T004,V004,J025,Installed on job J025 at Gable Ridge Hall.
+TX00335,2026-09-10T11:00:00-05:00,P001,4,Transfer,Warehouse,W001,Warehouse,W003,,,,Seed Bluebonnet Service Warehouse.
+TX00336,2026-09-10T11:25:00-05:00,P028,1,Installed,Van,V002,Job,J082,T002,V002,J082,Installed on job J082 at Little Anvil Shop.
+TX00337,2026-09-10T11:25:00-05:00,P014,1,Installed,Van,V002,Job,J082,T002,V002,J082,Installed on job J082 at Little Anvil Shop.
+TX00338,2026-09-10T14:10:00-05:00,P004,1,Installed,Van,V012,Job,J056,T012,V012,J056,Installed on job J056 at Limestone Ridge House.
+TX00339,2026-09-10T14:10:00-05:00,P019,2,Installed,Van,V012,Job,J056,T012,V012,J056,Installed on job J056 at Limestone Ridge House.
+TX00340,2026-09-11T07:40:00-05:00,P006,1,Issued,Warehouse,W002,Van,V011,T011,V011,J044,Checked out by T011 Ellis Marrow onto van V011 for job J044.
+TX00341,2026-09-11T09:10:00-05:00,P026,1,Installed,Van,V013,Job,J035,T013,V013,J035,Installed on job J035 at Winter Grass Barn.
+TX00342,2026-09-11T14:10:00-05:00,P018,1,Installed,Van,V003,Job,J065,T003,V003,J065,Installed on job J065 at Cottonwood Depot Office.
+TX00343,2026-09-11T14:10:00-05:00,P012,2,Installed,Van,V003,Job,J065,T003,V003,J065,Installed on job J065 at Cottonwood Depot Office.
+TX00344,2026-09-11T14:10:00-05:00,P020,1,Installed,Van,V003,Job,J065,T003,V003,J065,Installed on job J065 at Cottonwood Depot Office.
+TX00345,2026-09-12T09:10:00-05:00,P004,1,Installed,Van,V004,Job,J048,T004,V004,J048,Installed on job J048 at Quiet Motor Court.
+TX00346,2026-09-12T09:10:00-05:00,P019,2,Installed,Van,V004,Job,J048,T004,V004,J048,Installed on job J048 at Quiet Motor Court.
+TX00347,2026-09-12T10:00:00-05:00,P006,3,Transfer,Warehouse,W001,Warehouse,W002,,,,All remaining HaloWave units moved from W001 to W002. W001 bin is now empty.
+TX00348,2026-09-12T14:10:00-05:00,P028,1,Installed,Van,V012,Job,J074,T012,V012,J074,Installed on job J074 at Owl Creek Cabin.
+TX00349,2026-09-12T14:10:00-05:00,P014,1,Installed,Van,V012,Job,J074,T012,V012,J074,Installed on job J074 at Owl Creek Cabin.
+TX00350,2026-09-13T09:10:00-05:00,P018,1,Installed,Van,V013,Job,J057,T013,V013,J057,Installed on job J057 at Lantern Orchard House.
+TX00351,2026-09-13T09:10:00-05:00,P012,2,Installed,Van,V013,Job,J057,T013,V013,J057,Installed on job J057 at Lantern Orchard House.
+TX00352,2026-09-13T09:10:00-05:00,P020,1,Installed,Van,V013,Job,J057,T013,V013,J057,Installed on job J057 at Lantern Orchard House.
+TX00353,2026-09-13T10:10:00-05:00,P007,1,Installed,Van,V011,Job,J044,T011,V011,J044,Installed on job J044 at High Lamp House.
+TX00354,2026-09-13T10:40:00-05:00,P006,1,Installed,Van,V011,Job,J044,T011,V011,J044,Installed HaloWave inverter on job J044.
+TX00355,2026-09-13T11:25:00-05:00,P026,1,Installed,Van,V005,Job,J026,T005,V005,J026,Installed on job J026 at Tin Roof Creamery.
+TX00356,2026-09-13T14:10:00-05:00,P012,2,Installed,Van,V003,Job,J083,T003,V003,J083,Installed on job J083 at Soft Rain House.
+TX00357,2026-09-13T14:10:00-05:00,P023,1,Installed,Van,V003,Job,J083,T003,V003,J083,Installed on job J083 at Soft Rain House.
+TX00358,2026-09-13T14:10:00-05:00,P015,4,Installed,Van,V003,Job,J083,T003,V003,J083,Installed on job J083 at Soft Rain House.
+TX00359,2026-09-13T14:10:00-05:00,P009,1,Installed,Van,V003,Job,J083,T003,V003,J083,Installed on job J083 at Soft Rain House.
+TX00360,2026-09-14T07:40:00-05:00,P006,1,Issued,Warehouse,W002,Van,V008,T008,V008,J042,Checked out by T008 Harlow Finch onto van V008 for job J042.
+TX00361,2026-09-14T09:10:00-05:00,P028,1,Installed,Van,V004,Job,J066,T004,V004,J066,Installed on job J066 at Lumen Court House.
+TX00362,2026-09-14T09:10:00-05:00,P014,1,Installed,Van,V004,Job,J066,T004,V004,J066,Installed on job J066 at Lumen Court House.
+TX00363,2026-09-14T11:25:00-05:00,P004,1,Installed,Van,V014,Job,J036,T014,V014,J036,Installed on job J036 at Kindling Yard.
+TX00364,2026-09-14T11:25:00-05:00,P019,2,Installed,Van,V014,Job,J036,T014,V014,J036,Installed on job J036 at Kindling Yard.
+TX00365,2026-09-15T07:35:00-05:00,P001,2,Issued,Warehouse,W001,Van,V001,T001,V001,,Checked out by technician T001 Rowan Pell onto van V001.
+TX00366,2026-09-15T07:45:00-05:00,P006,1,Issued,Warehouse,W002,Van,V009,T009,V009,J043,Checked out by T009 Petra Sol onto van V009 for job J043.
+TX00367,2026-09-15T09:10:00-05:00,P012,2,Installed,Van,V013,Job,J075,T013,V013,J075,Installed on job J075 at Sunken Fence Office.
+TX00368,2026-09-15T09:10:00-05:00,P023,1,Installed,Van,V013,Job,J075,T013,V013,J075,Installed on job J075 at Sunken Fence Office.
+TX00369,2026-09-15T09:10:00-05:00,P015,4,Installed,Van,V013,Job,J075,T013,V013,J075,Installed on job J075 at Sunken Fence Office.
+TX00370,2026-09-15T09:10:00-05:00,P009,1,Installed,Van,V013,Job,J075,T013,V013,J075,Installed on job J075 at Sunken Fence Office.
+TX00371,2026-09-15T11:25:00-05:00,P018,1,Installed,Van,V005,Job,J049,T005,V005,J049,Installed on job J049 at Barton Hollow Residence.
+TX00372,2026-09-15T11:25:00-05:00,P012,2,Installed,Van,V005,Job,J049,T005,V005,J049,Installed on job J049 at Barton Hollow Residence.
+TX00373,2026-09-15T11:25:00-05:00,P020,1,Installed,Van,V005,Job,J049,T005,V005,J049,Installed on job J049 at Barton Hollow Residence.
+TX00374,2026-09-16T09:10:00-05:00,P002,1,Installed,Van,V004,Job,J084,T004,V004,J084,Installed on job J084 at Open Gate Pavilion.
+TX00375,2026-09-16T09:10:00-05:00,P003,1,Installed,Van,V004,Job,J084,T004,V004,J084,Installed on job J084 at Open Gate Pavilion.
+TX00376,2026-09-16T09:10:00-05:00,P018,1,Installed,Van,V004,Job,J084,T004,V004,J084,Installed on job J084 at Open Gate Pavilion.
+TX00377,2026-09-16T10:10:00-05:00,P008,1,Installed,Van,V008,Job,J042,T008,V008,J042,Installed on job J042 at Fern Basin Clinic.
+TX00378,2026-09-16T10:40:00-05:00,P006,1,Installed,Van,V008,Job,J042,T008,V008,J042,Installed HaloWave inverter on job J042.
+TX00379,2026-09-16T11:25:00-05:00,P028,1,Installed,Van,V014,Job,J058,T014,V014,J058,Installed on job J058 at Firefly Lane Cottage.
+TX00380,2026-09-16T11:25:00-05:00,P014,1,Installed,Van,V014,Job,J058,T014,V014,J058,Installed on job J058 at Firefly Lane Cottage.
+TX00381,2026-09-16T14:10:00-05:00,P004,1,Installed,Van,V006,Job,J027,T006,V006,J027,Installed on job J027 at Little Anvil Shop.
+TX00382,2026-09-16T14:10:00-05:00,P019,2,Installed,Van,V006,Job,J027,T006,V006,J027,Installed on job J027 at Little Anvil Shop.
+TX00383,2026-09-17T10:40:00-05:00,P006,1,Installed,Van,V009,Job,J043,T009,V009,J043,Installed HaloWave inverter on job J043.
+TX00384,2026-09-17T11:25:00-05:00,P012,2,Installed,Van,V005,Job,J067,T005,V005,J067,Installed on job J067 at Fern Basin Clinic.
+TX00385,2026-09-17T11:25:00-05:00,P023,1,Installed,Van,V005,Job,J067,T005,V005,J067,Installed on job J067 at Fern Basin Clinic.
+TX00386,2026-09-17T11:25:00-05:00,P015,4,Installed,Van,V005,Job,J067,T005,V005,J067,Installed on job J067 at Fern Basin Clinic.
+TX00387,2026-09-17T11:25:00-05:00,P009,1,Installed,Van,V005,Job,J067,T005,V005,J067,Installed on job J067 at Fern Basin Clinic.
+TX00388,2026-09-17T14:10:00-05:00,P018,1,Installed,Van,V015,Job,J037,T015,V015,J037,Installed on job J037 at Dust Lantern Hall.
+TX00389,2026-09-17T14:10:00-05:00,P012,2,Installed,Van,V015,Job,J037,T015,V015,J037,Installed on job J037 at Dust Lantern Hall.
+TX00390,2026-09-17T14:10:00-05:00,P020,1,Installed,Van,V015,Job,J037,T015,V015,J037,Installed on job J037 at Dust Lantern Hall.
+TX00391,2026-09-18T07:50:00-05:00,P001,1,Issued,Warehouse,W002,Van,V002,T002,V002,J041,Checked out by technician T002 Sable Quill onto van V002 for job J041.
+TX00392,2026-09-18T11:10:00-05:00,P001,1,Installed,Van,V002,Job,J041,T002,V002,J041,Installed one LumenPack module on job J041 at Owl Creek Cabin.
+TX00393,2026-09-18T11:25:00-05:00,P002,1,Installed,Van,V014,Job,J076,T014,V014,J076,Installed on job J076 at Cedar Dial Office.
+TX00394,2026-09-18T11:25:00-05:00,P003,1,Installed,Van,V014,Job,J076,T014,V014,J076,Installed on job J076 at Cedar Dial Office.
+TX00395,2026-09-18T11:25:00-05:00,P018,1,Installed,Van,V014,Job,J076,T014,V014,J076,Installed on job J076 at Cedar Dial Office.
+TX00396,2026-09-18T14:10:00-05:00,P028,1,Installed,Van,V006,Job,J050,T006,V006,J050,Installed on job J050 at Cinder Mesa Residence.
+TX00397,2026-09-18T14:10:00-05:00,P014,1,Installed,Van,V006,Job,J050,T006,V006,J050,Installed on job J050 at Cinder Mesa Residence.
+TX00398,2026-09-19T09:10:00-05:00,P018,1,Installed,Van,V007,Job,J028,T007,V007,J028,Installed on job J028 at Soft Rain House.
+TX00399,2026-09-19T09:10:00-05:00,P012,2,Installed,Van,V007,Job,J028,T007,V007,J028,Installed on job J028 at Soft Rain House.
+TX00400,2026-09-19T09:10:00-05:00,P020,1,Installed,Van,V007,Job,J028,T007,V007,J028,Installed on job J028 at Soft Rain House.
+TX00401,2026-09-19T11:25:00-05:00,P002,1,Installed,Van,V005,Job,J085,T005,V005,J085,Installed on job J085 at Cedar Kettle Works.
+TX00402,2026-09-19T11:25:00-05:00,P004,1,Installed,Van,V005,Job,J085,T005,V005,J085,Installed on job J085 at Cedar Kettle Works.
+TX00403,2026-09-19T14:10:00-05:00,P012,2,Installed,Van,V015,Job,J059,T015,V015,J059,Installed on job J059 at Hollow Oak Bakery.
+TX00404,2026-09-19T14:10:00-05:00,P023,1,Installed,Van,V015,Job,J059,T015,V015,J059,Installed on job J059 at Hollow Oak Bakery.
+TX00405,2026-09-19T14:10:00-05:00,P015,4,Installed,Van,V015,Job,J059,T015,V015,J059,Installed on job J059 at Hollow Oak Bakery.
+TX00406,2026-09-19T14:10:00-05:00,P009,1,Installed,Van,V015,Job,J059,T015,V015,J059,Installed on job J059 at Hollow Oak Bakery.
+TX00407,2026-09-20T07:40:00-05:00,P006,1,Issued,Warehouse,W002,Van,V003,T003,V003,,Checked out by T003 Idris Fen onto van V003.
+TX00408,2026-09-20T09:10:00-05:00,P028,1,Installed,Van,V016,Job,J038,T016,V016,J038,Installed on job J038 at Pecan Switch Barn.
+TX00409,2026-09-20T09:10:00-05:00,P014,1,Installed,Van,V016,Job,J038,T016,V016,J038,Installed on job J038 at Pecan Switch Barn.
+TX00410,2026-09-20T14:10:00-05:00,P002,1,Installed,Van,V006,Job,J068,T006,V006,J068,Installed on job J068 at Bright Lot Storage.
+TX00411,2026-09-20T14:10:00-05:00,P003,1,Installed,Van,V006,Job,J068,T006,V006,J068,Installed on job J068 at Bright Lot Storage.
+TX00412,2026-09-20T14:10:00-05:00,P018,1,Installed,Van,V006,Job,J068,T006,V006,J068,Installed on job J068 at Bright Lot Storage.
+TX00413,2026-09-21T07:40:00-05:00,P006,1,Issued,Warehouse,W002,Van,V004,T004,V004,,Checked out by T004 Maren Holt onto van V004.
+TX00414,2026-09-21T09:10:00-05:00,P012,2,Installed,Van,V007,Job,J051,T007,V007,J051,Installed on job J051 at Aster Court Storage.
+TX00415,2026-09-21T09:10:00-05:00,P023,1,Installed,Van,V007,Job,J051,T007,V007,J051,Installed on job J051 at Aster Court Storage.
+TX00416,2026-09-21T09:10:00-05:00,P015,4,Installed,Van,V007,Job,J051,T007,V007,J051,Installed on job J051 at Aster Court Storage.
+TX00417,2026-09-21T09:10:00-05:00,P009,1,Installed,Van,V007,Job,J051,T007,V007,J051,Installed on job J051 at Aster Court Storage.
+TX00418,2026-09-21T14:10:00-05:00,P002,1,Installed,Van,V015,Job,J077,T015,V015,J077,Installed on job J077 at Copper Lantern Home.
+TX00419,2026-09-21T14:10:00-05:00,P004,1,Installed,Van,V015,Job,J077,T015,V015,J077,Installed on job J077 at Copper Lantern Home.
+TX00420,2026-09-22T07:40:00-05:00,P001,1,Issued,Warehouse,W001,Van,V004,T004,V004,,Checked out by technician T004 Maren Holt onto van V004.
+TX00421,2026-09-22T07:50:00-05:00,P006,1,Issued,Warehouse,W002,Van,V006,T006,V006,,Checked out by T006 Lumen Drake onto van V006.
+TX00422,2026-09-22T09:10:00-05:00,P002,1,Installed,Van,V016,Job,J060,T016,V016,J060,Installed on job J060 at Clover Stack Storage.
+TX00423,2026-09-22T09:10:00-05:00,P003,1,Installed,Van,V016,Job,J060,T016,V016,J060,Installed on job J060 at Clover Stack Storage.
+TX00424,2026-09-22T09:10:00-05:00,P018,1,Installed,Van,V016,Job,J060,T016,V016,J060,Installed on job J060 at Clover Stack Storage.
+TX00425,2026-09-22T11:25:00-05:00,P028,1,Installed,Van,V008,Job,J029,T008,V008,J029,Installed on job J029 at Open Gate Pavilion.
+TX00426,2026-09-22T11:25:00-05:00,P014,1,Installed,Van,V008,Job,J029,T008,V008,J029,Installed on job J029 at Open Gate Pavilion.
+TX00427,2026-09-22T14:10:00-05:00,P008,1,Installed,Van,V006,Job,J086,T006,V006,J086,Installed on job J086 at Quail Run Backup.
+TX00428,2026-09-22T14:10:00-05:00,P007,1,Installed,Van,V006,Job,J086,T006,V006,J086,Installed on job J086 at Quail Run Backup.
+TX00429,2026-09-23T09:10:00-05:00,P002,1,Installed,Van,V007,Job,J069,T007,V007,J069,Installed on job J069 at Low Star Barn.
+TX00430,2026-09-23T09:10:00-05:00,P004,1,Installed,Van,V007,Job,J069,T007,V007,J069,Installed on job J069 at Low Star Barn.
+TX00431,2026-09-23T11:25:00-05:00,P012,2,Installed,Van,V017,Job,J039,T017,V017,J039,Installed on job J039 at Driftwood Pump House.
+TX00432,2026-09-23T11:25:00-05:00,P023,1,Installed,Van,V017,Job,J039,T017,V017,J039,Installed on job J039 at Driftwood Pump House.
+TX00433,2026-09-23T11:25:00-05:00,P015,4,Installed,Van,V017,Job,J039,T017,V017,J039,Installed on job J039 at Driftwood Pump House.
+TX00434,2026-09-23T11:25:00-05:00,P009,1,Installed,Van,V017,Job,J039,T017,V017,J039,Installed on job J039 at Driftwood Pump House.
+TX00435,2026-09-24T09:10:00-05:00,P008,1,Installed,Van,V016,Job,J078,T016,V016,J078,Installed on job J078 at Lake Glass Pavilion.
+TX00436,2026-09-24T09:10:00-05:00,P007,1,Installed,Van,V016,Job,J078,T016,V016,J078,Installed on job J078 at Lake Glass Pavilion.
+TX00437,2026-09-24T11:25:00-05:00,P002,1,Installed,Van,V008,Job,J052,T008,V008,J052,Installed on job J052 at Sage Flat Residence.
+TX00438,2026-09-24T11:25:00-05:00,P003,1,Installed,Van,V008,Job,J052,T008,V008,J052,Installed on job J052 at Sage Flat Residence.
+TX00439,2026-09-24T11:25:00-05:00,P018,1,Installed,Van,V008,Job,J052,T008,V008,J052,Installed on job J052 at Sage Flat Residence.
+TX00440,2026-09-25T11:25:00-05:00,P002,1,Installed,Van,V017,Job,J061,T017,V017,J061,Installed on job J061 at Yellow Porch House.
+TX00441,2026-09-25T11:25:00-05:00,P004,1,Installed,Van,V017,Job,J061,T017,V017,J061,Installed on job J061 at Yellow Porch House.
+TX00442,2026-09-25T14:10:00-05:00,P012,2,Installed,Van,V009,Job,J031,T009,V009,J031,Installed on job J031 at Cedar Kettle Works.
+TX00443,2026-09-25T14:10:00-05:00,P023,1,Installed,Van,V009,Job,J031,T009,V009,J031,Installed on job J031 at Cedar Kettle Works.
+TX00444,2026-09-25T14:10:00-05:00,P015,4,Installed,Van,V009,Job,J031,T009,V009,J031,Installed on job J031 at Cedar Kettle Works.
+TX00445,2026-09-25T14:10:00-05:00,P009,1,Installed,Van,V009,Job,J031,T009,V009,J031,Installed on job J031 at Cedar Kettle Works.
+TX00446,2026-09-25T16:20:00-05:00,P001,-1,Adjustment,Warehouse,W003,Warehouse,W003,,,,Cycle count at Bluebonnet Service Warehouse W003 aisle C shelf 02 bin 07 found 3 LumenPack modules (P001); the book balance was 4. The missing module was not on any van and was not in the bin. On-hand corrected down by 1 pending review.
+TX00447,2026-09-26T11:25:00-05:00,P008,1,Installed,Van,V008,Job,J070,T008,V008,J070,Installed on job J070 at Bluebonnet Storage Yard.
+TX00448,2026-09-26T11:25:00-05:00,P007,1,Installed,Van,V008,Job,J070,T008,V008,J070,Installed on job J070 at Bluebonnet Storage Yard.
+TX00449,2026-09-26T14:10:00-05:00,P002,1,Installed,Van,V019,Job,J040,T021,V019,J040,Installed on job J040 at Mesquite Switch House.
+TX00450,2026-09-26T14:10:00-05:00,P003,1,Installed,Van,V019,Job,J040,T021,V019,J040,Installed on job J040 at Mesquite Switch House.
+TX00451,2026-09-26T14:10:00-05:00,P018,1,Installed,Van,V019,Job,J040,T021,V019,J040,Installed on job J040 at Mesquite Switch House.
+TX00452,2026-09-26T15:10:00-05:00,P001,1,Reserved,Warehouse,W001,Job,J011,,,J011,Reserved one LumenPack module at W001 for Monday job J011.
+TX00453,2026-09-26T15:20:00-05:00,P006,1,Reserved,Warehouse,W002,Job,J012,,,J012,Reserved one HaloWave inverter at W002 for Monday job J012.
+TX00454,2026-09-26T15:30:00-05:00,P009,1,Reserved,Warehouse,W001,Job,J011,,,J011,Reserved 1 P009 at W001 for job J011.
+TX00455,2026-09-26T15:30:00-05:00,P012,2,Reserved,Warehouse,W001,Job,J011,,,J011,Reserved 2 P012 at W001 for job J011.
+TX00456,2026-09-26T15:30:00-05:00,P015,4,Reserved,Warehouse,W001,Job,J011,,,J011,Reserved 4 P015 at W001 for job J011.
+TX00457,2026-09-26T15:30:00-05:00,P023,1,Reserved,Warehouse,W001,Job,J011,,,J011,Reserved 1 P023 at W001 for job J011.
+TX00458,2026-09-26T15:30:00-05:00,P004,1,Reserved,Warehouse,W002,Job,J016,,,J016,Reserved 1 P004 at W002 for job J016.
+TX00459,2026-09-26T15:30:00-05:00,P008,1,Reserved,Warehouse,W002,Job,J012,,,J012,Reserved 1 P008 at W002 for job J012.
+TX00460,2026-09-26T15:30:00-05:00,P012,2,Reserved,Warehouse,W002,Job,J015,,,J015,Reserved 2 P012 at W002 for job J015.
+TX00461,2026-09-26T15:30:00-05:00,P018,1,Reserved,Warehouse,W002,Job,J016,,,J016,Reserved 1 P018 at W002 for job J016.
+TX00462,2026-09-26T15:30:00-05:00,P026,1,Reserved,Warehouse,W002,Job,J030,,,J030,Reserved 1 P026 at W002 for job J030.
+TX00463,2026-09-27T06:30:00-05:00,P004,1,Issued,Warehouse,W001,Van,V001,T001,V001,,Extra thermal pad set pulled during Sunday staging.
+TX00464,2026-09-27T06:50:00-05:00,P004,1,Returned,Van,V001,Warehouse,W001,T001,V001,,Unused thermal pad set returned from van V001 to Mesa Volt Depot.
+TX00465,2026-09-27T09:30:00-05:00,P009,1,Installed,Van,V005,Job,J021,T005,V005,J021,Installed on job J021 at Mesquite Switch House.
+TX00466,2026-09-27T09:30:00-05:00,P015,2,Installed,Van,V005,Job,J021,T005,V005,J021,Installed on job J021 at Mesquite Switch House.
+TX00467,2026-09-27T11:35:00-05:00,P004,1,Installed,Van,V002,Job,J002,T002,V002,J002,Installed on job J002 at Bluebonnet Storage Yard.
+TX00468,2026-09-27T12:25:00-05:00,P001,1,Reserved,Van,V001,Job,J001,T001,V001,J001,Reserved one LumenPack module from van V001 onto job J001. The unit is still physically on the van.
+TX00469,2026-09-27T15:25:00-05:00,P003,1,Installed,Van,V007,Job,J005,T007,V007,J005,Installed on job J005 at Barton Hollow Residence.

@@ -1,0 +1,233 @@
+event_id,incident_id,timestamp,event_type,engineer,description,evidence_reference
+IEV-0001,INC-001,2026-09-26T11:00:00-05:00,Alert,ENG-104,THERM-110 warning while pack temperature was rising.,FLT-0001
+IEV-0002,INC-001,2026-09-26T14:55:00-05:00,Investigation Started,ENG-104,Engineer opened the thermal shutdown investigation.,DEV-001
+IEV-0003,INC-001,2026-09-26T15:20:00-05:00,Telemetry Reviewed,ENG-104,Temperature rose for hours under discharge before the trip. It did not snap back.,DEV-001 telemetry 2026-09-26T08:00 to 2026-09-26T14:40
+IEV-0004,INC-001,2026-09-26T15:40:00-05:00,Fault Identified,ENG-104,THERM-201 opened the contactors. Cooling fan tach was zero.,FLT-0002
+IEV-0005,INC-001,2026-09-26T16:10:00-05:00,Firmware Compared,ENG-104,"Device is on 4.2.1, the previous stable image. No 4.3.0 heartbeat signature.",firmware 4.2.1
+IEV-0006,INC-001,2026-09-26T16:30:00-05:00,Configuration Checked,ENG-104,Temperature threshold matches the expected 60 C. This is not a configuration mismatch.,Temperature Threshold
+IEV-0007,INC-001,2026-09-26T17:10:00-05:00,Root Cause Suspected,ENG-104,Suspected cooling fan seizure because temperature rose with current and fan tach was zero.,CMP-0003
+IEV-0008,INC-001,2026-09-26T18:40:00-05:00,Root Cause Confirmed,ENG-104,"Confirmed cooling fan bearing seizure. The temperature sensor agreed with the rise, so this is not sensor drift.",CMP-0003
+IEV-0009,INC-001,2026-09-27T09:00:00-05:00,Fix Developed,ENG-125,Fan replacement and recommission procedure issued. Threshold change rejected.,DOC thermal runbook
+IEV-0010,INC-001,2026-09-27T13:30:00-05:00,Fix Deployed,TECH-210,Replacement fan kit issued to the site. The pack stays offline until the fan is installed.,JOB-6102
+IEV-0011,INC-001,2026-09-27T15:10:00-05:00,Incident Resolved,ENG-104,Investigation closed. The pack is still offline pending the physical fan replacement.,INC-001
+IEV-0012,INC-002,2026-09-15T07:00:00-05:00,Alert,ENG-110,COM-214 raised on devices that had just taken 4.3.0.,FLT-0006
+IEV-0013,INC-002,2026-09-15T09:00:00-05:00,Investigation Started,ENG-110,Compared install time to the first COM-214 on each device.,device_firmware_history
+IEV-0014,INC-002,2026-09-15T11:30:00-05:00,Telemetry Reviewed,ENG-110,Latency stepped up at the 4.3.0 install. Signal strength stayed near -64 dBm.,gateway telemetry
+IEV-0015,INC-002,2026-09-15T13:00:00-05:00,Fault Identified,ENG-110,COM-214 and FW-210 share the 4.3.0 heartbeat signature.,COM-214
+IEV-0016,INC-002,2026-09-15T15:00:00-05:00,Firmware Compared,ENG-110,4.2.1 uses a fixed heartbeat. 4.3.0 moved timeout handling into the session layer and drops sessions above 120 ms.,4.2.1 vs 4.3.0
+IEV-0017,INC-002,2026-09-16T10:00:00-05:00,Configuration Checked,ENG-110,Communication timeout values match the approved 30 s setting on the affected devices.,Communication Timeout
+IEV-0018,INC-002,2026-09-16T14:00:00-05:00,Root Cause Suspected,ENG-110,Suspected the 4.3.0 heartbeat change because peers on 4.2.1 did not drop.,firmware_versions 4.3.0
+IEV-0019,INC-002,2026-09-17T16:00:00-05:00,Root Cause Confirmed,ENG-110,Lab test of 4.3.0 reproduced COM-214 at 180 ms induced latency. 4.2.1 did not.,TEST heartbeat
+IEV-0020,INC-002,2026-09-19T18:00:00-05:00,Fix Developed,ENG-125,4.3.1 restores 4.2.1 heartbeat timing and keeps compressed frames.,4.3.1
+IEV-0021,INC-002,2026-09-20T06:00:00-05:00,Fix Deployed,ENG-110,4.3.1 installed on the Cedar Park gateway. Rollback remains in place on the other recovered devices.,DEV-011
+IEV-0022,INC-002,2026-09-21T09:00:00-05:00,Incident Resolved,ENG-110,Mitigation is in place. Two devices are still on 4.3.0 and the incident stays in monitoring until they move.,INC-002
+IEV-0023,INC-003,2026-09-14T18:20:00-05:00,Alert,ENG-125,INV-360 repeated during the evening discharge.,DEV-019
+IEV-0024,INC-003,2026-09-15T09:00:00-05:00,Investigation Started,ENG-125,Opened after the second capped discharge.,INV-360
+IEV-0025,INC-003,2026-09-16T11:00:00-05:00,Telemetry Reviewed,ENG-125,Unconstrained shape would have reached the high 80s. Measured power stopped at 75 kW.,inverter telemetry
+IEV-0026,INC-003,2026-09-17T18:10:00-05:00,Fault Identified,ENG-125,CFG-101 matched the cap.,FLT-0014
+IEV-0027,INC-003,2026-09-18T08:00:00-05:00,Firmware Compared,ENG-125,Inverter firmware was not changed during the fault window.,4.2.1
+IEV-0028,INC-003,2026-09-18T08:40:00-05:00,Configuration Checked,ENG-125,"Found Inverter Power Limit parameter_value 75 kW, expected_value 90 kW, status Mismatch.",CFG Inverter Power Limit
+IEV-0029,INC-003,2026-09-18T09:10:00-05:00,Root Cause Suspected,ENG-125,The 75 kW value explains the flat afternoon peak.,configuration
+IEV-0030,INC-003,2026-09-18T10:00:00-05:00,Root Cause Confirmed,ENG-110,After the value returned to 90 kW the next discharge was no longer capped.,CONFIG_FIX
+IEV-0031,INC-003,2026-09-18T10:30:00-05:00,Fix Developed,ENG-110,Restore the approved limit and keep the old row for audit.,ECR config
+IEV-0032,INC-003,2026-09-18T11:00:00-05:00,Fix Deployed,ENG-110,Running configuration set to 90 kW.,DEV-019
+IEV-0033,INC-003,2026-09-18T12:00:00-05:00,Incident Resolved,ENG-110,Faults stopped after the configuration correction.,INC-003
+IEV-0034,INC-004,2026-09-24T23:00:00-05:00,Alert,ENG-104,COM-118 gaps started as RSSI fell.,COM-118
+IEV-0035,INC-004,2026-09-25T08:00:00-05:00,Investigation Started,ENG-104,Gateway was offline at the morning check.,DEV-025
+IEV-0036,INC-004,2026-09-25T09:30:00-05:00,Telemetry Reviewed,ENG-104,"From 18:00 on 24 Sep, latency climbed and signal strength fell. Both moved, which is not the 4.3.0 pattern.",gateway telemetry
+IEV-0037,INC-004,2026-09-25T10:00:00-05:00,Fault Identified,ENG-104,COM-101 link loss.,FLT-0016
+IEV-0038,INC-004,2026-09-25T11:00:00-05:00,Firmware Compared,ENG-104,Gateway is on 4.2.1 with no 4.3.0 install. COM-214 was not raised.,firmware 4.2.1
+IEV-0039,INC-004,2026-09-25T11:30:00-05:00,Configuration Checked,ENG-104,Communication timeout is the expected 30 s.,Communication Timeout
+IEV-0040,INC-004,2026-09-25T13:00:00-05:00,Root Cause Suspected,ENG-104,Suspected the radio path because signal strength collapsed with latency.,CMP-0142
+IEV-0041,INC-004,2026-09-25T16:00:00-05:00,Root Cause Confirmed,ENG-104,Confirmed a failed gateway radio path. Distinct from the firmware heartbeat regression.,FLT-0016
+IEV-0042,INC-004,2026-09-26T09:00:00-05:00,Fix Developed,ENG-125,Radio module replacement procedure.,COM-101
+IEV-0043,INC-004,2026-09-26T14:00:00-05:00,Fix Deployed,TECH-210,Replacement radio staged. Gateway has not returned to service in this snapshot.,DEV-025
+IEV-0044,INC-004,2026-09-26T16:00:00-05:00,Incident Resolved,ENG-104,Cause closed as a radio path failure. Device remains offline until the swap.,INC-004
+IEV-0045,INC-005,2026-09-16T14:00:00-05:00,Alert,ENG-125,First BAT-204 on an HW-C pack.,DEV-026
+IEV-0046,INC-005,2026-09-19T15:00:00-05:00,Investigation Started,ENG-125,Second site repeated the same code.,DEV-031
+IEV-0047,INC-005,2026-09-22T14:00:00-05:00,Telemetry Reviewed,ENG-125,Pack voltage swung between about 705 V and 812 V before the fault. Peers on other revisions did not.,voltage telemetry
+IEV-0048,INC-005,2026-09-22T15:00:00-05:00,Fault Identified,ENG-125,BAT-204 on all three HW-C batteries.,FLT-0020
+IEV-0049,INC-005,2026-09-23T10:00:00-05:00,Firmware Compared,ENG-125,The three packs are not on a shared new firmware image. Hardware revision is the common field.,HW-C
+IEV-0050,INC-005,2026-09-23T11:00:00-05:00,Configuration Checked,ENG-125,Current limits match the expected 120 A. Not a configuration mismatch.,Max Discharge Current
+IEV-0051,INC-005,2026-09-24T09:00:00-05:00,Root Cause Suspected,ENG-125,Suspected HW-C busbar torque after the common revision and discharge condition lined up.,CMP-0146
+IEV-0052,INC-005,2026-09-25T16:00:00-05:00,Root Cause Confirmed,ENG-125,Confirmed low busbar torque on the HW-C power module.,HW-C
+IEV-0053,INC-005,2026-09-26T11:00:00-05:00,Fix Developed,ENG-125,Torque campaign and a temporary 60 kW discharge cap.,ECR torque
+IEV-0054,INC-005,2026-09-27T09:00:00-05:00,Fix Deployed,TECH-214,Discharge cap applied. Physical re-torque is not finished.,DEV-026
+IEV-0055,INC-006,2026-09-21T16:00:00-05:00,Alert,ENG-118,THERM-110 on a pack whose current was not high.,DEV-037
+IEV-0056,INC-006,2026-09-22T09:00:00-05:00,Investigation Started,ENG-118,Warnings repeated without a shutdown.,THERM-110
+IEV-0057,INC-006,2026-09-23T10:00:00-05:00,Telemetry Reviewed,ENG-118,Temperature climbed smoothly for days and voltage stayed steady. A real thermal mass would not snap back in one sample.,drift telemetry
+IEV-0058,INC-006,2026-09-23T18:40:00-05:00,Fault Identified,ENG-118,THERM-155 rate-of-change fault.,FLT-0026
+IEV-0059,INC-006,2026-09-23T19:00:00-05:00,Firmware Compared,ENG-118,Firmware matches healthy packs.,4.2.1
+IEV-0060,INC-006,2026-09-23T19:30:00-05:00,Configuration Checked,ENG-118,Temperature threshold is the expected 60 C.,Temperature Threshold
+IEV-0061,INC-006,2026-09-24T08:00:00-05:00,Root Cause Suspected,ENG-118,Suspected the temperature sensor because the rise ignored current.,CMP-0210
+IEV-0062,INC-006,2026-09-24T09:00:00-05:00,Root Cause Confirmed,ENG-118,Confirmed sensor drift. Temperature returned to the high 20s immediately after replacement.,CMP-0216
+IEV-0063,INC-006,2026-09-24T10:00:00-05:00,Fix Developed,ENG-118,"Sensor replacement, not a fan replacement and not a threshold change.",THERM-155
+IEV-0064,INC-006,2026-09-24T11:00:00-05:00,Fix Deployed,TECH-221,New temperature sensor installed.,CMP-0216
+IEV-0065,INC-006,2026-09-24T12:00:00-05:00,Incident Resolved,ENG-118,False thermal alerts stopped. Pack remained online throughout.,INC-006
+IEV-0066,INC-007,2026-09-23T17:40:00-05:00,Alert,ENG-125,INV-402 at the evening peak.,FLT-0029
+IEV-0067,INC-007,2026-09-23T18:10:00-05:00,Investigation Started,ENG-125,Output did not recover on the next samples.,DEV-043
+IEV-0068,INC-007,2026-09-23T19:00:00-05:00,Telemetry Reviewed,ENG-125,Power stepped from about 78 kW to 6.5 kW. Grid frequency did not excursion.,inverter telemetry
+IEV-0069,INC-007,2026-09-23T19:20:00-05:00,Fault Identified,ENG-125,INV-402 with a sagging DC bus.,FLT-0029
+IEV-0070,INC-007,2026-09-24T09:00:00-05:00,Firmware Compared,ENG-125,No firmware change on the day of the drop.,firmware history
+IEV-0071,INC-007,2026-09-24T09:30:00-05:00,Configuration Checked,ENG-125,Inverter Power Limit matches 90 kW. This is not the 75 kW mismatch pattern.,Inverter Power Limit
+IEV-0072,INC-007,2026-09-24T11:00:00-05:00,Root Cause Suspected,ENG-125,Suspected the power module because the bus sagged and the grid did not.,CMP-0240
+IEV-0073,INC-007,2026-09-25T10:00:00-05:00,Root Cause Confirmed,ENG-125,Confirmed a failed inverter power module.,CMP-0240
+IEV-0074,INC-007,2026-09-25T15:00:00-05:00,Fix Developed,ENG-125,Power module replacement.,INV-402
+IEV-0075,INC-007,2026-09-26T11:00:00-05:00,Fix Deployed,ENG-125,Replacement is not installed. The ticket is blocked on the part.,parts hold
+IEV-0076,INC-008,2026-09-21T03:50:00-05:00,Alert,ENG-101,BAT-330 unexpected SOC step.,FLT-0030
+IEV-0077,INC-008,2026-09-21T08:00:00-05:00,Investigation Started,ENG-101,Opened because the step had no matching energy.,DEV-045
+IEV-0078,INC-008,2026-09-21T10:00:00-05:00,Telemetry Reviewed,ENG-101,At 03:20 SOC stepped down while battery current and charge/discharge power were near zero. Several explanations still fit.,SOC telemetry
+IEV-0079,INC-008,2026-09-21T11:00:00-05:00,Fault Identified,ENG-101,BAT-330 is the symptom code. It does not name a cause.,FLT-0030
+IEV-0080,INC-008,2026-09-22T09:00:00-05:00,Firmware Compared,ENG-101,"Firmware is 4.2.1, the same image as healthy peers. No regression signature.",4.2.1
+IEV-0081,INC-008,2026-09-22T11:00:00-05:00,Configuration Checked,ENG-101,SOC minimum and maximum match the approved values. The step is not a configuration mismatch.,SOC Maximum
+IEV-0082,INC-008,2026-09-23T15:00:00-05:00,Root Cause Suspected,ENG-101,"Hypotheses recorded: estimator bias, current-sensor offset, standby parasitic load. None confirmed.",DEV-045
+IEV-0083,INC-009,2026-09-08T19:20:00-05:00,Alert,ENG-104,BAT-340 contactor opened under load.,FLT-0031
+IEV-0084,INC-009,2026-09-08T20:00:00-05:00,Investigation Started,ENG-104,Same outward symptom as other unexpected shutdowns.,DEV-048
+IEV-0085,INC-009,2026-09-09T09:00:00-05:00,Telemetry Reviewed,ENG-104,Current fell to zero when the contactor opened. Temperature was normal.,DEV-048
+IEV-0086,INC-009,2026-09-09T10:00:00-05:00,Fault Identified,ENG-104,REL-204 coil driver fault. Coil current was zero.,FLT-0031
+IEV-0087,INC-009,2026-09-09T11:00:00-05:00,Firmware Compared,ENG-104,No firmware change in the prior week.,firmware history
+IEV-0088,INC-009,2026-09-09T11:30:00-05:00,Configuration Checked,ENG-104,No contactor timing parameter was edited.,configuration
+IEV-0089,INC-009,2026-09-09T14:00:00-05:00,Root Cause Suspected,ENG-104,Suspected the coil driver because coil current was zero.,REL-204
+IEV-0090,INC-009,2026-09-10T09:00:00-05:00,Root Cause Confirmed,ENG-104,Confirmed a failed contactor coil driver. This is not a precharge-resistor failure.,REL-204
+IEV-0091,INC-009,2026-09-10T10:00:00-05:00,Fix Developed,ENG-104,Replace the coil driver.,REL-204
+IEV-0092,INC-009,2026-09-10T11:00:00-05:00,Fix Deployed,TECH-210,Driver replaced.,DEV-048
+IEV-0093,INC-009,2026-09-10T15:00:00-05:00,Incident Resolved,ENG-104,Pack returned to service. Closed after a clean discharge.,INC-009
+IEV-0094,INC-010,2026-09-11T18:40:00-05:00,Alert,ENG-104,Contactor did not close for discharge. Outward symptom matches the 8 Sep event.,FLT-0032
+IEV-0095,INC-010,2026-09-11T19:10:00-05:00,Investigation Started,ENG-104,Compared with the coil-driver shutdown before assuming the same part.,DEV-051
+IEV-0096,INC-010,2026-09-12T09:00:00-05:00,Telemetry Reviewed,ENG-104,No DC bus rise during precharge. Temperature was normal.,DEV-051
+IEV-0097,INC-010,2026-09-12T10:00:00-05:00,Fault Identified,ENG-104,"REL-210 precharge resistor open. Coil current was present, unlike REL-204.",FLT-0032
+IEV-0098,INC-010,2026-09-12T11:00:00-05:00,Firmware Compared,ENG-104,Firmware matches the other pack. Not a firmware split.,firmware history
+IEV-0099,INC-010,2026-09-12T11:20:00-05:00,Configuration Checked,ENG-104,Precharge timer matches the expected value.,configuration
+IEV-0100,INC-010,2026-09-13T09:00:00-05:00,Root Cause Suspected,ENG-104,Suspected the precharge resistor because voltage did not rise.,REL-210
+IEV-0101,INC-010,2026-09-13T15:00:00-05:00,Root Cause Confirmed,ENG-104,Confirmed an open precharge resistor. The coil driver from the earlier incident was healthy.,REL-210
+IEV-0102,INC-010,2026-09-14T08:00:00-05:00,Fix Developed,ENG-104,Replace the precharge resistor only.,REL-210
+IEV-0103,INC-010,2026-09-14T09:20:00-05:00,Fix Deployed,TECH-214,Resistor replaced.,DEV-051
+IEV-0104,INC-010,2026-09-14T12:00:00-05:00,Incident Resolved,ENG-104,"Pack returned to service. Same symptom as the coil-driver incident, different confirmed cause.",INC-010
+IEV-0105,INC-011,2026-09-25T13:40:00-05:00,Alert,ENG-110,GRID-302 then INV-201.,FLT-0033
+IEV-0106,INC-011,2026-09-25T14:30:00-05:00,Investigation Started,ENG-110,Output stayed at zero after the grid recovered.,DEV-066
+IEV-0107,INC-011,2026-09-25T15:10:00-05:00,Telemetry Reviewed,ENG-110,Frequency hit 61.28 Hz and power went to zero. Frequency later returned and power stayed at zero.,frequency telemetry
+IEV-0108,INC-011,2026-09-25T15:40:00-05:00,Fault Identified,ENG-110,GRID-302 excursion followed by INV-201 latch.,FLT-0033
+IEV-0109,INC-011,2026-09-25T16:20:00-05:00,Firmware Compared,ENG-110,No new firmware. Protection behavior matches the spec.,firmware history
+IEV-0110,INC-011,2026-09-25T16:40:00-05:00,Configuration Checked,ENG-110,Grid frequency limit matches the expected 0.5 Hz band.,Grid Frequency Limit
+IEV-0111,INC-011,2026-09-26T09:00:00-05:00,Root Cause Suspected,ENG-110,Suspected a real grid excursion because the frequency trace left the band before the latch.,GRID-302
+IEV-0112,INC-011,2026-09-26T11:00:00-05:00,Root Cause Confirmed,ENG-110,Confirmed a grid frequency excursion and a latched protection trip. The power module is not the failed part.,GRID-302
+IEV-0113,INC-011,2026-09-26T15:00:00-05:00,Fix Developed,ENG-110,Supervised reset procedure. No hardware swap.,runbook
+IEV-0114,INC-012,2026-09-25T16:00:00-05:00,Alert,ENG-101,Watch items crossed the proactive review line.,alerts
+IEV-0115,INC-012,2026-09-26T09:00:00-05:00,Investigation Started,ENG-101,Opened a monitoring incident so the three signals stay visible.,proactive
+IEV-0116,INC-012,2026-09-26T11:00:00-05:00,Telemetry Reviewed,ENG-101,"Temperature is stuck near 40 C, gateway latency is climbing through about 140 ms with stable RSSI, and the third pack shows isolated restarts.",telemetry
+IEV-0117,INC-012,2026-09-27T10:00:00-05:00,Configuration Checked,ENG-101,No mismatched limits on the three devices.,configuration
+IEV-0118,INC-013,2026-09-15T09:15:00-05:00,Alert,ENG-118,INV-305 reviewed during the weekly engineering pass.,INV-305
+IEV-0119,INC-013,2026-09-15T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-024
+IEV-0120,INC-013,2026-09-15T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-024
+IEV-0121,INC-013,2026-09-16T09:15:00-05:00,Root Cause Confirmed,ENG-118,DC bus capacitor ESR rise on the inverter power module,INV-305
+IEV-0122,INC-013,2026-09-17T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-013
+IEV-0123,INC-014,2026-09-16T09:15:00-05:00,Alert,ENG-118,INV-305 reviewed during the weekly engineering pass.,INV-305
+IEV-0124,INC-014,2026-09-16T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-027
+IEV-0125,INC-014,2026-09-16T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-027
+IEV-0126,INC-014,2026-09-17T09:15:00-05:00,Root Cause Confirmed,ENG-118,DC bus capacitor ESR rise on the inverter power module,INV-305
+IEV-0127,INC-014,2026-09-18T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-014
+IEV-0128,INC-015,2026-09-17T09:15:00-05:00,Alert,ENG-118,BMS-301 reviewed during the weekly engineering pass.,BMS-301
+IEV-0129,INC-015,2026-09-17T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-018
+IEV-0130,INC-015,2026-09-17T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-018
+IEV-0131,INC-015,2026-09-18T09:15:00-05:00,Root Cause Confirmed,ENG-118,Connector fretting on the voltage sense harness,BMS-301
+IEV-0132,INC-015,2026-09-19T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-015
+IEV-0133,INC-016,2026-09-18T09:15:00-05:00,Alert,ENG-118,INV-318 reviewed during the weekly engineering pass.,INV-318
+IEV-0134,INC-016,2026-09-18T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-032
+IEV-0135,INC-016,2026-09-18T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-032
+IEV-0136,INC-016,2026-09-19T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Utility tap change, inverter stayed online",INV-318
+IEV-0137,INC-016,2026-09-20T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-016
+IEV-0138,INC-017,2026-09-19T09:15:00-05:00,Alert,ENG-118,BMS-104 reviewed during the weekly engineering pass.,BMS-104
+IEV-0139,INC-017,2026-09-19T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-023
+IEV-0140,INC-017,2026-09-19T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-023
+IEV-0141,INC-017,2026-09-20T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Normal balancing, no fault",BMS-104
+IEV-0142,INC-017,2026-09-21T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-017
+IEV-0143,INC-018,2026-09-20T09:15:00-05:00,Alert,ENG-118,BMS-218 reviewed during the weekly engineering pass.,BMS-218
+IEV-0144,INC-018,2026-09-20T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-042
+IEV-0145,INC-018,2026-09-20T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-042
+IEV-0146,INC-018,2026-09-21T09:15:00-05:00,Root Cause Confirmed,ENG-118,"12 V supply dip during a storm, single restart",BMS-218
+IEV-0147,INC-018,2026-09-22T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-018
+IEV-0148,INC-019,2026-09-21T09:15:00-05:00,Alert,ENG-118,GRID-118 reviewed during the weekly engineering pass.,GRID-118
+IEV-0149,INC-019,2026-09-21T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-035
+IEV-0150,INC-019,2026-09-21T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-035
+IEV-0151,INC-019,2026-09-22T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Shared feeder voltage dip, no inverter damage",GRID-118
+IEV-0152,INC-019,2026-09-23T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-019
+IEV-0153,INC-020,2026-09-22T09:15:00-05:00,Alert,ENG-118,INV-250 reviewed during the weekly engineering pass.,INV-250
+IEV-0154,INC-020,2026-09-22T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-038
+IEV-0155,INC-020,2026-09-22T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-038
+IEV-0156,INC-020,2026-09-23T09:15:00-05:00,Root Cause Confirmed,ENG-118,Restart delay matched the approved 60 s setting,INV-250
+IEV-0157,INC-020,2026-09-24T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-020
+IEV-0158,INC-021,2026-09-03T09:15:00-05:00,Alert,ENG-118,GW-101 reviewed during the weekly engineering pass.,GW-101
+IEV-0159,INC-021,2026-09-03T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-017
+IEV-0160,INC-021,2026-09-03T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-017
+IEV-0161,INC-021,2026-09-04T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Operator log harvest, CPU returned to normal",GW-101
+IEV-0162,INC-021,2026-09-05T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-021
+IEV-0163,INC-022,2026-09-04T09:15:00-05:00,Alert,ENG-118,COM-240 reviewed during the weekly engineering pass.,COM-240
+IEV-0164,INC-022,2026-09-04T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-020
+IEV-0165,INC-022,2026-09-04T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-020
+IEV-0166,INC-022,2026-09-05T09:15:00-05:00,Root Cause Confirmed,ENG-118,Expected behavior of 4.3.1 compressed frames,COM-240
+IEV-0167,INC-022,2026-09-06T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-022
+IEV-0168,INC-023,2026-09-05T09:15:00-05:00,Alert,ENG-118,BMS-210 reviewed during the weekly engineering pass.,BMS-210
+IEV-0169,INC-023,2026-09-05T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-059
+IEV-0170,INC-023,2026-09-05T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-059
+IEV-0171,INC-023,2026-09-06T09:15:00-05:00,Root Cause Suspected,ENG-118,A harness issue is possible and is not confirmed.,DEV-059
+IEV-0172,INC-024,2026-09-06T09:15:00-05:00,Alert,ENG-118,GRID-310 reviewed during the weekly engineering pass.,GRID-310
+IEV-0173,INC-024,2026-09-06T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-046
+IEV-0174,INC-024,2026-09-06T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-046
+IEV-0175,INC-025,2026-09-07T09:15:00-05:00,Alert,ENG-118,BAT-101 reviewed during the weekly engineering pass.,BAT-101
+IEV-0176,INC-025,2026-09-07T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-065
+IEV-0177,INC-025,2026-09-07T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-065
+IEV-0178,INC-025,2026-09-08T09:15:00-05:00,Root Cause Confirmed,ENG-118,Balancer duty cycle too low on one cell group,BAT-101
+IEV-0179,INC-025,2026-09-09T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-025
+IEV-0180,INC-026,2026-09-08T09:15:00-05:00,Alert,ENG-118,BAT-217 reviewed during the weekly engineering pass.,BAT-217
+IEV-0181,INC-026,2026-09-08T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-070
+IEV-0182,INC-026,2026-09-08T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-070
+IEV-0183,INC-026,2026-09-09T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Single-sample charge current overshoot, did not repeat",BAT-217
+IEV-0184,INC-026,2026-09-10T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-026
+IEV-0185,INC-027,2026-09-09T09:15:00-05:00,Alert,ENG-118,BAT-118 reviewed during the weekly engineering pass.,BAT-118
+IEV-0186,INC-027,2026-09-09T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-071
+IEV-0187,INC-027,2026-09-09T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-071
+IEV-0188,INC-027,2026-09-10T09:15:00-05:00,Root Cause Confirmed,ENG-118,Open-circuit voltage agreed with SOC after a 20 minute rest,BAT-118
+IEV-0189,INC-027,2026-09-11T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-027
+IEV-0190,INC-028,2026-09-10T09:15:00-05:00,Alert,ENG-118,BAT-102 reviewed during the weekly engineering pass.,BAT-102
+IEV-0191,INC-028,2026-09-10T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-075
+IEV-0192,INC-028,2026-09-10T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-075
+IEV-0193,INC-028,2026-09-11T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Normal end of charge, no field action",BAT-102
+IEV-0194,INC-028,2026-09-12T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-028
+IEV-0195,INC-029,2026-09-11T09:15:00-05:00,Alert,ENG-118,INV-214 reviewed during the weekly engineering pass.,INV-214
+IEV-0196,INC-029,2026-09-11T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-049
+IEV-0197,INC-029,2026-09-11T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-049
+IEV-0198,INC-029,2026-09-12T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Blocked inverter fan inlet, derate cleared after cleaning",INV-214
+IEV-0199,INC-029,2026-09-13T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-029
+IEV-0200,INC-030,2026-09-12T09:15:00-05:00,Alert,ENG-118,INV-109 reviewed during the weekly engineering pass.,INV-109
+IEV-0201,INC-030,2026-09-12T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-052
+IEV-0202,INC-030,2026-09-12T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-052
+IEV-0203,INC-030,2026-09-13T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Normal start, grid inside limits",INV-109
+IEV-0204,INC-030,2026-09-14T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-030
+IEV-0205,INC-031,2026-09-13T09:15:00-05:00,Alert,ENG-118,INV-415 reviewed during the weekly engineering pass.,INV-415
+IEV-0206,INC-031,2026-09-13T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-055
+IEV-0207,INC-031,2026-09-13T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-055
+IEV-0208,INC-031,2026-09-14T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Single hardware trip, no repeat, power module left in service",INV-415
+IEV-0209,INC-031,2026-09-15T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-031
+IEV-0210,INC-032,2026-09-14T09:15:00-05:00,Alert,ENG-118,GRID-201 reviewed during the weekly engineering pass.,GRID-201
+IEV-0211,INC-032,2026-09-14T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-060
+IEV-0212,INC-032,2026-09-14T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-060
+IEV-0213,INC-032,2026-09-15T09:15:00-05:00,Root Cause Confirmed,ENG-118,Grid voltage and frequency returned to nominal,GRID-201
+IEV-0214,INC-032,2026-09-16T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-032
+IEV-0215,INC-033,2026-09-15T09:15:00-05:00,Alert,ENG-118,GW-090 reviewed during the weekly engineering pass.,GW-090
+IEV-0216,INC-033,2026-09-15T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-028
+IEV-0217,INC-033,2026-09-15T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-028
+IEV-0218,INC-034,2026-09-16T09:15:00-05:00,Alert,ENG-118,GW-140 reviewed during the weekly engineering pass.,GW-140
+IEV-0219,INC-034,2026-09-16T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-033
+IEV-0220,INC-034,2026-09-16T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-033
+IEV-0221,INC-034,2026-09-17T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Supply dip, reboots stopped after the storm",GW-140
+IEV-0222,INC-034,2026-09-18T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-034
+IEV-0223,INC-035,2026-09-17T09:15:00-05:00,Alert,ENG-118,COM-118 reviewed during the weekly engineering pass.,COM-118
+IEV-0224,INC-035,2026-09-17T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-036
+IEV-0225,INC-035,2026-09-17T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-036
+IEV-0226,INC-035,2026-09-18T09:15:00-05:00,Root Cause Confirmed,ENG-118,"Collector pause, radio path was healthy",COM-118
+IEV-0227,INC-035,2026-09-19T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-035
+IEV-0228,INC-036,2026-09-18T09:15:00-05:00,Alert,ENG-118,FW-104 reviewed during the weekly engineering pass.,FW-104
+IEV-0229,INC-036,2026-09-18T12:15:00-05:00,Investigation Started,ENG-118,Scoped to one device.,DEV-039
+IEV-0230,INC-036,2026-09-18T15:15:00-05:00,Telemetry Reviewed,ENG-118,Compared the device with its site peers.,DEV-039
+IEV-0231,INC-036,2026-09-19T09:15:00-05:00,Root Cause Confirmed,ENG-118,Inactive bank matched the release manifest,FW-104
+IEV-0232,INC-036,2026-09-20T09:15:00-05:00,Incident Resolved,ENG-118,Closed in the weekly pass.,INC-036

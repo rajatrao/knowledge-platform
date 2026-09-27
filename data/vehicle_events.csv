@@ -1,0 +1,82 @@
+event_id,van_id,timestamp,event_type,mileage,notes
+VE00001,V001,2026-09-12T08:00:00-05:00,Inspection,21471,Routine safety inspection for fleet number LF-4801.
+VE00002,V001,2026-09-20T07:30:00-05:00,Fuel/Charge,21476,Depot charge before the week.
+VE00003,V001,2026-09-27T06:45:00-05:00,Check Out,21491,Checked out for the Sunday rotation.
+VE00004,V001,2026-09-27T15:50:00-05:00,Check In,21513,Afternoon telematics check-in.
+VE00005,V002,2026-09-12T08:00:00-05:00,Inspection,24941,Routine safety inspection for fleet number LF-4802.
+VE00006,V002,2026-09-20T07:30:00-05:00,Fuel/Charge,24946,Depot charge before the week.
+VE00007,V002,2026-09-27T06:45:00-05:00,Check Out,24961,Checked out for the Sunday rotation.
+VE00008,V002,2026-09-27T15:50:00-05:00,Check In,24983,Afternoon telematics check-in.
+VE00009,V003,2026-09-12T08:00:00-05:00,Inspection,28411,Routine safety inspection for fleet number LF-4803.
+VE00010,V003,2026-09-20T07:30:00-05:00,Fuel/Charge,28416,Depot charge before the week.
+VE00011,V003,2026-09-27T06:45:00-05:00,Check Out,28431,Checked out for the Sunday rotation.
+VE00012,V003,2026-09-27T15:50:00-05:00,Check In,28453,Afternoon telematics check-in.
+VE00013,V004,2026-09-12T08:00:00-05:00,Inspection,31881,Routine safety inspection for fleet number LF-4804.
+VE00014,V004,2026-09-20T07:30:00-05:00,Fuel/Charge,31886,Depot charge before the week.
+VE00015,V004,2026-09-27T06:45:00-05:00,Check Out,31901,Checked out for the Sunday rotation.
+VE00016,V004,2026-09-27T15:50:00-05:00,Check In,31923,Afternoon telematics check-in.
+VE00017,V005,2026-09-12T08:00:00-05:00,Inspection,35351,Routine safety inspection for fleet number LF-4805.
+VE00018,V005,2026-09-20T07:30:00-05:00,Fuel/Charge,35356,Depot charge before the week.
+VE00019,V005,2026-09-27T06:45:00-05:00,Check Out,35371,Checked out for the Sunday rotation.
+VE00020,V005,2026-09-27T15:50:00-05:00,Check In,35393,Afternoon telematics check-in.
+VE00021,V006,2026-09-12T08:00:00-05:00,Inspection,38821,Routine safety inspection for fleet number LF-4806.
+VE00022,V006,2026-09-20T07:30:00-05:00,Fuel/Charge,38826,Depot charge before the week.
+VE00023,V006,2026-09-27T06:45:00-05:00,Check Out,38841,Checked out for the Sunday rotation.
+VE00024,V006,2026-09-27T15:50:00-05:00,Check In,38863,Afternoon telematics check-in.
+VE00025,V007,2026-09-12T08:00:00-05:00,Inspection,42291,Routine safety inspection for fleet number LF-4807.
+VE00026,V007,2026-09-20T07:30:00-05:00,Fuel/Charge,42296,Depot charge before the week.
+VE00027,V007,2026-09-26T16:10:00-05:00,Warning,42296,Service interval is inside the next three weeks.
+VE00028,V007,2026-09-27T06:45:00-05:00,Check Out,42311,Checked out for the Sunday rotation.
+VE00029,V007,2026-09-27T15:50:00-05:00,Check In,42333,Afternoon telematics check-in.
+VE00030,V008,2026-09-12T08:00:00-05:00,Inspection,45761,Routine safety inspection for fleet number LF-4808.
+VE00031,V008,2026-09-20T07:30:00-05:00,Fuel/Charge,45766,Depot charge before the week.
+VE00032,V008,2026-09-27T06:45:00-05:00,Check Out,45781,Checked out for the Sunday rotation.
+VE00033,V008,2026-09-27T15:50:00-05:00,Check In,45803,Afternoon telematics check-in.
+VE00034,V009,2026-09-12T08:00:00-05:00,Inspection,49231,Routine safety inspection for fleet number LF-4809.
+VE00035,V009,2026-09-20T07:30:00-05:00,Fuel/Charge,49236,Depot charge before the week.
+VE00036,V009,2026-09-27T06:45:00-05:00,Check Out,49251,Checked out for the Sunday rotation.
+VE00037,V009,2026-09-27T15:50:00-05:00,Check In,49273,Afternoon telematics check-in.
+VE00038,V010,2026-09-12T08:00:00-05:00,Inspection,52701,Routine safety inspection for fleet number LF-4810.
+VE00039,V010,2026-09-20T07:30:00-05:00,Fuel/Charge,52706,Depot charge before the week.
+VE00040,V010,2026-09-27T06:45:00-05:00,Check Out,52721,Checked out for the Sunday rotation.
+VE00041,V010,2026-09-27T15:50:00-05:00,Check In,52743,Afternoon telematics check-in.
+VE00042,V011,2026-09-12T08:00:00-05:00,Inspection,56171,Routine safety inspection for fleet number LF-4811.
+VE00043,V011,2026-09-20T07:30:00-05:00,Fuel/Charge,56176,Depot charge before the week.
+VE00044,V011,2026-09-27T06:45:00-05:00,Check Out,56191,Checked out for the Sunday rotation.
+VE00045,V011,2026-09-27T15:50:00-05:00,Check In,56213,Afternoon telematics check-in.
+VE00046,V012,2026-09-12T08:00:00-05:00,Inspection,59641,Routine safety inspection for fleet number LF-4812.
+VE00047,V012,2026-09-20T07:30:00-05:00,Fuel/Charge,59646,Depot charge before the week.
+VE00048,V012,2026-09-26T17:10:00-05:00,Check In,59668,Last telematics heartbeat. Gateway has not checked in since.
+VE00049,V013,2026-09-12T08:00:00-05:00,Inspection,63111,Routine safety inspection for fleet number LF-4813.
+VE00050,V013,2026-09-20T07:30:00-05:00,Fuel/Charge,63116,Depot charge before the week.
+VE00051,V013,2026-09-27T06:45:00-05:00,Check Out,63131,Checked out for the Sunday rotation.
+VE00052,V013,2026-09-27T15:50:00-05:00,Check In,63153,Afternoon telematics check-in.
+VE00053,V014,2026-09-12T08:00:00-05:00,Inspection,66581,Routine safety inspection for fleet number LF-4814.
+VE00054,V014,2026-09-20T07:30:00-05:00,Fuel/Charge,66586,Depot charge before the week.
+VE00055,V014,2026-09-27T06:45:00-05:00,Check Out,66601,Checked out for the Sunday rotation.
+VE00056,V014,2026-09-27T15:50:00-05:00,Check In,66623,Afternoon telematics check-in.
+VE00057,V015,2026-09-12T08:00:00-05:00,Inspection,70051,Routine safety inspection for fleet number LF-4815.
+VE00058,V015,2026-09-20T07:30:00-05:00,Fuel/Charge,70056,Depot charge before the week.
+VE00059,V015,2026-09-27T06:45:00-05:00,Check Out,70071,Checked out for the Sunday rotation.
+VE00060,V015,2026-09-27T15:50:00-05:00,Check In,70093,Afternoon telematics check-in.
+VE00061,V016,2026-09-12T08:00:00-05:00,Inspection,73521,Routine safety inspection for fleet number LF-4816.
+VE00062,V016,2026-09-20T07:30:00-05:00,Fuel/Charge,73526,Depot charge before the week.
+VE00063,V016,2026-09-27T06:45:00-05:00,Check Out,73541,Checked out for the Sunday rotation.
+VE00064,V016,2026-09-27T15:50:00-05:00,Check In,73563,Afternoon telematics check-in.
+VE00065,V017,2026-09-12T08:00:00-05:00,Inspection,76991,Routine safety inspection for fleet number LF-4817.
+VE00066,V017,2026-09-20T07:30:00-05:00,Fuel/Charge,76996,Depot charge before the week.
+VE00067,V017,2026-09-27T06:45:00-05:00,Check Out,77011,Checked out for the Sunday rotation.
+VE00068,V017,2026-09-27T15:50:00-05:00,Check In,77033,Afternoon telematics check-in.
+VE00069,V018,2026-09-12T08:00:00-05:00,Inspection,80461,Routine safety inspection for fleet number LF-4818.
+VE00070,V018,2026-09-20T07:30:00-05:00,Fuel/Charge,80466,Depot charge before the week.
+VE00071,V018,2026-09-24T09:00:00-05:00,Maintenance,80468,Shop intake at W001 for brake and charger service.
+VE00072,V018,2026-09-26T13:00:00-05:00,Repair,80468,Repair in progress. Expected release 2026-10-01.
+VE00073,V018,2026-09-27T11:00:00-05:00,Check In,80490,Shop bay check-in. Vehicle is not released.
+VE00074,V019,2026-09-12T08:00:00-05:00,Inspection,83931,Routine safety inspection for fleet number LF-4819.
+VE00075,V019,2026-09-20T07:30:00-05:00,Fuel/Charge,83936,Depot charge before the week.
+VE00076,V019,2026-09-26T16:10:00-05:00,Warning,83936,Service interval is inside the next three weeks.
+VE00077,V019,2026-09-27T06:45:00-05:00,Check Out,83951,Checked out for the Sunday rotation.
+VE00078,V019,2026-09-27T15:50:00-05:00,Check In,83973,Afternoon telematics check-in.
+VE00079,V020,2026-09-12T08:00:00-05:00,Inspection,87401,Routine safety inspection for fleet number LF-4820.
+VE00080,V020,2026-09-20T07:30:00-05:00,Fuel/Charge,87406,Depot charge before the week.
+VE00081,V020,2026-09-27T15:20:00-05:00,Check In,87428,Parked at home warehouse W003 and available for dispatch.

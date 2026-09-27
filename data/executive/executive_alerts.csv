@@ -1,0 +1,16 @@
+alert_id,created_at,severity,status,market_id,scenario_id,related_risk_id,related_incident_id,title,summary
+ALT-001,2026-09-22,Critical,Open,MKT-002,SCN-04,RSK-02,,P006 available is 0 at W001,HaloWave weeks of supply is 0.0. North Austin and Austin Metro both draw from W001.
+ALT-002,2026-09-21,High,Open,MKT-002,SCN-01,RSK-01,,North Austin installations still down,Completed installs remain well below the pre-August run rate. Rework is up.
+ALT-003,2026-09-15,High,Open,,SCN-05,RSK-03,INC-002,Firmware 4.3.0 heartbeat regression,INC-002 opened 2026-09-15. Firmware-related incidents spiked that week and only partly declined the next week.
+ALT-004,2026-08-20,High,Open,MKT-006,SCN-03,RSK-04,,San Marcos WMS configuration unfinished,Launch locations at W003 are not configured. Certified coverage on the launch roster is 3 of 5.
+ALT-005,2026-09-23,Medium,Open,MKT-002,SCN-06,RSK-07,,North Austin CSAT fell again,"Latest week CSAT is 56, with slower response, more repeat contacts, and more installation complaints."
+ALT-006,2026-09-17,High,Open,,SCN-08,RSK-05,INC-005,HW-C battery failure rate elevated,Battery HW-C failure_rate is above other revisions. INC-005 is the linked investigation.
+ALT-007,2026-09-18,Medium,Open,MKT-001,SCN-07,RSK-06,,Austin Metro utilization above capacity,Scheduled work is above certified weekly capacity and overtime is up. Open positions are 3.
+ALT-008,2026-09-19,Low,Open,MKT-003,SCN-04,RSK-14,,P018 weeks of supply are thin at W002,Class T fuse coverage at W002 is low. This is not the W001 P006 stockout.
+ALT-009,2026-07-20,Medium,Acknowledged,MKT-005,SCN-09,RSK-11,,Georgetown cycle time is improving,INIT-01 started 2026-07-06. September cycle time and rework are better than June.
+ALT-010,2026-08-03,Low,Acknowledged,MKT-007,,,,Pflugerville expansion paused,Completed installations in MKT-007 are zero after 2026-08-03.
+ALT-011,2026-06-12,High,Resolved,MKT-003,,,,Round Rock permit delay cleared,A June permit hold was resolved. It is not the current North Austin slowdown.
+ALT-012,2026-05-02,Medium,Resolved,MKT-004,SCN-02,,,Cedar Park truck gap closed,A May vehicle gap was resolved before the scale playbook.
+ALT-013,2026-09-16,Critical,Acknowledged,MKT-001,SCN-04,RSK-02,,W001 stockout days still hitting Austin Metro,The week of 2026-09-14 includes extra W001 stockout flags on Austin Metro as well as North Austin.
+ALT-014,2026-04-15,Low,Resolved,MKT-003,,,,Round Rock spring training closed,Training follow-up from April is closed.
+ALT-015,2026-09-25,Medium,Open,,SCN-11,,,Week-over-week review is mixed,"Installs, CSAT, incidents, stockouts, and utilization all moved between the weeks of 2026-09-14 and 2026-09-21. The install increase is not a North Austin recovery."
