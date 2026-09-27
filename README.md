@@ -40,6 +40,7 @@ Knowledge answers are retrieved, then synthesized. Employee onboarding and perso
 <img width="1368" height="574" alt="Screenshot 2026-09-27 at 11 26 14 AM" src="https://github.com/user-attachments/assets/bd9a7cea-7ed4-4c3f-ab59-6eb8d0f46f98" />
 
 
+Inspired from : https://stripe.dev/blog/meet-stripes-knowledge-ai-platform
 
 ## Quick start
 
