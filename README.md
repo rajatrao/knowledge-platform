@@ -1,6 +1,28 @@
 # Knowledge platform
 
-Python API and React chat for four local personas: CEO, operations manager, engineer, and marketing. Sign in at http://localhost:5173. The Vite dev server proxies `/v1` to the API and the session stays in the `kp_auth` cookie.
+The knowledge platform is one place where a company's leaders and personas like operators, engineers, marketers etc can ask a question and get an answer grounded in the records that actually connect.From scattered operational data to answers in seconds
+
+Ask a question -> Get the answer -> Understand why -> Drill into the evidence.
+
+> The Problem
+
+The information exists. The context doesn't.
+Today, answering a seemingly simple question requires jumping between systems.
+
+The problem isn't lack of data.
+It's lack of connected context.
+
+> What it does
+
+Someone signs in as a CEO, operations manager, engineer, or marketer and asks in plain language. The platform routes the question, retrieves only the evidence that question needs, and answers from those records, with the figures and the sources in the reply. Follow-up questions are buttons, so the next drill-down is one click.
+
+> Why the answers stay connected
+
+Skills are layered for the role: foundational context, function skills, user skills, then agent skills. The model chooses which of those to mount for the question, and the chosen skill files are what the agent reads. A CEO question can follow company totals down to a market, a warehouse, a part, and an incident. An operations question can follow a van, the job it is on, the missing part, and the warehouse that still has stock. An engineering question can follow a device from telemetry through firmware, a ticket, and a root cause. A marketing question can follow a satisfaction drop to the complaint types and the operational issue behind them.
+
+> How a question runs
+
+The API takes the ask, an LLM routes the intent, and deterministic work such as onboarding and persona reports goes to Temporal. A knowledge question continues into a Kubernetes sandbox with a session filesystem (local disk by default, S3 when configured). The agent does not query the database itself. It calls the knowledge MCP server, whose tools search complaints, documents, issues, incidents, and knowledge and return those rows as evidence. Synthesis is Ollama qwen3:8b. When the question asks for a chart, the model returns the chart and the app draws it.
 
 Knowledge answers are retrieved, then synthesized. Employee onboarding and persona reports run as Temporal workflows. Knowledge asks do not.
 
