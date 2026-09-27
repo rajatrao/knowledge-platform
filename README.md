@@ -30,6 +30,7 @@ Knowledge answers are retrieved, then synthesized. Employee onboarding and perso
 > Knowledge Ask
 <img width="1089" height="761" alt="Screenshot 2026-09-27 at 11 24 13 AM" src="https://github.com/user-attachments/assets/dd6c8e16-5dd9-45cd-bbc9-1b08fce97f2d" />
 
+<img width="1093" height="910" alt="Screenshot 2026-09-27 at 11 32 45 AM" src="https://github.com/user-attachments/assets/7d45f7ea-e70e-417d-b837-eb376d43932c" />
 
 
 > Deterministic ask directed to temporal workflow
