@@ -25,8 +25,12 @@ Skills are layered for the role: foundational context, function skills, user ski
 The API takes the ask, an LLM routes the intent, and deterministic work such as onboarding and persona reports goes to Temporal. A knowledge question continues into a Kubernetes sandbox with a session filesystem (local disk by default, S3 when configured). The agent does not query the database itself. It calls the knowledge MCP server, whose tools search complaints, documents, issues, incidents, and knowledge and return those rows as evidence. Synthesis is Ollama qwen3:8b. When the question asks for a chart, the model returns the chart and the app draws it.
 
 Knowledge answers are retrieved, then synthesized. Employee onboarding and persona reports run as Temporal workflows. Knowledge asks do not.
+### Demo
+
+https://www.loom.com/share/906c44fc53c74d07ab8e7796ad397c55
 
 ### Screenshots
+
 > Knowledge Ask
 <img width="1089" height="761" alt="Screenshot 2026-09-27 at 11 24 13 AM" src="https://github.com/user-attachments/assets/dd6c8e16-5dd9-45cd-bbc9-1b08fce97f2d" />
 
