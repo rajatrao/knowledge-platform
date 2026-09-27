@@ -26,6 +26,20 @@ The API takes the ask, an LLM routes the intent, and deterministic work such as 
 
 Knowledge answers are retrieved, then synthesized. Employee onboarding and persona reports run as Temporal workflows. Knowledge asks do not.
 
+### Screenshots
+> Knowledge Ask
+<img width="1089" height="761" alt="Screenshot 2026-09-27 at 11 24 13 AM" src="https://github.com/user-attachments/assets/dd6c8e16-5dd9-45cd-bbc9-1b08fce97f2d" />
+
+
+
+> Deterministic ask directed to temporal workflow
+
+<img width="1077" height="399" alt="Screenshot 2026-09-27 at 11 28 33 AM" src="https://github.com/user-attachments/assets/d40c5714-6061-4449-ad74-fde5ed20c136" />
+
+<img width="1368" height="574" alt="Screenshot 2026-09-27 at 11 26 14 AM" src="https://github.com/user-attachments/assets/bd9a7cea-7ed4-4c3f-ab59-6eb8d0f46f98" />
+
+
+
 ## Quick start
 
 Run these from the repo root, in order. Keep the API, the worker, and the web server in separate terminals.
