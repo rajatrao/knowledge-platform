@@ -1,4 +1,4 @@
-# Knowledge platform
+# Knowledge platform powered by Agents
 
 The knowledge platform is one place where a company's leaders and personas like operators, engineers, marketers etc can ask a question and get an answer grounded in the records that actually connect.From scattered operational data to answers in seconds
 
@@ -25,9 +25,6 @@ Skills are layered for the role: foundational context, function skills, user ski
 The API takes the ask, an LLM routes the intent, and deterministic work such as onboarding and persona reports goes to Temporal. A knowledge question continues into a Kubernetes sandbox with a session filesystem (local disk by default, S3 when configured). The agent does not query the database itself. It calls the knowledge MCP server, whose tools search complaints, documents, issues, incidents, and knowledge and return those rows as evidence. Synthesis is Ollama qwen3:8b. When the question asks for a chart, the model returns the chart and the app draws it.
 
 Knowledge answers are retrieved, then synthesized. Employee onboarding and persona reports run as Temporal workflows. Knowledge asks do not.
-### Demo
-
-https://www.loom.com/share/906c44fc53c74d07ab8e7796ad397c55
 
 ### Screenshots
 
